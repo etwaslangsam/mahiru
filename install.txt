@@ -1,0 +1,5 @@
+charset,Shift_JIS
+name,‚Ü‚Ð‚é‚¢‚À‚è
+type,ghost
+directory,chinko
+refresh,0

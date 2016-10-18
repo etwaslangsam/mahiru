@@ -1,0 +1,155 @@
+ネットワーク更新とか
+
+＊OnShellChanging
+：（Ｒ０）に着替えます。
+：覗いちゃダメですよ。
+
+＊OnShellChanged
+：（Ｒ０）に着替えました。
+：どうでしょう。
+
+＊OnWindowStateRestore
+
+
+＊OnChoiceTimeout
+：ガーン、無視……。
+
+＊OnSNTPBegin
+：（Ｒ０）から正しい時間を取得中。
+
+＊OnSNTPCompare
+：サーバ　　（Ｒ１）
+ローカル　（Ｒ２）
+＞時計時間ぴったり	（Ｒ３）＝＝0
+＞時計のずれが少し	（Ｒ３）＜5
+：えーと、（Ｒ３）秒ずれてますね。合わせますか？
+
+＿◯合わせる	時間を合わせる
+＿◯合わせない	時間を合わせない
+
+＊時間を合わせる
+：\6合わせたよ。
+
+＊時間を合わせない
+：じゃ、放っておくね。
+
+＊時計時間ぴったり
+：ぴったり合ってるよ。
+：さすがですね。
+
+＊時計のずれが少し
+：（Ｒ３）秒ずれてるけど……これは誤差かな。
+
+＿◯合わせる	時間を合わせる
+＿◯合わせない	時間を合わせない
+
+＊OnSNTPCorrect
+：時間を合わせたよ。
+
+＊OnSNTPFailure
+：失敗……繋がらない？
+
+＊OnWallpaperChange
+：壁紙を（Ｒ０）に変更したよ。
+
+＊OnInstallBegin
+：install...
+
+＊OnInstallComplete
+：complete.
+（replace（バイト値,１）（Ｒ１）（バイト値,１）\（バイト値,１）\\）
+
+＊OnInstallFailure
+：error.
+（Ｒ０）
+
+＊OnInstallRefuse
+：error.
+（replace（バイト値,１）（Ｒ０）（バイト値,１）\（バイト値,１）\\）
+
+
+＊OnURLDropping
+：download...
+
+＊OnURLDropped
+：complete.
+（Ｒ０）
+
+＊OnURLDropFailure
+：error.
+（Ｒ１）」
+
+＊OnUpdateBegin
+：更新情報を取得中してるよ。
+
+＊OnUpdateReady
+：（Ｒ０）個のファイルが更新されてるね。
+
+＊OnUpdateComplete
+＞ネットワーク更新（Ｒ０）
+：成功したよ。
+でもなんかおかしいみたい。よく分かんないけど。
+：（Ｒ０）だそうです。
+
+＊OnUpdateFailure
+＞ネットワーク更新（Ｒ０）
+：ネットワーク更新に失敗しちゃった。
+なんでだろう。よく分かんないなあ。
+：理由は（Ｒ０）だそうです。
+
+＊ネットワーク更新none
+：更新されてないね。
+
+＊ネットワーク更新changed
+：ネットワーク更新、無事終了したよ。
+：お疲れ様です。
+
+＊ネットワーク更新timeout
+：時間切れ。
+重すぎてファイルが落ちてこないよ。
+：更新先URLが間違っていて、サーバが存在しない可能性もありますね。
+
+＊ネットワーク更新md5 miss
+：データが一致しなかったよ。
+回線状態が悪いのか、updates2.dauがおかしいのかも。
+テストで出た場合は、ちゃんと更新ファイル作成したか、確認してみてね。
+：案外忘れがちですからね。
+
+＊ネットワーク更新404
+：更新用ファイルが見つからなかったよ。
+
+＊ネットワーク更新artificial
+：中断するよ。
+
+＊OnUpdatedataCreating
+：更新ファイルを作成するよ。
+
+＊OnUpdatedataCreated
+：更新ファイルの作成が終わったよ。
+
+＊OnNarCreating
+：narファイルを作るよ。
+
+＊OnNarCreated
+：narファイルが出来上がったよ！
+
+＊OnUserInput
+＞（Ｒ０）をタイムアウト	（compare（バイト値,１）（Ｒ１）（バイト値,１）timeout）
+＞（Ｒ０）を空打ちされた	（is_empty（バイト値,１）（Ｒ１））
+＄（Ｒ０）	（Ｒ１）
+＞（Ｒ０）を教えてもらった
+
+＊OnUserInputCancel
+＞（Ｒ０）を空打ちされた	（compare,（Ｒ１）,close）
+
+＊OnKeyPress
+＞（Ｒ０）が押された
+
+＊OnAnchorSelectEx
+＄選択ＩＤ	（Ｒ１）
+＄選択ラベル	（Ｒ０）
+＞（Ｒ１）
+
+＊OnAnchorSelect
+＄選択ＩＤ	（Ｒ０）
+＞（Ｒ０）
