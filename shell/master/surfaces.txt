@@ -68,7 +68,7 @@ surface5
 {
 element1,overlay,surface05.png,0,0
 
-collisionex5,Mouth,polygon,213,200,198,207,203,220,218,222,230,213,230,200
+collisionex2,Mouth,polygon,213,200,198,207,203,220,218,222,230,213,230,200
 }
 
 surface6

@@ -3,3 +3,4 @@ name,‚Ü‚Ð‚é‚¢‚À‚è
 type,ghost
 directory,chinko
 refresh,0
+robots,noindex
