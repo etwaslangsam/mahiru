@@ -1,24 +1,25 @@
 ネットワーク更新とか
 
+＃───────────────────────────────────────
 ＊OnShellChanging
-：（Ｒ０）に着替えます。
-：覗いちゃダメですよ。
+\h\s[0]（Reference0）に着替えるね。\n\s[8]覗かないでよ～？\e
 
 ＊OnShellChanged
-：（Ｒ０）に着替えました。
-：どうでしょう。
+\h着替えたよ。\n\s[5]どう？\w3 どう？\w3 似合う？\e
 
-＊OnWindowStateRestore
+＃───────────────────────────────────────
+＊OnWindowStateRestore	（デフォルトサーフェス0）==0
+\h\s[9]（ユーザ名）、隠れてなにしてたの？\e
 
+＊OnWindowStateRestore	（デフォルトサーフェス0）==34
+\h\s[35]（ユーザ名）……（ユーザ名）はやくぅ……。\e
 
-＊OnChoiceTimeout
-：ガーン、無視……。
-
+＃───────────────────────────────────────
 ＊OnSNTPBegin
-：（Ｒ０）から正しい時間を取得中。
+：（Reference0）から正しい時間を取得中。
 
 ＊OnSNTPCompare
-：サーバ　　（Ｒ１）
+：サーバ　　（Reference1）
 ローカル　（Ｒ２）
 ＞時計時間ぴったり	（Ｒ３）＝＝0
 ＞時計のずれが少し	（Ｒ３）＜5
@@ -49,107 +50,105 @@
 ＊OnSNTPFailure
 ：失敗……繋がらない？
 
-＊OnWallpaperChange
-：壁紙を（Ｒ０）に変更したよ。
-
+＃───────────────────────────────────────
 ＊OnInstallBegin
-：install...
+\h\s[0]インストールするね。\e
 
 ＊OnInstallComplete
-：complete.
-（replace（バイト値,１）（Ｒ１）（バイト値,１）\（バイト値,１）\\）
+\h\s[5]「（replace（バイト値,１）（Reference1）（バイト値,１）\（バイト値,１）\\）」をインストールしたよ。\e
 
 ＊OnInstallFailure
-：error.
-（Ｒ０）
+\h\s[4]（Reference0）だって……。\e
 
 ＊OnInstallRefuse
-：error.
-（replace（バイト値,１）（Ｒ０）（バイト値,１）\（バイト値,１）\\）
+\h\s[9]（ユーザ名）、これは（replace（バイト値,１）（Reference0）（バイト値,１）\（バイト値,１）\\）さんのだよ。\e
 
-
+＃───────────────────────────────────────
 ＊OnURLDropping
-：download...
+\h\s[0]ファイルをダウンロードするね。\e
 
 ＊OnURLDropped
-：complete.
-（Ｒ０）
+\h\s[5]ダウンロードしおわったよ！\n\_q（Reference0）\_q\nに置いておくね。\e
 
 ＊OnURLDropFailure
-：error.
-（Ｒ１）」
+\h\s[3]ダウンロード失敗しちゃった……。\e
 
+＃───────────────────────────────────────
 ＊OnUpdateBegin
-：更新情報を取得中してるよ。
+\h\s[0]更新情報を取得するね。\e
 
 ＊OnUpdateReady
-：（Ｒ０）個のファイルが更新されてるね。
+\h\s[5]（Reference0）個のファイルが更新されてるって！\e
 
 ＊OnUpdateComplete
-＞ネットワーク更新（Ｒ０）
-：成功したよ。
-でもなんかおかしいみたい。よく分かんないけど。
-：（Ｒ０）だそうです。
-
-＊OnUpdateFailure
-＞ネットワーク更新（Ｒ０）
-：ネットワーク更新に失敗しちゃった。
-なんでだろう。よく分かんないなあ。
-：理由は（Ｒ０）だそうです。
+＞ネットワーク更新（Reference0）
 
 ＊ネットワーク更新none
-：更新されてないね。
+\h\s[3]なんにも更新されてないって……。\e
 
 ＊ネットワーク更新changed
-：ネットワーク更新、無事終了したよ。
-：お疲れ様です。
+\h\s[5]ネットワーク更新、終わったよ。\e
+
+＊OnUpdateFailure
+＞ネットワーク更新（Reference0）
 
 ＊ネットワーク更新timeout
-：時間切れ。
-重すぎてファイルが落ちてこないよ。
-：更新先URLが間違っていて、サーバが存在しない可能性もありますね。
+\h\s[3]時間切れだってぇ～。\e
 
 ＊ネットワーク更新md5 miss
-：データが一致しなかったよ。
-回線状態が悪いのか、updates2.dauがおかしいのかも。
-テストで出た場合は、ちゃんと更新ファイル作成したか、確認してみてね。
-：案外忘れがちですからね。
+\h\s[9]データが一致しなかったよ！\e
 
 ＊ネットワーク更新404
-：更新用ファイルが見つからなかったよ。
+\h\s[4]更新用ファイルが見つからなかったよ……。\e
 
 ＊ネットワーク更新artificial
-：中断するよ。
+\h\s[0]中断するね。\e
 
-＊OnUpdatedataCreating
-：更新ファイルを作成するよ。
+＃───────────────────────────────────────
+＊OnUpdatedataCreating	（デフォルトサーフェス0）==0
+\h\s[0]更新ファイルを作るね。\e
 
-＊OnUpdatedataCreated
-：更新ファイルの作成が終わったよ。
+＊OnUpdatedataCreated	（デフォルトサーフェス0）==0
+\h\s[5]更新ファイルが出来たよ。\e
 
-＊OnNarCreating
-：narファイルを作るよ。
+＊OnNarCreating	（デフォルトサーフェス0）==0
+\h\s[0]narファイルを作るね。\e
 
-＊OnNarCreated
-：narファイルが出来上がったよ！
+＊OnNarCreated	（デフォルトサーフェス0）==0
+\h\s[5]narファイルが出来たよ。\n\_q（Reference1）\_q\e
 
+＃───────────────────────────────────────
 ＊OnUserInput
-＞（Ｒ０）をタイムアウト	（compare（バイト値,１）（Ｒ１）（バイト値,１）timeout）
-＞（Ｒ０）を空打ちされた	（is_empty（バイト値,１）（Ｒ１））
-＄（Ｒ０）	（Ｒ１）
-＞（Ｒ０）を教えてもらった
+＞（Reference0）をタイムアウト	（compare（バイト値,１）（Reference1）（バイト値,１）timeout）
+＞（Reference0）を空打ちされた	（is_empty（バイト値,１）（Reference1））
+＄（Reference0）	（Reference1）
+＞（Reference0）を教えてもらった
 
 ＊OnUserInputCancel
-＞（Ｒ０）を空打ちされた	（compare,（Ｒ１）,close）
+＞（Reference0）を空打ちされた	（compare,（Reference1）,close）
 
 ＊OnKeyPress
-＞（Ｒ０）が押された
+（whenlist,（Reference0）==
+,m,（MainMenu）
+）
 
+＃───────────────────────────────────────
 ＊OnAnchorSelectEx
-＄選択ＩＤ	（Ｒ１）
-＄選択ラベル	（Ｒ０）
-＞（Ｒ１）
+＄選択ＩＤ	（Reference1）
+＄選択ラベル	（Reference0）
+＞（Reference1）
+\h\s[4]『（Reference1）』ってなに……？\e
 
 ＊OnAnchorSelect
-＄選択ＩＤ	（Ｒ０）
-＞（Ｒ０）
+＄選択ＩＤ	（Reference0）
+＞（Reference0）
+\h\s[4]『（Reference0）』ってなに……？\e
+
+＊OnChoiceSelect
+＄選択ＩＤ	（Reference0）
+＞（Reference0）
+\h\s[4]『（Reference0）』ってなに……？\e
+
+＊OnChoiceTimeout
+\h\s[3]（ユーザ名）無視しないでよぉ～……\e
+
