@@ -1,36 +1,14 @@
 おすすめとか
 
 ＠homeurl
-
+https://raw.githubusercontent.com/etwaslangsam/mahiru/master/
 ＃ネットワーク更新時にアクセスするアドレス。
 ＃フォルダ名を記述、最後に/をつけてください。例のような形になります。
 ＃例）http://satolist.sakura.ne.jp/satolist_template/
 
 ＊sakura.recommendsites
-一点の曇りもない
-http://ukananachi.blog98.fc2.com
-
-：さとりすと作者ページ。
-：要望があれば投げましょう。
-
-＊sakura.recommendsites
-「さとりすと」配布ページ
-http://ukananachi.blog98.fc2.com/blog-entry-551.html
-
-：これがなければ始まらない。
-さとりすとの配布ページだよ。
-
-＊sakura.recommendsites
-さとりすとwiki
-http://wikiwiki.jp/satolist/
-
-：さとりすとの操作で迷ったらここ！
-
-＊sakura.recommendsites
-タマカナ置場
-http://nore.bake-neko.net/
-
-：シェル作者さんのサイトだよ。
+配布元
+https://sites.google.com/site/p5zxftwc/
 
 ＊sakura.portalsites
 ゴーストの使い方 - SSP

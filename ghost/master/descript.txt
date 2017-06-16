@@ -23,6 +23,7 @@ don't need onmousemove,0
 don't need bind,0
 don't need seriko talk,0
 balloon.dontmove,False
+icon,icon.ico
 shiori,satori.dll
 
 
