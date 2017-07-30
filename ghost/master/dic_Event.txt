@@ -128,10 +128,15 @@
 ＞（Reference0）を空打ちされた	（compare,（Reference1）,close）
 
 ＊OnKeyPress
-（whenlist,（Reference0）==
-,m,（MainMenu）
-,r,\0（set,辞書リロード,実行）リロード
-）
+＞（Reference0）が押された
+
+＊mが押された
+＞MainMenu
+
+＊rが押された
+＄辞書リロード	実行
+\0リロード
+
 
 ＃───────────────────────────────────────
 ＊OnAnchorSelectEx
