@@ -11,6 +11,8 @@
 ‚È‚Å‚ç‚êŽ‘±•b”	‚Q
 ‚È‚Å‚ç‚ê”½‰ž‰ñ”	‚U‚O
 ƒg[ƒN’†‚Ì‚È‚Å‚ç‚ê”½‰ž	–³Œø
+’ÁÃŠÔŠu	‚U‚O
+ŽË¸‚µ‚½	0
 
 —SAORI
 calc,saori/ssu.dll,calc
