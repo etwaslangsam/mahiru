@@ -193,25 +193,25 @@ surface.append0-9,20-26,60
 collision5,218,364,253,396,xxx
 
 animation0.interval,bind
-animation0.pattern0,add,100,0,0,0
+animation0.pattern0,base,100,0,0,0
 
 animation1.interval,bind
-animation1.pattern0,add,101,0,0,0
+animation1.pattern0,base,101,0,0,0
 
 animation2.interval,bind
-animation2.pattern0,add,102,0,0,0
+animation2.pattern0,base,102,0,0,0
 
 animation3.interval,bind
-animation3.pattern0,add,103,0,0,0
+animation3.pattern0,base,103,0,0,0
 
 animation4.interval,bind
-animation4.pattern0,add,104,0,0,0
+animation4.pattern0,base,104,0,0,0
 
 animation5.interval,bind
-animation5.pattern0,add,105,0,0,0
+animation5.pattern0,base,105,0,0,0
 
 animation6.interval,bind
-animation6.pattern0,add,106,0,0,0
+animation6.pattern0,base,106,0,0,0
 }
 
 
