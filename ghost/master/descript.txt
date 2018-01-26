@@ -3,7 +3,7 @@ name,‚Ü‚Ğ‚é‚¢‚À‚è
 type,ghost
 craftman,etwaslangsam
 craftmanw,–q–ìMŸ
-craftmanurl,https://sites.google.com/site/p5zxftwc/
+craftmanurl,https://hotpepar.blogspot.jp/
 homeurl,https://raw.githubusercontent.com/etwaslangsam/mahiru/master/
 readme,readme.txt
 sakura.name,‚Ü‚Ğ‚é
