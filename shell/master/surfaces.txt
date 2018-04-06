@@ -1,4 +1,4 @@
-﻿charset,Shift_JIS
+charset,Shift_JIS
 
 descript
 {
@@ -146,6 +146,32 @@ surface60
 
 }
 
+surface200
+{
+element0,overlay,sprm_body.png,0,0
+}
+
+surface201
+{
+element0,overlay,sprm_chest.png,0,0
+}
+
+surface202
+{
+element0,overlay,sprm_face1.png,0,0
+}
+
+surface203
+{
+element0,overlay,sprm_face2.png,0,0
+}
+
+surface204
+{
+element0,overlay,sprm_hair.png,0,0
+}
+
+
 surface.append0-50
 {
 collisionex0,Head,polygon,275,148,271,129,266,111,246,89,223,79,183,81,161,91,145,111,138,134,138,166
@@ -163,4 +189,19 @@ surface.append30-50
 {
 collisionex3,Turtlehead,polygon,257,353,250,358,245,363,247,373,255,373,262,378,262,371,265,366,265,358
 collisionex4,Stick,polygon,245,366,228,388,242,401,255,391,262,381,258,374
+
+animation1.interval,bind
+animation1.pattern0,add,200,0,0,0
+
+animation2.interval,bind
+animation2.pattern0,add,201,0,0,0
+
+animation3.interval,bind
+animation3.pattern0,add,202,0,0,0
+
+animation4.interval,bind
+animation4.pattern0,add,203,0,0,0
+
+animation5.interval,bind
+animation5.pattern0,add,204,0,0,0
 }

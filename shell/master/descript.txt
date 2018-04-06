@@ -16,3 +16,11 @@ menu.foreground.font.color.g,164
 menu.foreground.font.color.b,210
 
 seriko.use_self_alpha,1
+
+sakura.bindgroup1.name,¸‰t1,g‘Ì,bpdy
+sakura.bindgroup2.name,¸‰t2,‹¹,chest
+sakura.bindgroup3.name,¸‰t3,Šç1,fece1
+sakura.bindgroup4.name,¸‰t4,Šç2,face2
+sakura.bindgroup5.name,¸‰t5,“ª,hair
+
+sakura.menuitem0,-

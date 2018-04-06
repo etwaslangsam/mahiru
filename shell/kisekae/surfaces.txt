@@ -1,4 +1,4 @@
-ï»¿charset,Shift_JIS
+charset,Shift_JIS
 
 descript
 {
@@ -13,6 +13,7 @@ element0,base,surface00.png,0,0
 surface30-36
 {
 element0,base,surface30.png,0,0
+
 }
 
 surface40-46
@@ -146,39 +147,73 @@ element0,base,surface00.png,0,0
 element1,overlay,surface60.png,0,0
 }
 
+//ƒLƒƒƒ~ƒ\[ƒ‹//
 surface100
 {
 element0,base,surface100.png,0,0
 }
 
+//ƒXƒN…‹Œ//
 surface101
 {
 element0,base,surface101.png,0,0
 }
 
+//ƒXƒN…V//
 surface102
 {
 element0,base,surface102.png,0,0
 }
 
+
+//ƒoƒj[//
 surface103
 {
 element0,base,surface103.png,0,0
 }
 
+//ƒi[ƒX//
 surface104
 {
 element0,base,surface104.png,0,0
 }
 
+//ƒZ[ƒ‰[•//
 surface105
 {
 element0,base,surface105.png,0,0
 }
 
+//‘S—‡//
 surface106
 {
 element0,base,surface106.png,0,0
+}
+
+//¸‰t//
+surface200
+{
+
+}
+
+surface201
+{
+
+}
+
+surface202
+{
+
+}
+
+surface203
+{
+
+}
+
+surface204
+{
+
 }
 
 surface.append0-50
@@ -219,4 +254,19 @@ surface.append30-50
 {
 collisionex3,Turtlehead,polygon,257,353,250,358,245,363,247,373,255,373,262,378,262,371,265,366,265,358
 collisionex4,Stick,polygon,245,366,228,388,242,401,255,391,262,381,258,374
+
+animation8.interval,bind
+animation8.pattern0,add,200,0,0,0
+
+animation9.interval,bind
+animation9.pattern0,add,201,0,0,0
+
+animation10.interval,bind
+animation10.pattern0,add,202,0,0,0
+
+animation11.interval,bind
+animation11.pattern0,add,203,0,0,0
+
+animation12.interval,bind
+animation12.pattern0,add,204,0,0,0
 }

@@ -13,6 +13,7 @@
 ＄トーク中のなでられ反応	無効
 ＄鎮静間隔	６０
 ＄射精した	0
+＄ユーザ性別	1
 
 ＠SAORI
 calc,saori/ssu.dll,calc
