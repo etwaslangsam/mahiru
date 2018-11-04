@@ -191,17 +191,17 @@ collisionex3,Turtlehead,polygon,257,353,250,358,245,363,247,373,255,373,262,378,
 collisionex4,Stick,polygon,245,366,228,388,242,401,255,391,262,381,258,374
 
 animation1.interval,bind
-animation1.pattern0,add,200,0,0,0
+animation1.pattern0,bind,200,0,0,0
 
 animation2.interval,bind
-animation2.pattern0,add,201,0,0,0
+animation2.pattern0,bind,201,0,0,0
 
 animation3.interval,bind
-animation3.pattern0,add,202,0,0,0
+animation3.pattern0,bind,202,0,0,0
 
 animation4.interval,bind
-animation4.pattern0,add,203,0,0,0
+animation4.pattern0,bind,203,0,0,0
 
 animation5.interval,bind
-animation5.pattern0,add,204,0,0,0
+animation5.pattern0,bind,204,0,0,0
 }
