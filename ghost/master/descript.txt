@@ -2,7 +2,7 @@ charset,Shift_JIS
 name,‚Ü‚Ğ‚é‚¢‚À‚è
 type,ghost
 craftman,etwaslangsam
-craftmanw,–q–ìMŸ
+craftmanw,‚Ä‚É‚Ä‚É
 craftmanurl,https://hotpepar.blogspot.jp/
 homeurl,https://raw.githubusercontent.com/etwaslangsam/mahiru/master/
 readme,readme.txt
