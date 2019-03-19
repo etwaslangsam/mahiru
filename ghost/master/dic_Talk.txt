@@ -1,4 +1,3 @@
-ランダムトーク
 
 ＊OnTalk	（デフォルトサーフェス0）==0
 ＞（Reference1）	（Reference0）
