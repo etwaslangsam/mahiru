@@ -1,38 +1,18 @@
-
-＃────────
-＃マウスイベント
-＃────────
-＊OnMouseDoubleClick
-＞（Reference3）（Reference4）つつかれ	（Reference5）＝＝0
-
-＊OnMouseWheel
-＞（Reference3）（Reference4）ころころ上方向	（Reference2）＞０
-＞（Reference3）（Reference4）ころころ下方向	（Reference2）＜０
-＞（Reference3）（Reference4）ころころ
-
-＊OnMouseHover
-＄（Reference3）（Reference4）見つめタイマ	５
-
-＊OnMouseLeave
-＄（Reference3）（Reference4）見つめタイマ	
-
-＊OnMouseEnter	（高感度）==1
-＞（Reference3）（Reference4）なでられ
-
-＊OnMouseLeaveAll	（デフォルトサーフェス0）==34
-＄全タイマ解除	実行
-＄鎮静タイマ	（鎮静間隔）
-
 ＃────────
 ＃■最小化解除
 ＃────────
-＊OnWindowStateRestore	（デフォルトサーフェス0）==0
+＊OnWindowStateRestore
+＞最小化解除３	（口枷）
+＞最小化解除２	（デフォルトサーフェス0）==34
 \0\s[8]（ユーザ名）、隠れてなにしてたの？
 \e
 
-＊OnWindowStateRestore	（デフォルトサーフェス0）==34
+＊最小化解除２
 \0\s[35]（ユーザ名）・・・（ユーザ名）はやくぅ。
 \e
+
+＊最小化解除３
+\0\s[4]ふぐぅ～……。\e
 
 ＃────────
 ＃■シェル変更
@@ -42,48 +22,21 @@
 \s[8]覗かないでよ～？
 \e
 
-＊OnShellChanged	（Reference0）==着せ替えセット
+＊OnShellChanged
+＞（Reference0）に変更
+
+＊着せ替えセットに変更
+＄口枷	
 \0\s[5]かわいい服い～っぱい！
 \e
 
-＊OnShellChanged	（Reference0）==立ち絵セット
+＊立ち絵セットに変更
+＄口枷	
 ＄ほめてほしい	1
 ＄ほめられなかったタイマ	１０
 \0\s[8]どお？\w5
 ぼく結構プロポーションいいでしょ。
 \e
-
-＃────────
-＃■着せ替え
-＃────────
-＊OnDressupChanged
-＞（Reference1）装着	（Reference2）==1
-
-＊セーラー服装着
-\0\s[5]えへへ～、セーラー服！
-かわいいよね～！\w3 ぼくにピッタシ！
-
-＊ナース服装着
-\0\s[8]お注射ブスッといっとく？
-
-＊バニースーツ装着
-\0\s[5]うさぎさ～ん！\w5
-\s[8]ふふん、これだとぼくでもセクシーでしょ？
-
-＊スク水（新）装着
-\0\s[5]スクール水着～！\w5
-\s[23]おちんちんの所がキュッてする（はーと）
-
-＊スク水（旧）装着
-\0\s[5]スクール水着～！\w5
-\s[0]これだとおちんちん出せるからいいね。
-
-＊キャミソール装着
-\0\s[5]いつもの～！
-
-＊全裸装着
-\0\s[24]やぁ～ん（はーと）\w5 裸に剥かれちゃったぁ～（はーと）\w5
-（ユーザ名）のえっち～（times、3、（はーと））
 
 ＃────────
 ＃■時計合わせ

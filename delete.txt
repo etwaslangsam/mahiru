@@ -1,7 +1,6 @@
 .git\
 .gitignore
 ghost\master\dic_StartEnd.txt
-ghost\master\dic_Menu.txt
 ghost\master\dic_Time.txt
 shell\’…‚¹‘Ö‚¦\
 ghost\master\dic_String.txt
