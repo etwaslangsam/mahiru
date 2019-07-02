@@ -1,5 +1,4 @@
 .git\
-.gitignore
 ghost\master\dic_StartEnd.txt
 ghost\master\dic_Time.txt
 shell\’…‚¹‘Ö‚¦\

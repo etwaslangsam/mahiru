@@ -1,5 +1,6 @@
-file,delete.txtabf45382771c42460813d3c7e351b873size=123
-file,developer_options.txt72058ae8127a1ce394c56303390a8697size=268
+file,.gitignore9a7da5acf808633e9072b2816c92973esize=268
+file,delete.txt5d03cfe4f1cbbf68e0a69121a1586fecsize=111
+file,developer_options.txtf3695f3fa4558adac3000ea30c74e8a0size=241
 file,install.txtde572829a8d2ba132b854e6a29f0feaasize=95
 file,readme.txtca97811eb9d9d39d928185ef2b648189size=1169
 file,ghost/master/descript.txt81a41d3c715db29291baae9187777e35size=720
