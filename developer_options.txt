@@ -4,3 +4,4 @@ ghost/master/satori_savebackup.txt,nonar,noupdate
 ghost/master/dic_StartEnd.txt,nonar,noupdate
 ghost/master/dic_Time.txt,nonar,noupdate
 shell/sutand2/,nonar,noupdate
+shell/master2/,nonar,noupdate
