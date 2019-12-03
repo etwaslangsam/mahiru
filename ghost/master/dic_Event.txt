@@ -1,72 +1,159 @@
 ＃────────
-＃■最小化解除
-＃────────
-＊OnWindowStateRestore
-＞最小化解除３	（口枷）
-＞最小化解除２	（デフォルトサーフェス0）==34
-\0\s[8]（ユーザ名）、隠れてなにしてたの？
-\e
-
-＊最小化解除２
-\0\s[35]（ユーザ名）・・・（ユーザ名）はやくぅ。
-\e
-
-＊最小化解除３
-\0\s[4]ふぐぅ～……。\e
-
-＃────────
-＃■シェル変更
+＃シェル変更
 ＃────────
 ＊OnShellChanging
 \0\s[0]（Reference0）に着替えるね。\w5
-\s[8]覗かないでよ～？
-\e
+\s[8]覗かないでよ～？\e
 
 ＊OnShellChanged
 ＞（Reference0）に変更
 
 ＊着せ替えセットに変更
 ＄口枷	
-\0\s[5]かわいい服い～っぱい！
-\e
+\0\s[5]かわいい服い～っぱい！\e
 
 ＊立ち絵セットに変更
 ＄口枷	
 ＄ほめてほしい	1
 ＄ほめられなかったタイマ	１０
 \0\s[8]どお？\w5
-ぼく結構プロポーションいいでしょ。
-\e
+ぼく結構プロポーションいいでしょ。\e
 
 ＃────────
-＃■時計合わせ
+＃バルーン変更
 ＃────────
-＊OnSNTPBegin
-\0\s[5]時計を合わせてあげるね。
-\e
-
-＊OnSNTPCompare	（Reference3）==0
-\0\s[7]ピッタリあってるじゃん！\w5
-（ユーザ名）のイジワルッ！
-
-＊OnSNTPCompare	（Reference3）!=0
-\6
-
-＊OnSNTPCorrect
-＄ほめてほしい	1
-＄ほめられなかったタイマ	１０
-\0\s[5]できたよ～！\w5
-褒めてほめて～！
-\e
-
-＊OnSNTPFailure
-＄なぐさめてほしい	1
-＄なぐさめられなかったタイマ	１０
-\0\s[3]失敗・・・繋がらない？
-\e
+＊OnBalloonChange
+\0\s[0]バルーンを（Reference0）にしたよ。\e
 
 ＃────────
-＃■インストール
+＃最小化解除
+＃────────
+＊OnWindowStateRestore
+＞最小化解除３	（口枷）
+＞最小化解除２	（デフォルトサーフェス0）==34
+\0\s[8]（ユーザ名）、隠れてなにしてたの？\e
+
+＊最小化解除２
+\0\s[35]（ユーザ名）・・・（ユーザ名）はやくぅ。\e
+
+＊最小化解除３
+\0\s[4]ふぐぅ～……。\e
+
+＃────────
+＃スリープから復帰
+＃────────
+＊OnSysResume
+\0\s[5]おはよ～、（ユーザ名）！\e
+
+＃────────
+＃ベースウェアの更新
+＃────────
+＊OnBasewareUpdating
+\0\s[0]ベースウェアを更新するね。\_w[1000]
+
+＊OnBasewareUpdated
+\0\s[5]こ～しんしたよ！\e
+
+＃────────
+＃コミュニケート
+＃────────
+＊OnCommunicate	（デフォルトサーフェス0）==0
+≫「　（Reference1）	（compare,（Reference0）,user）
+\0\s[4]う～ん・・・よく分かんないや。\e
+
+＃────────
+＃文字入力
+＃────────
+＊OnUserInput
+＞（Reference0）を空打ちされた	（is_empty（バイト値,１）（Reference1））
+＄（Reference0）	（Reference1）
+＞（Reference0）を教えてもらった
+
+＊OnUserInputCancel
+＞（Reference0）をタイムアウト	（compare（バイト値,１）（Reference1）（バイト値,１）timeout）
+＞（Reference0）を空打ちされた	（compare,（Reference1）,close）
+
+＃────────
+＃時間イベント
+＃────────
+＊OnHourTimeSignal	（デフォルトサーフェス0）==0
+\![set,trayballoon,--icon=info,--title=（現在時）時だよ,--text=まひるいぢり]
+＞（現在時）時
+
+＊０時
+\0\s[0]（現在月）月（現在日）日になったよ。
+（whenlist,（現在曜日）==,日,\s[5]今日は日曜日だね。,月,\s[4]今日は月曜日・・・。）\e
+
+＃────────
+＃選択肢イベント
+＃────────
+＊OnAnchorSelect
+＞（Reference0）
+＞選択先がない
+
+＊OnAnchorSelectEx
+＄選択ラベル	（Reference0）
+＄選択ＩＤ	（Reference1）
+＞（Reference1）
+＞選択先がない
+
+＊OnChoiceSelect
+＞（Reference0）
+＞選択先がない
+
+＊OnChoiceSelectEx
+＄選択ラベル	（Reference0）
+＄選択ＩＤ	（Reference1）
+＞（Reference1）
+＞選択先がない
+
+＊選択先がない
+\0\s[4]う～ん、選択先が存在しないみたい。\w5
+\s[3]作者の人に教えてあげてね。\e
+
+＊OnChoiceTimeout
+\0\s[7]（ユーザ名）！\w5
+無視しないでよ！\e
+
+＃────────
+＃マウスイベント
+＃────────
+＊OnMouseDoubleClick
+＞（Reference3）（Reference4）つつかれ	（Reference5）＝＝0
+
+＊OnMouseWheel
+＞（Reference3）（Reference4）ころころ上方向	（Reference2）＞０
+＞（Reference3）（Reference4）ころころ下方向	（Reference2）＜０
+＞（Reference3）（Reference4）ころころ
+
+＊OnMouseHover
+＄（Reference3）（Reference4）見つめタイマ	５
+
+＊OnMouseLeave
+＄（Reference3）（Reference4）見つめタイマ	
+
+＊OnMouseEnter	（高感度）==1
+＞（Reference3）（Reference4）なでられ
+
+＊OnMouseLeaveAll	（デフォルトサーフェス0）==34
+＄全タイマ解除	実行
+＄鎮静タイマ	（鎮静間隔）
+
+＠tooltip
+（call,（Reference3）（Reference4）ツールチップ）
+＠0Headツールチップ	（デフォルトサーフェス0）==0
+褒めて褒めて
+＠0Bustツールチップ	（デフォルトサーフェス0）==0
+おっぱいφ…ないよ？
+＠0xxxツールチップ	（デフォルトサーフェス0）==0
+（ユーザ名）φ…さわって？
+＠0Turtleheadツールチップ
+コネコネしちゃだめぇ！
+＠0Stickツールチップ
+シコシコして？
+
+＃────────
+＃インストール
 ＃────────
 ＊OnInstallBegin
 \0\s[0]インストールするね。
@@ -81,103 +168,35 @@
 
 ＊ghostをインストール
 \0\s[0]「（replace（バイト値,１）（Reference1）（バイト値,１）\（バイト値,１）\\）」さんをインストールしたよ。\w5
-\s[8]ま、ぼくの方がかわいいと思うけどね。
-\e
+\s[8]ま、ぼくの方がかわいいと思うけどね。\e
 
 ＊balloonをインストール
 \0\s[0]「（replace（バイト値,１）（Reference1）（バイト値,１）\（バイト値,１）\\）」をインストールしたよ。\w5
-\s[5]ねぇねぇ、これ使っていいの？
-\e
+\s[5]ねぇねぇ、これ使っていいの？\e
 
 ＊OnInstallFailure
 ＄なぐさめてほしい	1
 ＄なぐさめられなかったタイマ	１０
-\0\s[4]「（Reference0）」で失敗て・・・。
-\e
+\0\s[4]「（Reference0）」で失敗て・・・。\e
 
 ＊OnInstallRefuse
 \0\s[9]（ユーザ名）！\w5
-これは「（replace（バイト値,１）（Reference0）（バイト値,１）\（バイト値,１）\\）」さんのだよ。
-\e
+これは「（replace（バイト値,１）（Reference0）（バイト値,１）\（バイト値,１）\\）」さんのだよ。\e
 
 ＃────────
-＃■ダウンロード
-＃────────
-＊OnURLDropping
-\0\s[0]ダウンロードするね。
-\e
-
-＊OnURLDropped
-＄ほめてほしい	1
-＄ほめられなかったタイマ	１０
-\0\s[5]ダウンロード終わったよ！
-\e
-
-＊OnURLDropFailure
-＄なぐさめてほしい	1
-＄なぐさめられなかったタイマ	１０
-\0\s[3]ダウンロード失敗しちゃった。
-\e
-
-＃────────
-＃■ネットワーク更新
-＃────────
-＊OnUpdateBegin
-\0\s[0]更新情報を取得するね。\w5
-
-＊OnUpdateReady
-\0\s[5]（Reference0）個のファイルが更新されてるって！
-
-
-＊OnUpdateComplete	（Reference0）==changed
-\0\s[5]ネットワーク更新、終わったよ。
-\e
-
-＊OnUpdateComplete	（Reference0）==none
-\0\s[3]なんにも更新されてないってさぁ。
-\e
-
-
-＊OnUpdateFailure
-＄なぐさめてほしい	1
-＄なぐさめられなかったタイマ	１０
-＞（Reference0）で失敗
-\0\s[3]よく分かんないけど（Reference0）で失敗だってぇ。
-\e
-
-＊timeoutで失敗
-\0\s[3]時間切れだってぇ～。
-\e
-
-＊md5 missで失敗
-\0\s[9]データが一致しなかったよ！
-\e
-
-＊404で失敗
-\0\s[4]更新用ファイルが見つからなかったよ。
-\e
-
-＊artificialで失敗
-\0\s[0]中断するね。
-\e
-
-＃────────
-＃■ファイル作成
+＃ファイル作成
 ＃────────
 ＊OnUpdatedataCreating
-\0\s[0]更新ファイルを作ればいいの？
-\e
+\0\s[0]更新ファイルを作ればいいの？\e
 
 ＊OnUpdatedataCreated
 ＄ほめてほしい	1
 ＄ほめられなかったタイマ	１０
 \0\s[5]出来たよ！\w5
-ほめてほめて～！
-\e
+ほめてほめて～！\e
 
 ＊OnNarCreating
-\0\s[0]narファイルを作るね。
-\e
+\0\s[0]narファイルを作るね。\e
 
 ＊OnNarCreated
 ＄ほめてほしい	1
@@ -189,98 +208,140 @@
 \e
 
 ＃────────
-＃■文字入力
+＃ダウンロード
 ＃────────
-＊OnUserInput
-＞（Reference0）を空打ちされた	（is_empty（バイト値,１）（Reference1））
-＄（Reference0）	（Reference1）
-＞（Reference0）を教えてもらった
-\e
+＊OnURLDropping
+\0\s[0]ダウンロードするね。\e
 
-＊OnUserInputCancel
-＞（Reference0）をタイムアウト	（compare（バイト値,１）（Reference1）（バイト値,１）timeout）
-＞（Reference0）を空打ちされた	（compare,（Reference1）,close）
-\e
+＊OnURLDropped
+＄ほめてほしい	1
+＄ほめられなかったタイマ	１０
+\0\s[5]ダウンロード終わったよ！\e
+
+＊OnURLDropFailure
+＄なぐさめてほしい	1
+＄なぐさめられなかったタイマ	１０
+\0\s[3]ダウンロード失敗しちゃった。\e
 
 ＃────────
-＃■キー押下
+＃ネットワーク更新
 ＃────────
-＃＊OnKeyPress	（Reference0）==a
-＃＞吐精	（デフォルトサーフェス0）==34
-＃＞パンツ脱ぐ	（デフォルトサーフェス0）==0
+＊OnUpdateBegin
+\0\s[0]更新情報を取得するね。\w5
 
-＊OnKeyPress	（Reference0）==m
+＊OnUpdateReady
+\0\s[5]（Reference0）個のファイルが更新されてるって！
+
+＊OnUpdateComplete
+＞ネットワーク更新（Reference0）
+\0\s[5]ネットワーク更新、終わったよ。\e
+
+＊ネットワーク更新none
+\0\s[3]なんにも更新されてないってさぁ。\e
+
+
+＊OnUpdateFailure
+＄なぐさめてほしい	1
+＄なぐさめられなかったタイマ	１０
+＞（Reference0）で失敗
+\0\s[3]よく分かんないけど（Reference0）で失敗だってぇ。\e
+
+＊timeoutで失敗
+\0\s[3]時間切れだってぇ～。\e
+
+＊md5 missで失敗
+\0\s[4]データが一致しなかったって。\w5
+\s[3]これは作者の人に連絡しないとダメなやつだ・・・。\e
+
+＊404で失敗
+\0\s[4]更新用ファイルが見つからなかったよ。\e
+
+＊artificialで失敗
+\0\s[0]中断するね。\e
+
+＃────────
+＃時計合わせ
+＃────────
+＊OnSNTPBegin
+\0\s[5]時計を合わせてあげるね。\e
+
+＊OnSNTPCompare
+\6
+
+＊OnSNTPCorrect
+＄ほめてほしい	1
+＄ほめられなかったタイマ	１０
+\0\s[5]できたよ～！\w5
+褒めてほめて～！\e
+
+＊OnSNTPFailure
+＄なぐさめてほしい	1
+＄なぐさめられなかったタイマ	１０
+\0\s[3]失敗・・・繋がらない？\e
+
+＃────────
+＃ネットワーク状態
+＃────────
+＊OnNetworkHeavy
+\0\s[3]回線が重いみたい・・・。\e
+
+＃────────
+＃キー押下
+＃────────
+＊OnKeyPress
+＞（Reference0）が押された
+
+＊mが押された
 ＞0つつかれ
 
-＊OnKeyPress	（Reference0）==r
+＊rが押された
 ＄辞書リロード	実行
 \0\s[5]リロードしたよ～。
 （精液1OFF）（精液2OFF）（精液3OFF）（精液4OFF）（精液5OFF）
 
-＊OnKeyPress	（Reference0）==s
-\0\_q（現在年）年（現在月）月（現在日）日　φ（（現在曜日）φ）\n
-ランダムトークφ\0（countNoNameTalk）こ\n
-興奮度φ\0（when,（興奮度）==0,０,（興奮度））\n
-ユーザ性別φ\0（when、（ユーザ性別）==1、男、女）
-\_q
+＃────────
+＃トーク
+＃────────
+＊OnTalk	（デフォルトサーフェス0）==0
+＞（Reference1）	（Reference0）
+＞喋れない	（口枷）
+＞OnTalk（VariableInterval）
+（）
+
+＊OnTalk１
+＄喋り間隔	（乱数３０～３００）秒
+＄一時保存	（喋り間隔）
+＞（現在月）月	（乱数０～５）==３
+（）
+＊OnTalk２
+＄喋り間隔	（乱数６０～１２０）秒
+＄一時保存	（喋り間隔）
+＞（現在月）月	（乱数０～５）==３
+（）
+＊OnTalk３
+＄喋り間隔	（乱数１２０～１８０）秒
+＄一時保存	（喋り間隔）
+＞（現在月）月	（乱数０～５）==３
+（）
+＊OnTalk４
+＄喋り間隔	（乱数１８０～２４０）秒
+＄一時保存	（喋り間隔）
+＞（現在月）月	（乱数０～５）==３
+（）
+＊OnTalk５
+＄喋り間隔	（乱数２４０～３００）秒
+＄一時保存	（喋り間隔）
+＞（現在月）月	（乱数０～５）==３
+（）
 
 ＃────────
-＃■選択肢
+＃さとりすと
 ＃────────
-＊OnAnchorSelect
-＞（Reference0）
-\e
+＊OnSatolistBoot
+\0\s[5]（ユーザ名）、がんばってね～！\e
 
-＊OnChoiceTimeout
-\0\s[7]（ユーザ名）！\w5
-無視しないでよ！
-\e
-
-＃────────
-＃■バグ報告
-＃────────
-＊web拍手
-\![open,inputbox,拍手送信内容,-1,いいね！,--limit=1000]
-\0\s[5]なになに～？
-\e
-
-＊拍手送信内容を教えてもらった
-\![execute,http-post,http://clap.webclap.com/clap.php?id=etwaslangsam,--param=message_body="まひる＠（拍手送信内容）",--async=webclap]
-＄拍手送信内容	
-
-＊拍手送信内容を空打ちされた
-\0\s[3]えぇ～？\w5
-やめちゃうの～？
-\e
-
-＊OnExecuteHTTPComplete	（Reference1）==webclap
-＄ほめてほしい	1
-＄ほめられなかったタイマ	１０
-\0\s[5]ん、送ったよ～！
-\e
-
-＊OnExecuteHTTPFailure	（Reference1）==webclap
-\0\s[4]「（Reference4）」で失敗だって・・・。
-\e
-
-＃────────
-＃日付と時間イベント
-＃────────
-＊OnMinuteChange	（デフォルトサーフェス0）==0
-＞時報	（現在分）==0
-\e
-
-＊時報
-＞（現在時）時
-\0\s[0]（現在時）時になったよ。
-\e
-
-＊０時
-\0（現在月）月（現在日）日になったよ。
-（whenlist,（現在曜日）==
-,日,\s[5]今日は日曜日だね。
-,月,\s[4]今日は月曜日……。
-）\e
-
-＊OnSurfaceRestore
-\1\s[-1]
+＊OnSatolistClosed
+\0\s[5]お疲れ様、（ユーザ名）！\e
+＊OnSatolistClosed
+\0\s[0]終わった？\w5
+\s[5]じゃあ次はぼくと遊んで！\e
