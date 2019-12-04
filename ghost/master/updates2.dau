@@ -1,6 +1,6 @@
 .gitignore80684508bdb6ea1268785f18b62826acsize=284
-delete.txt5d03cfe4f1cbbf68e0a69121a1586fecsize=111
-developer_options.txt66fd7f2a459815b3c8ad5da215f4e1bdsize=272
+delete.txtbd51559f4d33a27ed407c135a6018fadsize=146
+developer_options.txtf110d9b18e97e9c3d46c1ff29ccc937bsize=322
 install.txt7c47237b3d94f4776ea0e75f409fd4bfsize=79
 readme.txtca97811eb9d9d39d928185ef2b648189size=1169
 ghost/master/descript.txt81a41d3c715db29291baae9187777e35size=720
@@ -17,7 +17,7 @@ ghost/master/replace_after.txt4e18d4fcde00cfbb585f5e245051036esize=79
 ghost/master/satori.dll97c1ba4ee3145c7edde851557c718de5size=215040
 ghost/master/satori_conf.txt79d09245cf34ca5c4a8ede88db4b38c6size=1433
 ghost/master/satori_license.txt078ffc36f3374648bf523ae197f4765csize=944
-ghost/master/????????.txt43c8f560c5cadf9efb741381919af0b7size=204
+ghost/master/WordList.txt43c8f560c5cadf9efb741381919af0b7size=204
 ghost/master/saori/ssu.dll0df2627cc03c5adaf4cf3b485eb34b26size=90112
 shell/kisekae/bg.pngcf20bf858d24473c89b1368d74e90bbcsize=1091
 shell/kisekae/descript.txt5d3857b6fc459360b44c2f8bedfcd76fsize=1074
