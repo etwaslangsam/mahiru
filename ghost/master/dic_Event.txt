@@ -76,6 +76,9 @@
 ＃────────
 ＃時間イベント
 ＃────────
+＊OnMinuteChange	（compare,（喋り間隔）,０秒）
+\0（choice,\s[0],\s[1],\s[2],\s[3],\s[4],\s[5],\s[6],\s[7],\s[8]）
+
 ＊OnHourTimeSignal	（デフォルトサーフェス0）==0
 \![set,trayballoon,--icon=info,--title=（現在時）時だよ,--text=まひるいぢり]
 ＞（現在時）時

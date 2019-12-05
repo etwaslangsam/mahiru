@@ -131,7 +131,7 @@
 \![open,communicatebox]
 
 ＊ComuSample
-\j[file:///コミュワード一覧.txt]
+\j[file:///WordList.txt]
 
 ＃────────
 ＃
