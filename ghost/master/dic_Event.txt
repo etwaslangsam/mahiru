@@ -392,3 +392,42 @@
 ＊OnSatolistClosed
 \0\s[0]終わった？\w5
 \s[5]じゃあ次はぼくと遊んで！\e
+
+＃────────
+＃
+＃────────
+＊OnWebClap
+\![open,inputbox,拍手送信内容,,--limit=996]
+\0\s[0]それじゃあ、ここにメッセージを書いてね。\e
+
+＊拍手送信内容を教えてもらった
+\![execute,http-post,http://clap.webclap.com/clap.php?id=teniwa,--param=message_body="まひる＠（拍手送信内容）",--async=webclap]
+＄拍手送信内容	
+
+＊簡易拍手1
+\![execute,http-post,http://clap.webclap.com/clap.php?id=teniwa,--param=message_body="まひる＠いいね！",--async=webclap]
+＄拍手送信内容	
+＊簡易拍手2
+\![execute,http-post,http://clap.webclap.com/clap.php?id=teniwa,--param=message_body="まひる＠好き",--async=webclap]
+＄拍手送信内容	
+＊簡易拍手3
+\![execute,http-post,http://clap.webclap.com/clap.php?id=teniwa,--param=message_body="まひる＠かわいい",--async=webclap]
+＄拍手送信内容	
+＊簡易拍手4
+\![execute,http-post,http://clap.webclap.com/clap.php?id=teniwa,--param=message_body="まひる＠射精しました",--async=webclap]
+＄拍手送信内容	
+
+＊拍手送信内容がからっぽ
+\0\s[3]なんにも書いてないよ？\w5
+やめとく？\e
+
+＊OnExecuteHTTPComplete
+＞拍手送信完了	（Reference1）==webclap
+＊拍手送信完了
+\0\s[5]送ったよ！\w5 ありがとね！\e
+
+＊OnExecuteHTTPFailure
+＞拍手送信失敗	（Reference1）==webclap
+
+＊拍手送信失敗
+\0\s[4]「（Reference4）」で失敗だって‥‥。\e
