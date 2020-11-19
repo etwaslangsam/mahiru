@@ -10,9 +10,9 @@ sakura.name,‚Ü‚Ð‚é
 sakura.seriko.defaultsurface,0
 kero.seriko.defaultsurface,10
 balloon.defaultsurface,0
-seriko.alignmenttodesktop,bottom
-sakura.seriko.alignmenttodesktop,bottom
-kero.seriko.alignmenttodesktop,bottom
+seriko.alignmenttodesktop,free
+sakura.seriko.alignmenttodesktop,free
+kero.seriko.alignmenttodesktop,free
 sstp.allowunspecifiedsend,1
 sstp.allowcommunicate,1
 sstp.alwaystranslate,0
