@@ -122,7 +122,8 @@
 ＃時間イベント
 ＃────────
 ＊OnMinuteChange
-＞時報	（現在分）==０&&（時報設定）==１
+（when、（現在月）!=１、（set,正月の挨拶,））
+＞時報	（現在分）==０&&（時報設定）
 ＞待機モーション	（compare,（喋り間隔）,０秒）
 
 ＊待機モーション
@@ -167,8 +168,11 @@
 ＃────────
 ＃マウスイベント
 ＃────────
+＊OnMouseClick
+＞（Reference3）（Reference4）つつかれ	（Reference5）==0&&（is_empty,（Reference4））==0
+
 ＊OnMouseDoubleClick
-＞（Reference3）（Reference4）つつかれ	（Reference5）＝＝0
+＞0つつかれ	（Reference5）==0&&（is_empty,（Reference4））
 
 ＊OnMouseWheel
 ＞（Reference3）（Reference4）ころころ上方向	（Reference2）＞０
