@@ -5,3 +5,4 @@ ghost\master\コミュワード一覧.txt
 shell\着せ替え\
 ghost\master\dic_String.txt
 ghost\master\WordList.txt
+.gitignore
