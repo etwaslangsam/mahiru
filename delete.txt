@@ -2,7 +2,9 @@
 ghost\master\dic_StartEnd.txt
 ghost\master\dic_Time.txt
 ghost\master\コミュワード一覧.txt
+.gitignore
 shell\着せ替え\
 ghost\master\dic_String.txt
 ghost\master\WordList.txt
-.gitignore
+ghost\master\dic_Dressup.txt
+ghost\master\dic_Menu.txt
