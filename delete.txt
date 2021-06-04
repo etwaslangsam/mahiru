@@ -8,3 +8,4 @@ ghost\master\dic_String.txt
 ghost\master\WordList.txt
 ghost\master\dic_Dressup.txt
 ghost\master\dic_Menu.txt
+ghost\master\dic_Event.txt
