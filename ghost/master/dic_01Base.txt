@@ -5,6 +5,7 @@
 ＄単語群「＊」の重複回避	有効、起動中
 
 ＊FlagManagement
+＄全タイマ解除	実行
 ＄興奮度	
 ＄射精した	
 ＄自動挿入ウェイトタイプ	
@@ -14,7 +15,11 @@
 ＄なでられ反応回数	
 ＄頭なでカウント	
 ＄股間カウント	
-＄全タイマ解除	実行
+＄待機カウンタ	
+＄選択ＩＤ	
+＄選択ラベル	
+＄選択番号	
+＄VariableInterval	
 
 ＃────────シェル変更
 ＊OnShellChanging
@@ -117,11 +122,8 @@
 ＊OnSurfaceRestore
 \0\s[（デフォルトサーフェス0）]\e
 
-＊OnMinuteChange
-＞待機モーション	（compare,（喋り間隔）,０秒）
-
-＊待機モーション
-\0（choice,\s[0],\s[1],\s[2],\s[3],\s[4],\s[5],\s[6],\s[7],\s[8]）
+＊OnMinuteChange	（compare,（喋り間隔）,０秒）==1
+（set,待機カウンタ,（待機カウンタ）+1）（when，（待機カウンタ）==5，（set,待機カウンタ,0）\0（choice,\s[0],\s[6]））
 
 ＊OnHourTimeSignal	（時報設定）==１
 ＞時報	（現在分）＜５
@@ -156,7 +158,7 @@
 ＞（Reference3）（Reference4）つつかれ	（is_empty,（Reference4））==0
 （）
 
-＊OnMouseDoubleClick	（Reference5）==0&&
+＊OnMouseDoubleClick	（Reference5）==0
 ＞0つつかれ	（is_empty,（Reference4））==1
 
 ＊OnMouseWheel
@@ -164,7 +166,7 @@
 ＞（Reference3）（Reference4）ころころ下方向	（Reference2）＜０
 ＞（Reference3）（Reference4）ころころ
 
-＊OnMouseHover
+＊OnMouseHover	（Status）!=talking
 ＞（Reference3）（Reference4）見つめ
 
 ＊OnMouseEnter	（高感度）==1
@@ -310,22 +312,13 @@
 
 ＃────────キー押下
 ＊OnKeyPress
-＞（Reference0）が押された
-
-＊mが押された
-＞0つつかれ
-
-＊rが押された
-（精液1OFF）（精液2OFF）（精液3OFF）（精液4OFF）（精液5OFF）
-
-＊cが押された
-＞Communication
-
-＊tが押された
-（）
-
-＊hが押された
-＞えっちする
+（whenlist，（Reference0）==
+	，m，\![raise,0つつかれ]
+	，r，（精液1OFF）（精液2OFF）（精液3OFF）（精液4OFF）（精液5OFF）
+	，c，\![raise,Communication]
+	，t，（）
+	，h，\![raise,えっちする]
+）
 
 ＃────────トーク
 ＊OnTalk
@@ -345,34 +338,21 @@
 
 ＃────────web拍手
 ＊OnWebClap
-\![open,inputbox,拍手送信内容,,--limit=996]
-\0\s[0]それじゃあ、ここにメッセージを書いてね。\e
+\![open,inputbox,拍手送信内容,,--limit=996]\0\s[0]それじゃあ、ここにメッセージを書いてね。\e
 
 ＊拍手送信内容を教えてもらった
-\![execute,http-post,http://clap.webclap.com/clap.php?id=teniwa,--param=message_body="まひる＠（拍手送信内容）",--async=webclap]
+\![execute,http-post,http://clap.webclap.com/clap.php?id=teniwa,--param=message_body="まひる＠（拍手送信内容）",--async=webclap]\![raise,拍手内容消去]
+
+＊拍手内容消去
 ＄拍手送信内容	
 
-＊簡易拍手1
-\![execute,http-post,http://clap.webclap.com/clap.php?id=teniwa,--param=message_body="まひる＠いいね！",--async=webclap]
-＄拍手送信内容	
-＊簡易拍手2
-\![execute,http-post,http://clap.webclap.com/clap.php?id=teniwa,--param=message_body="まひる＠好き",--async=webclap]
-＄拍手送信内容	
-＊簡易拍手3
-\![execute,http-post,http://clap.webclap.com/clap.php?id=teniwa,--param=message_body="まひる＠かわいい",--async=webclap]
-＄拍手送信内容	
-＊簡易拍手4
-\![execute,http-post,http://clap.webclap.com/clap.php?id=teniwa,--param=message_body="まひる＠射精しました",--async=webclap]
-＄拍手送信内容	
+＊簡易拍手
+\![execute,http-post,http://clap.webclap.com/clap.php?id=teniwa,--param=message_body="まひる＠（選択ラベル）",--async=webclap]
 
 ＊拍手送信内容がからっぽ
-\0\s[3]なんにも書いてないよ？\w5
-やめとく？\e
+\0\s[3]なんにも書いてないよ？\w5 やめとく？\e
 
-＊OnExecuteHTTPComplete
-＞拍手送信完了	（Reference1）==webclap
-
-＊拍手送信完了
+＊OnExecuteHTTPComplete	（Reference1）==webclap
 ＞（選択ラベル）を送った
 \0\s[5]送ったよ！\w5 ありがとね！\e
 
@@ -383,23 +363,17 @@
 ＊射精しましたを送った
 \0\s[1]ずるい！\w3 ぼくもする！\e
 
-＊OnExecuteHTTPFailure
-＞拍手送信失敗	（Reference1）==webclap
-
-＊拍手送信失敗
+＊OnExecuteHTTPFailure	（Reference1）==webclap
 \0\s[4]「（Reference4）」で失敗だって‥‥。\e
 
-＃────────
-＃初回起動
-＃────────
+＃────────システム部分ここまで↑
+＃────────初回起動
 ＊OnFirstBoot
 ＄まひる体力	30
 ＄起動総数=（起動総数）+１
 （whenlist，（現在時）＜，５，（深夜起動），１１，（朝起動），１８，（起動），（夜起動））
 
-＃────────
-＃起動
-＃────────
+＃────────起動
 ＊OnBoot
 ＄現在シェル	（Reference0）
 ＄まひる体力	30
@@ -451,9 +425,7 @@
 ＠夜起動	（現在曜日）==土
 \0\s[5]あ、（ユーザ名）だ～！\w5\n\s[24]明日は日曜だから、一晩中かわいがってね（はーと）\e
 
-＃────────
-＃
-＃────────
+＃────────日付起動イベント
 ＊それ以外の起動
 （whenlist，（現在時）＜，５，（深夜起動），１１，（朝起動），１８，（起動），（夜起動））
 
@@ -482,9 +454,7 @@
 ＞２月１４日起動	（count,（イベント年月日）,２月１４日）==0
 ＞それ以外の起動
 
-＃────────
-＃終了
-＃────────
+＃────────終了
 ＊OnClose
 （FlagManagement）
 ＞不完全燃焼	（デフォルトサーフェス0）==34
@@ -542,9 +512,7 @@
 ＊夜終了
 \0\s[6]ぐぅ……ｚZZ\_w[1000]
 
-＃────────
-＃■ゴースト切り替え
-＃────────
+＃────────ゴースト切り替え
 ＊OnGhostChanging
 ＞再読込する	（compare,（Reference0）,まひる）
 （FlagManagement）
@@ -569,18 +537,15 @@
 ＊れお「伺かおちんちんランド
 \0\s[5]わぁい！\w5 よく分かんないけど入るー！\e
 
-＃────────
-＃メニュー
-＃────────
+＃────────起動と終了ここまで↑
+＃────────メニュー
 ＊0つつかれ
-＞Menu2	（デフォルトサーフェス0）==34
-\0（when、（口枷）==０、（M表示）、（口枷M表示））\_w[1000]
-＞MainMenu
+（when，（デフォルトサーフェス0）==34，\![raise,Menu2]，\0（メニュー台詞）\_w[1000]\![raise,MainMenu]）
 
-＠M表示
+＠メニュー台詞	（口枷）==０
 \s[5]なぁに？
 
-＠口枷M表示
+＠メニュー台詞	（口枷）==１
 \s[2]むぅ～？
 
 ＊MainMenu
@@ -597,17 +562,13 @@
  \![*]\q[時報,時報の設定]\_l[@48,]【 （when,（時報設定）==１,ON,OFF） 】\n
 \_u[0x25A0]メッセージ送信
  \![*]\q[自由入力,OnWebClap]\n[half]
- \![*]\q[いいねφ！,簡易拍手1] \![*]\q[好き,簡易拍手2]
- \![*]\q[かわいい,簡易拍手3] \![*]\q[射精しました,簡易拍手4]\n
+ \![*]\q[いいね,簡易拍手] \![*]\q[好き,簡易拍手]
+ \![*]\q[かわいい,簡易拍手] \![*]\q[射精しました,簡易拍手]\n
  \q[なんでもないよ,Cancel]
 \_q\e
 
 ＊Cancel
-＞口枷Cancel	（口枷）
-\0\s[0]ん！\e
-
-＊口枷Cancel
-\0\s[4]ふぅ～‥‥。\e
+\0（when，（口枷）==１，\s[4]ふぅ～‥‥。，\s[0]ん！）\e
 
 ＃────────
 ＊Menu2
@@ -704,16 +665,12 @@
 \0\s[31]\cんぅ‥‥（はーと）\_w[1000]
 ＞挿入後コマンド
 
-＃────────
-＃トーク
-＃────────
+＃────────トーク
 ＊PleaseTalk
 ＞喋れない	（口枷）
 \0\s[5]いいよ！\_w[1000]
 \c（）
 
-＃────────
-＃
 ＃────────
 ＊感度を上げる
 \0\s[0]φ※感度をあげることにより、さわり反応が起きやすくなります。φ
@@ -730,9 +687,7 @@
 ＄高感度	0
 \0\s[1]？
 
-＃────────
-＃■鎮静間隔
-＃────────
+＃────────■鎮静間隔
 ＊賢者タイマ変更
 \0\s[0]今はシコシコしてる途中でカーソルが外に出ると、\n（鎮静間隔）秒後に賢者モードになるよ。
 \_q
@@ -759,31 +714,12 @@
 ＄鎮静間隔	０
 \0\s[0]（鎮静間隔）秒に設定したよ。\e
 
-＃────────
-＃■喋り頻度
-＃────────
+＃────────喋り頻度
 ＊喋り頻度変更
-＞AutoTalk	（compare,（喋り間隔）,０秒）
-＞ManualTalk
-
-＊AutoTalk
-＄VariableInterval	
-＄喋り間隔	６０秒
-＄喋り間隔誤差	５０％
-＄一時保存	（喋り間隔）
-＄手動セーブ	実行
+（when，（喋り間隔）==０秒，（set,喋り間隔,６０秒）（set,喋り間隔誤差,５０％），（set,喋り間隔,０秒））（set,一時保存,（喋り間隔））（set,手動セーブ,実行）
 ＞MainMenu
 
-＊ManualTalk
-＄VariableInterval	
-＄喋り間隔	０秒
-＄一時保存	（喋り間隔）
-＄手動セーブ	実行
-＞MainMenu
-
-＃────────
-＃ユーザ名変更
-＃────────
+＃────────ユーザ名変更
 ＊ユーザ名変更
 \![open,inputbox,ユーザ名,-1,（ユーザ名）]
 \0\s[5]じゃあ、ここに名前をいれてね。\e
@@ -795,48 +731,19 @@
 ＊ユーザ名を空打ちされた
 \0\s[0]じゃあ今までどおり（ユーザ名）って呼ぶね。\e
 
-＃────────
-＃性別変更
+＃────────性別変更
 ＃1が男 0が女
-＃────────
 ＊性別変更
-＞お兄ちゃんはおしまい	（ユーザ性別）==1
-＞お兄ちゃんになる
-
-＊お兄ちゃんになる
-＄ユーザ性別	1
-＄ユーザ名	お兄ちゃん
-＄手動セーブ	実行
+（when，（ユーザ性別）==1，（set,ユーザ性別,0）（set,ユーザ名,お姉ちゃん），（set,ユーザ性別,1）（set,ユーザ名,お兄ちゃん））（set,手動セーブ,実行）
 ＞MainMenu
 
-＊お兄ちゃんはおしまい
-＄ユーザ性別	0
-＄ユーザ名	お姉ちゃん
-＄手動セーブ	実行
-＞MainMenu
-
-＃────────
-＃時報
+＃────────時報
 ＃1でON 0でオフ
-＃────────
 ＊時報の設定
-＞時報オン	（時報設定）==０
-＞時報オフ
-
-＊時報オン
-＄時報設定	１
-＄手動セーブ	実行
+（when，（時報設定）==０，（set,時報設定,１），（set,時報設定,０））（set,手動セーブ,実行）
 ＞MainMenu
 
-＊時報オフ
-＄時報設定	０
-＄手動セーブ	実行
-＞MainMenu
-
-
-＃────────
-＃単語群
-＃────────
+＃────────単語群
 ＠曜日
 （whenlist,（現在曜日）==,土,休日,日,休日,平日）
 ＠季節
@@ -871,22 +778,16 @@
 ＠精液5OFF
 \![bind,精液5,,0]
 
-＃────────
-＃リソース
-＃────────
+＃────────リソース
 ＠homeurl
 https://raw.githubusercontent.com/etwaslangsam/mahiru/master/
 ＠sakura.portalbuttoncaption
 配布サイト
 
-＃────────
-＃おすすめ
-＃────────
+＃────────おすすめ
 ＊sakura.recommendsites
 
-＃────────
-＃ポータル
-＃────────
+＃────────ポータル
 ＊sakura.portalsites
 ほっとぺっぱぁ団
 http://ghosthacking.webcrow.jp/index.html
