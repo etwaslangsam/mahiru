@@ -21,6 +21,8 @@
 ＄頭なでカウント	０
 ＄股間カウント	０
 ＄待機カウンタ	0
+＄頭なで総数	０
+＄セクハラ総数	０
 ＠SAORI
 calc,saori/ssu.dll,calc
 calc_float,saori/ssu.dll,calc_float
