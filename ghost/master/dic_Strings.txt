@@ -1,0 +1,16 @@
+＃────────リソース
+＠sakura.portalbuttoncaption
+配布サイト
+
+＃────────おすすめ
+＊sakura.recommendsites
+
+＃────────ポータル
+＊sakura.portalsites
+ほっとぺっぱぁ団
+https://sites.google.com/view/ghost-hacking/home
+
+
+＊sakura.portalsites
+連絡フォーム
+https://goo.gl/forms/qJhnaKjUfVtcOWSk1
