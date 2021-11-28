@@ -37,3 +37,8 @@ https://raw.githubusercontent.com/etwaslangsam/mahiru/master/
 
 ＊artificialで失敗
 \0\s[0]中断するね。\e
+
+＃────────ネットワーク状態
+＊OnNetworkHeavy
+\0\s[3]回線が重いみたい‥‥。\e
+

@@ -4,7 +4,6 @@
 ＄文「＊」の重複回避	有効、起動中
 ＄単語群「＊」の重複回避	有効、起動中
 
-
 ＃────────シェル変更
 ＊OnShellChanging
 \0\s[0]（Reference0）に着替えるね。\w5
@@ -24,8 +23,6 @@
 ＄ほめてほしい	1
 ＄ほめられなかったタイマ	１０
 \0\s[8]どお？\w5 ぼく結構プロポーションいいでしょ。\e
-
-
 
 ＃────────バルーン変更
 ＊OnBalloonChange
@@ -185,10 +182,6 @@
 ＄なぐさめられなかったタイマ	１０
 \0\s[3]失敗・・・繋がらない？\e
 
-＃────────ネットワーク状態
-＊OnNetworkHeavy
-\0\s[3]回線が重いみたい・・・。\e
-
 ＃────────キー押下
 ＊OnKeyPress
 （whenlist，（Reference0）==
@@ -210,7 +203,7 @@
 ＊OnSatolistBoot	（count，（Status），talking）==0
 \0\s[5]（ユーザ名）、がんばってね～！\e
 
-＊OnSatolistClosed	（count，（Status），talking）==0
+＊OnSatolistSaved	（乱数１～２）==２
 \0\s[5]お疲れ様、（ユーザ名）！\e
 
 ＊OnSatolistClosed	（count，（Status），talking）==0
