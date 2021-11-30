@@ -193,12 +193,6 @@
 	，s，\![raise,トロコン]
 ）
 
-＃────────トーク
-＊OnTalk
-＞（Reference1）	（Reference0）
-＞喋れない		（口枷）==1
-（）
-
 ＃────────さとりすと
 ＊OnSatolistBoot	（count，（Status），talking）==0
 \0\s[5]（ユーザ名）、がんばってね～！\e
