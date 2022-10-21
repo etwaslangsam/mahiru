@@ -18,25 +18,10 @@ menu.foreground.font.color.b,255
 
 seriko.use_self_alpha,1
 
-sakura.bindgroup0.name,服,キャミソール,cami
-sakura.bindgroup1.name,服,スク水(旧),swim_old
-sakura.bindgroup2.name,服,スク水(新),swim_new
-sakura.bindgroup3.name,服,バニースーツ,bunny
-sakura.bindgroup4.name,服,ナース服,nurse
-sakura.bindgroup5.name,服,セーラー服,sailor
-sakura.bindgroup6.name,服,全裸,nude
-sakura.bindgroup8.name,精液1,身体,bpdy
-sakura.bindgroup9.name,精液2,胸,chest
-sakura.bindgroup10.name,精液3,顔1,fece1
-sakura.bindgroup11.name,精液4,顔2,face2
-sakura.bindgroup12.name,精液5,頭,hair
+sakura.bindgroup1.name,精液1,身体,bpdy
+sakura.bindgroup2.name,精液2,胸,chest
+sakura.bindgroup3.name,精液3,顔1,fece1
+sakura.bindgroup4.name,精液4,顔2,face2
+sakura.bindgroup5.name,精液5,頭,hair
 
-sakura.bindgroup0.default,1
-
-sakura.menuitem0,0
-sakura.menuitem1,1
-sakura.menuitem2,2
-sakura.menuitem3,3
-sakura.menuitem4,4
-sakura.menuitem5,5
-sakura.menuitem6,6
+sakura.menu,hidden

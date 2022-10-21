@@ -28,10 +28,10 @@ element0,base,surface40.png,0,0
 surface0
 {
 
-animation0.interval,rarely
-animation0.pattern0,overlay,60,100,0,0
-animation0.pattern1,base,6,100,0,0
-animation0.pattern2,base,-1,100,0,0
+	animation0.interval,rarely
+	animation0.pattern0,overlay,60,100,0,0
+	animation0.pattern1,base,6,100,0,0
+	animation0.pattern2,base,-1,100,0,0
 
 collisionex2,Mouth,polygon,210,206,196,206,213,216,230,201
 }
