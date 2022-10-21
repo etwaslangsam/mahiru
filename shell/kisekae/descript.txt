@@ -5,15 +5,16 @@ craftman,
 craftmanw,
 
 menu.background.bitmap.filename,bg.png
-menu.foreground.bitmap.filename,bg.png
+menu.foreground.bitmap.filename,fg.png
+menu.sidebar.bitmap.filename,sb.png
 
 menu.background.font.color.r,102
 menu.background.font.color.g,62
 menu.background.font.color.b,62
 
-menu.foreground.font.color.r,210
-menu.foreground.font.color.g,164
-menu.foreground.font.color.b,210
+menu.foreground.font.color.r,255
+menu.foreground.font.color.g,255
+menu.foreground.font.color.b,255
 
 seriko.use_self_alpha,1
 

@@ -11,7 +11,7 @@
 \s[2]むぅ～？
 
 ＊MainMenu
-\0\b[2]\c\_q\_u[0x25A0]メイン\n[half]
+\0\b[2]\c\_q\_u[0x25A0]コミュニケーション\n[half]
  \![*]\q[t)なにか話して,PleaseTalk]
  \![*]\q[c)話しかける,Communication]\n[half]
  \![*]\q[h)えっちする,えっちする]\n

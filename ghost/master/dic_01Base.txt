@@ -71,7 +71,7 @@
 
 ＃────────コミュニケート
 ＊OnCommunicate	（デフォルトサーフェス0）==0
-≫「　（Reference1）	（compare,（Reference0）,user）
+≫「　（Reference1）	（equal,（Reference0）,user）
 \0\s[4]う～ん・・・よく分かんないや。\e
 
 ＃────────文字入力
@@ -185,20 +185,25 @@
 ＃────────キー押下
 ＊OnKeyPress
 （whenlist，（Reference0）==
-	，m，\![raise,0つつかれ]
-	，r，（精液1OFF）（精液2OFF）（精液3OFF）（精液4OFF）（精液5OFF）
 	，c，\![raise,Communication]
-	，t，（）
 	，h，\![raise,えっちする]
 	，s，\![raise,トロコン]
 ）
+＞（Reference0）が押された
+
+＊mが押された
+＞0つつかれ
+
+＊tが押された
+（）
+
+＊rが押された
+＄辞書リロード	実行
+\0（精液1OFF）（精液2OFF）（精液3OFF）（精液4OFF）（精液5OFF）\e
 
 ＃────────さとりすと
 ＊OnSatolistBoot	（count，（Status），talking）==0
 \0\s[5]（ユーザ名）、がんばってね～！\e
-
-＊OnSatolistSaved	（乱数１～２）==２
-\0\s[5]お疲れ様、（ユーザ名）！\e
 
 ＊OnSatolistClosed	（count，（Status），talking）==0
 \0\s[0]終わった？\w5 \s[5]じゃあ次はぼくと遊んで！\e
