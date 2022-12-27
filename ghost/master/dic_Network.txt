@@ -42,3 +42,47 @@ https://raw.githubusercontent.com/etwaslangsam/mahiru/master/
 ＊OnNetworkHeavy
 \0\s[3]回線が重いみたい‥‥。\e
 
+
+＃────────web拍手
+＊OnWebClap
+\![open,inputbox,WEB拍手もどき入力,--timeout=-1,--text=いいね！,--limit=800]
+\0\s[0]それじゃあ、ここにメッセージを書いてね。\e
+
+
+＠WCM_URL
+https://script.google.com/macros/s/AKfycbxHT6cacuEsMdGulS0c_a29X1pjDu5CUC3BPqAd9_wwskSn9l1oAAaN216XusA9siAX/exec
+＠送信元
+まひる
+
+＊WEB拍手もどき入力を教えてもらった
+＄送信内容	（Reference1）
+＄メモ	手動
+\![execute,http-post,（WCM_URL）,--param=message_body="（送信元）;（送信内容）;（メモ）",--async=webclap,--timeout=5]
+
+＊拍手内容消去
+＄拍手送信内容	
+
+＊簡易拍手
+＄メモ	定型
+\![execute,http-post,（WCM_URL）,--param=message_body="（送信元）;（選択ラベル）;（メモ）",--async=webclap,--timeout=5]
+
+＊拍手送信内容がからっぽ
+\0\s[3]なんにも書いてないよ？\w5 やめとく？\e
+
+＊OnExecuteHTTPComplete
+＞（選択ラベル）を送った	（Reference1）==webclap
+＞拍手成功	（Reference1）==webclap
+＊拍手成功
+\0\s[5]送ったよ！\w5 ありがとね！\e
+
+＊好きを送った
+\0\s[5]ぼくも（ユーザ名）すきー！\e
+＊かわいいを送った
+\0\s[5]えへへ。ありがと！\e
+＊射精しましたを送った
+\0\s[1]ずるい！\w3 ぼくもする！\e
+
+＊OnExecuteHTTPFailure
+＞拍手失敗	（Reference1）==webclap
+＊拍手失敗
+\0\s[4]「（Reference4）」で失敗だって‥‥。\e

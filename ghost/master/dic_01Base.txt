@@ -209,34 +209,4 @@
 ＊OnSatolistClosed	（count，（Status），talking）==0
 \0\s[0]終わった？\w5 \s[5]じゃあ次はぼくと遊んで！\e
 
-＃────────web拍手
-＊OnWebClap
-\![open,inputbox,拍手送信内容,,--limit=996]\0\s[0]それじゃあ、ここにメッセージを書いてね。\e
-
-＊拍手送信内容を教えてもらった
-\![execute,http-post,http://clap.webclap.com/clap.php?id=teniwa,--param=message_body="まひる＠（拍手送信内容）",--async=webclap]\![raise,拍手内容消去]
-
-＊拍手内容消去
-＄拍手送信内容	
-
-＊簡易拍手
-\![execute,http-post,http://clap.webclap.com/clap.php?id=teniwa,--param=message_body="まひる＠（選択ラベル）",--async=webclap]
-
-＊拍手送信内容がからっぽ
-\0\s[3]なんにも書いてないよ？\w5 やめとく？\e
-
-＊OnExecuteHTTPComplete	（Reference1）==webclap
-＞（選択ラベル）を送った
-\0\s[5]送ったよ！\w5 ありがとね！\e
-
-＊好きを送った
-\0\s[5]ぼくも（ユーザ名）すきー！\e
-＊かわいいを送った
-\0\s[5]えへへ。ありがと！\e
-＊射精しましたを送った
-\0\s[1]ずるい！\w3 ぼくもする！\e
-
-＊OnExecuteHTTPFailure	（Reference1）==webclap
-\0\s[4]「（Reference4）」で失敗だって‥‥。\e
-
 ＃────────システム部分ここまで↑
