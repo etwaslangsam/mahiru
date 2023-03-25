@@ -14,7 +14,7 @@
 ＄高感度	0
 ＄一時保存	６０秒
 ＄自動挿入ウェイトタイプ	一般
-＄会話時サーフェス戻し	有効
+＄会話時サーフェス戻し	無効
 ＄興奮度	０
 ＄現在シェル	master
 ＄頭なでカウント	０
@@ -22,6 +22,8 @@
 ＄待機カウンタ	0
 ＄頭なで総数	０
 ＄セクハラ総数	０
+＄Clicktalk	0
+＄Gesturemenue	0
 ＠SAORI
 calc,saori/ssu.dll,calc
 calc_float,saori/ssu.dll,calc_float

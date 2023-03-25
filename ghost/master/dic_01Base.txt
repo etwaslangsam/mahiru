@@ -3,6 +3,7 @@
 ＊OnSatoriLoad
 ＄文「＊」の重複回避	有効、起動中
 ＄単語群「＊」の重複回避	有効、起動中
+＄会話時サーフェス戻し	無効
 
 ＃────────シェル変更
 ＊OnShellChanging
@@ -35,20 +36,27 @@
 ＊OnWindowStateRestore
 ＄手動セーブ	実行
 ＞最小化解除３	（口枷）
-＞最小化解除２	（デフォルトサーフェス0）==34
-（最小化解除）
+＞最小化解除２	（equal，（デフォルトサーフェス0），34）
+＞最小化解除
 
-＠最小化解除
-\0\s[24]はぁ～、スッキリした（はーと）\e
-\0\s[6]ぐぅ‥‥ｚＺＺ\w9\n\s[3]んあ？\w5 （ユーザ名）？\e
-\0\s[5]おかえりー。\e
-\![raise,隠れオナニー]
-
-＊最小化解除２
-\0\s[35]（ユーザ名）・・・（ユーザ名）はやくぅ。\e
 
 ＊最小化解除３
 \0\s[4]ふぐぅ～……。\e
+
+
+＊最小化解除２
+\0\s[35]（ユーザ名）‥‥\w5（ユーザ名）はやくぅ。\e
+
+
+＊最小化解除
+\0\s[24]はぁ～、スッキリした（はーと）\e
+
+＊最小化解除
+\0\s[6]ぐぅ‥‥ｚＺＺ\w9
+\s[3]んあ？\w5 （ユーザ名）？\e
+
+＊最小化解除
+＞隠れオナニー
 
 
 ＊隠れオナニー
@@ -69,6 +77,59 @@
 ＊OnBasewareUpdated
 \0\s[5]こ～しんしたよ！\e
 
+＃────────表情戻し
+＊OnSurfaceRestore
+
+＃────────マウスイベント
+＊OnMouseClick	（is_empty，（Reference4））&&（equal，（Reference5），0）
+＞なにかはなして	（Clicktalk）
+
+＊なにかはなして
+＞喋れない	（口枷）
+（）
+
+＊OnMouseDoubleClick
+＞（Reference3）（Reference4）つつかれ	（Reference5）==0
+
+
+＊OnMouseWheel
+＞（Reference3）（Reference4）ころころ上方向	（Reference2）＞０
+＞（Reference3）（Reference4）ころころ下方向	（Reference2）＜０
+＞（Reference3）（Reference4）ころころ
+
+
+＊OnMouseHover
+＞（Reference3）（Reference4）見つめ	（count，（Status），talking）==0
+
+
+＊OnMouseEnter	（高感度）==1
+＞（Reference3）（Reference4）なでられ
+
+
+＠tooltip
+（call,（Reference3）（Reference4）ツールチップ）
+
+
+＠0Headツールチップ	（デフォルトサーフェス0）==0
+褒めて褒めて
+
+＠0Bustツールチップ	（デフォルトサーフェス0）==0
+おっぱいφ…ないよ？
+
+＠0xxxツールチップ	（デフォルトサーフェス0）==0
+（ユーザ名）φ…さわって？
+
+
+＠0Bustツールチップ	（デフォルトサーフェス0）==34
+なでφ：愛撫
+
+＠0Turtleheadツールチップ
+なでφ：亀頭攻め
+つつきφ：フェラチオ
+
+＠0Stickツールチップ
+なでφ：手コキ
+
 ＃────────コミュニケート
 ＊OnCommunicate	（デフォルトサーフェス0）==0
 ≫「　（Reference1）	（equal,（Reference0）,user）
@@ -81,17 +142,27 @@
 ＞（Reference0）を教えてもらった
 
 ＊OnUserInputCancel
-＞（Reference0）をタイムアウト	（compare（バイト値,１）（Reference1）（バイト値,１）timeout）
-＞（Reference0）を空打ちされた	（compare,（Reference1）,close）
+＞（Reference0）をタイムアウト	（compare，（Reference1），timeout）
+＞OnUserInputCancel_（Reference1）
 
+＊OnUserInputCancel_timeout
+\0\s[8]あれあれ～？\w9
+（ユーザ名）、なに迷ってるの～？\e
+
+＊OnUserInputCancel_close
+\0\s[3]閉じちゃうよ？\e
 
 ＃────────選択肢イベント
-＊OnAnchorSelect
-＞（Reference0）
+＊OnAnchorSelectEx
+＄選択ＩＤ	（Reference1）
+＄選択ラベル	（Reference0）
+＞（Reference1）
 ＞選択先がない
 
-＊OnChoiceSelect
-＞（Reference0）
+＊OnChoiceSelectEx
+＄選択ＩＤ	（Reference1）
+＄選択ラベル	（Reference0）
+＞（Reference1）
 ＞選択先がない
 
 ＊選択先がない
@@ -184,22 +255,22 @@
 
 ＃────────キー押下
 ＊OnKeyPress
-＞（Reference0）が押された
+＞OnKeyPress_（Reference0）
 
-＊mが押された
+＊OnKeyPress_m
 ＞0つつかれ
 
-＊tが押された
+＊OnKeyPress_t
 （）
 
-＊rが押された
+＊OnKeyPress_r
 ＄辞書リロード	実行
 \0（精液1OFF）（精液2OFF）（精液3OFF）（精液4OFF）（精液5OFF）\e
 
-＊cが押された
+＊OnKeyPress_c
 ＞Communication
 
-＊hが押された
+＊OnKeyPress_h
 ＞えっちする
 
 ＃────────さとりすと
@@ -208,5 +279,12 @@
 
 ＊OnSatolistClosed	（count，（Status），talking）==0
 \0\s[0]終わった？\w5 \s[5]じゃあ次はぼくと遊んで！\e
+
+＃────────トーク
+＊OnTalk
+＞（Reference1）	（Reference0）
+＞喋れない		（口枷）==1
+＞おねだり	（compare,（デフォルトサーフェス0）,34）
+（）
 
 ＃────────システム部分ここまで↑

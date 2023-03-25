@@ -1,4 +1,6 @@
 ＃────────メニュー
+＊0なでられ
+＞0つつかれ	（Gesturemenue）
 ＊0つつかれ
 ＞Menu2	（デフォルトサーフェス0）==34
 \0（メニュー台詞）\_w[1000]
@@ -28,13 +30,15 @@
 \_q\e
 
 ＊Information
-\0\b[2]\_q\q[←,MainMenu] \q[×,Cancel]\n
+\0\b[2]\c\_q\q[←,MainMenu] \q[×,Cancel]\n
 起動回数φ：（起動総数）
 ランダムトーク数φ：（countNoNameTalk）\n
 喋り頻度φ：（喋り間隔）\n
 名前φ：（ユーザ名）
 性別φ：（when、（ユーザ性別）==1、男、女）
 時報φ：（when,（時報設定）==１,ON,OFF）\n
+クリックトークφ：（when,（Clicktalk）==1,ON,OFF）
+ジェスチャーメニューφ：（when,（Gesturemenue）==1,ON,OFF）\n
 頭をなでた回数φ：（頭なで総数）
 セクハラした回数φ：（セクハラ総数）
 \_q\e
@@ -43,10 +47,14 @@
 \0\b[2]\_q\q[←,MainMenu] \q[×,Cancel]\n
 ▼感度を上げる　（\_a[感度を上げる]？\_a）\n[half]
  \![*]\q[上げる,感度上昇]　\![*]\q[下げる,感度低下]\n
-▼性別 現在φ：（when、（ユーザ性別）==1、男、女）\n[half]
+▼性別 \n[half]
  \![*]\q[男,性別変更_男]　\![*]\q[女,性別変更_女]\n
-▼時報 現在φ：（when,（時報設定）==１,ON,OFF）
- \![*]\q[ON,時報の設定_ON]　\![*]\q[OFF,時報の設定_OFF]
+▼時報
+ \![*]\q[ON,時報の設定_ON]　\![*]\q[OFF,時報の設定_OFF]\n
+▼クリックトーク　\_a[クリックトーク説明]（？）\_a\n[half]
+ \![*]\q[ONにする,Clicktalk_ON] ／ \q[OFFにする,Clicktalk_OFF]\n
+▼ジェスチャーメニュー　\_a[ジェスチャーメニュー説明]（？）\_a\n[half]
+ \![*]\q[ONにする,Gesturemenue_ON] ／ \q[OFFにする,Gesturemenue_OFF]\n
 \_q\e
 
 ＊Cancel
@@ -187,6 +195,38 @@
 ＄手動セーブ	実行
 ＞config
 
+＃────────
+＊クリックトーク説明
+\0\_q\q[←,config]\n[half]
+※さわり判定がない箇所をシングルクリックした場合の挙動の設定です。\n[half]
+ONにするとさわり判定がない箇所をクリックするとランダムトークをします。\n[half]
+OFFにするとさわり判定がない箇所をクリックしてもなにも起こりません。
+\_q\e
 
+＊Clicktalk_ON
+＄Clicktalk	1
+\0\s[0]クリックトークをONにしたよ。\x
+＞config
 
+＊Clicktalk_OFF
+＄Clicktalk	0
+\0\s[0]クリックトークをOFFにしたよ。\x
+＞config
 
+＃────────
+＊ジェスチャーメニュー説明
+\0\_q\q[←,config]\n[half]
+※さわり判定がない箇所でカーソル移動した場合の挙動の設定です。\n[half]
+ONにするとさわり判定がない箇所でカーソル移動するとメニューを開きます。\n[half]
+OFFにするとさわり判定がない箇所でカーソル移動してもなにも起こりません。
+\_q\e
+
+＊Gesturemenue_ON
+＄Gesturemenue	1
+\0\s[0]ジェスチャーメニューをONにしたよ。\x
+＞config
+
+＊Gesturemenue_OFF
+＄Gesturemenue	0
+\0\s[0]ジェスチャーメニューをOFFにしたよ。\x
+＞config
