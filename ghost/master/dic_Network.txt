@@ -8,34 +8,35 @@ https://raw.githubusercontent.com/etwaslangsam/mahiru/master/
 ＊OnUpdateReady
 \0\s[5]（Reference0）個のファイルが更新されてるって！
 
-＊OnUpdateComplete
-＞ネットワーク更新（Reference0）
 
-＊ネットワーク更新changed
+＊OnUpdateComplete
+＞OnUpdateComplete_（Reference0）
+
+＊OnUpdateComplete_changed
 ＄手動セーブ	実行
 \0\s[5]ネットワーク更新、終わったよ。\e
 
-＊ネットワーク更新none
+＊OnUpdateComplete_none
 \0\s[3]なんにも更新されてないってさぁ。\e
 
 
 ＊OnUpdateFailure
 ＄なぐさめてほしい	1
 ＄なぐさめられなかったタイマ	１０
-＞（Reference0）で失敗
-\0\s[3]よく分かんないけど（Reference0）で失敗だってぇ。\e
+＞OnUpdateFailure_（Reference0）
+\0\s[3]よく分かんないけど（Reference0）だってぇ。\e
 
-＊timeoutで失敗
+＊OnUpdateFailure_timeout
 \0\s[3]時間切れだってぇ～。\e
 
-＊md5 missで失敗
+＊OnUpdateFailure_md5 miss
 \0\s[4]データが一致しなかったって。\w5
 \s[3]これは作者の人に連絡しないとダメなやつだ・・・。\e
 
-＊404で失敗
+＊OnUpdateFailure_404
 \0\s[4]更新用ファイルが見つからなかったよ。\e
 
-＊artificialで失敗
+＊OnUpdateFailure_artificial
 \0\s[0]中断するね。\e
 
 ＃────────ネットワーク状態
@@ -69,20 +70,28 @@ https://script.google.com/macros/s/AKfycbxHT6cacuEsMdGulS0c_a29X1pjDu5CUC3BPqAd9
 ＊拍手送信内容がからっぽ
 \0\s[3]なんにも書いてないよ？\w5 やめとく？\e
 
+
 ＊OnExecuteHTTPComplete
 ＞（選択ラベル）を送った	（Reference1）==webclap
-＞拍手成功	（Reference1）==webclap
-＊拍手成功
+＞OnExecuteHTTPComplete_（Reference1）
+
+
+＊OnExecuteHTTPComplete_webclap
 \0\s[5]送ったよ！\w5 ありがとね！\e
 
 ＊好きを送った
 \0\s[5]ぼくも（ユーザ名）すきー！\e
+
 ＊かわいいを送った
 \0\s[5]えへへ。ありがと！\e
+
 ＊射精しましたを送った
 \0\s[1]ずるい！\w3 ぼくもする！\e
 
+
 ＊OnExecuteHTTPFailure
-＞拍手失敗	（Reference1）==webclap
-＊拍手失敗
-\0\s[4]「（Reference4）」で失敗だって‥‥。\e
+＞OnExecuteHTTPFailure_（Reference1）
+
+
+＊OnExecuteHTTPFailure_webclap
+\0\s[4]「（Reference4）」だって‥‥。\e
