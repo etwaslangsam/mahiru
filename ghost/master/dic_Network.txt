@@ -1,97 +1,97 @@
-”„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿƒlƒbƒgƒ[ƒNXV
-—homeurl
+ï»¿ï¼ƒâ”€â”€â”€â”€â”€â”€â”€â”€ãƒãƒƒãƒˆãƒ¯ãƒ¼ã‚¯æ›´æ–°
+ï¼ homeurl
 https://raw.githubusercontent.com/etwaslangsam/mahiru/master/
 
-–OnUpdateBegin
-\0\s[0]XVî•ñ‚ğæ“¾‚·‚é‚ËB
+ï¼ŠOnUpdateBegin
+\0\s[0]æ›´æ–°æƒ…å ±ã‚’å–å¾—ã™ã‚‹ã­ã€‚
 
-–OnUpdateReady
-\0\s[5]iReference0jŒÂ‚Ìƒtƒ@ƒCƒ‹‚ªXV‚³‚ê‚Ä‚é‚Á‚ÄI
-
-
-–OnUpdateComplete
-„OnUpdateComplete_iReference0j
-
-–OnUpdateComplete_changed
-è“®ƒZ[ƒu	Às
-\0\s[5]ƒlƒbƒgƒ[ƒNXVAI‚í‚Á‚½‚æB\e
-
-–OnUpdateComplete_none
-\0\s[3]‚È‚ñ‚É‚àXV‚³‚ê‚Ä‚È‚¢‚Á‚Ä‚³‚ŸB\e
+ï¼ŠOnUpdateReady
+\0\s[5]ï¼ˆReference0ï¼‰å€‹ã®ãƒ•ã‚¡ã‚¤ãƒ«ãŒæ›´æ–°ã•ã‚Œã¦ã‚‹ã£ã¦ï¼
 
 
-–OnUpdateFailure
-‚È‚®‚³‚ß‚Ä‚Ù‚µ‚¢	1
-‚È‚®‚³‚ß‚ç‚ê‚È‚©‚Á‚½ƒ^ƒCƒ}	‚P‚O
-„OnUpdateFailure_iReference0j
-\0\s[3]‚æ‚­•ª‚©‚ñ‚È‚¢‚¯‚ÇiReference0j‚¾‚Á‚Ä‚¥B\e
+ï¼ŠOnUpdateComplete
+ï¼OnUpdateComplete_ï¼ˆReference0ï¼‰
 
-–OnUpdateFailure_timeout
-\0\s[3]ŠÔØ‚ê‚¾‚Á‚Ä‚¥`B\e
+ï¼ŠOnUpdateComplete_changed
+ï¼„æ‰‹å‹•ã‚»ãƒ¼ãƒ–	å®Ÿè¡Œ
+\0\s[5]ãƒãƒƒãƒˆãƒ¯ãƒ¼ã‚¯æ›´æ–°ã€çµ‚ã‚ã£ãŸã‚ˆã€‚\e
 
-–OnUpdateFailure_md5 miss
-\0\s[4]ƒf[ƒ^‚ªˆê’v‚µ‚È‚©‚Á‚½‚Á‚ÄB\w5
-\s[3]‚±‚ê‚ÍìÒ‚Ìl‚É˜A—‚µ‚È‚¢‚Æƒ_ƒ‚È‚â‚Â‚¾EEEB\e
-
-–OnUpdateFailure_404
-\0\s[4]XV—pƒtƒ@ƒCƒ‹‚ªŒ©‚Â‚©‚ç‚È‚©‚Á‚½‚æB\e
-
-–OnUpdateFailure_artificial
-\0\s[0]’†’f‚·‚é‚ËB\e
-
-”„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿƒlƒbƒgƒ[ƒNó‘Ô
-–OnNetworkHeavy
-\0\s[3]‰ñü‚ªd‚¢‚İ‚½‚¢ddB\e
+ï¼ŠOnUpdateComplete_none
+\0\s[3]ãªã‚“ã«ã‚‚æ›´æ–°ã•ã‚Œã¦ãªã„ã£ã¦ã•ãã€‚\e
 
 
-”„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿweb”è
-–OnWebClap
-\![open,inputbox,WEB”è‚à‚Ç‚«“ü—Í,--timeout=-1,--text=‚¢‚¢‚ËI,--limit=800]
-\0\s[0]‚»‚ê‚¶‚á‚ A‚±‚±‚ÉƒƒbƒZ[ƒW‚ğ‘‚¢‚Ä‚ËB\e
+ï¼ŠOnUpdateFailure
+ï¼„ãªãã•ã‚ã¦ã»ã—ã„	1
+ï¼„ãªãã•ã‚ã‚‰ã‚Œãªã‹ã£ãŸã‚¿ã‚¤ãƒ	ï¼‘ï¼
+ï¼OnUpdateFailure_ï¼ˆReference0ï¼‰
+\0\s[3]ã‚ˆãåˆ†ã‹ã‚“ãªã„ã‘ã©ï¼ˆReference0ï¼‰ã ã£ã¦ã‡ã€‚\e
+
+ï¼ŠOnUpdateFailure_timeout
+\0\s[3]æ™‚é–“åˆ‡ã‚Œã ã£ã¦ã‡ï½ã€‚\e
+
+ï¼ŠOnUpdateFailure_md5 miss
+\0\s[4]ãƒ‡ãƒ¼ã‚¿ãŒä¸€è‡´ã—ãªã‹ã£ãŸã£ã¦ã€‚\w5
+\s[3]ã“ã‚Œã¯ä½œè€…ã®äººã«é€£çµ¡ã—ãªã„ã¨ãƒ€ãƒ¡ãªã‚„ã¤ã ãƒ»ãƒ»ãƒ»ã€‚\e
+
+ï¼ŠOnUpdateFailure_404
+\0\s[4]æ›´æ–°ç”¨ãƒ•ã‚¡ã‚¤ãƒ«ãŒè¦‹ã¤ã‹ã‚‰ãªã‹ã£ãŸã‚ˆã€‚\e
+
+ï¼ŠOnUpdateFailure_artificial
+\0\s[0]ä¸­æ–­ã™ã‚‹ã­ã€‚\e
+
+ï¼ƒâ”€â”€â”€â”€â”€â”€â”€â”€ãƒãƒƒãƒˆãƒ¯ãƒ¼ã‚¯çŠ¶æ…‹
+ï¼ŠOnNetworkHeavy
+\0\s[3]å›ç·šãŒé‡ã„ã¿ãŸã„â€¥â€¥ã€‚\e
 
 
-—WCM_URL
+ï¼ƒâ”€â”€â”€â”€â”€â”€â”€â”€webæ‹æ‰‹
+ï¼ŠOnWebClap
+\![open,inputbox,WEBæ‹æ‰‹ã‚‚ã©ãå…¥åŠ›,--timeout=-1,--text=ã„ã„ã­ï¼,--limit=800]
+\0\s[0]ãã‚Œã˜ã‚ƒã‚ã€ã“ã“ã«ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸ã‚’æ›¸ã„ã¦ã­ã€‚\e
+
+
+ï¼ WCM_URL
 https://script.google.com/macros/s/AKfycbxHT6cacuEsMdGulS0c_a29X1pjDu5CUC3BPqAd9_wwskSn9l1oAAaN216XusA9siAX/exec
-—‘—MŒ³
-‚Ü‚Ğ‚é
+ï¼ é€ä¿¡å…ƒ
+ã¾ã²ã‚‹
 
-–WEB”è‚à‚Ç‚«“ü—Í‚ğ‹³‚¦‚Ä‚à‚ç‚Á‚½
-‘—M“à—e	iReference1j
-ƒƒ‚	è“®
-\![execute,http-post,iWCM_URLj,--param=message_body="i‘—MŒ³j;i‘—M“à—ej;iƒƒ‚j",--async=webclap,--timeout=5]
+ï¼ŠWEBæ‹æ‰‹ã‚‚ã©ãå…¥åŠ›ã‚’æ•™ãˆã¦ã‚‚ã‚‰ã£ãŸ
+ï¼„é€ä¿¡å†…å®¹	ï¼ˆReference1ï¼‰
+ï¼„ãƒ¡ãƒ¢	æ‰‹å‹•
+\![execute,http-post,ï¼ˆWCM_URLï¼‰,--param=message_body="ï¼ˆé€ä¿¡å…ƒï¼‰;ï¼ˆé€ä¿¡å†…å®¹ï¼‰;ï¼ˆãƒ¡ãƒ¢ï¼‰",--async=webclap,--timeout=5]
 
-–”è“à—eÁ‹
-”è‘—M“à—e	
+ï¼Šæ‹æ‰‹å†…å®¹æ¶ˆå»
+ï¼„æ‹æ‰‹é€ä¿¡å†…å®¹	
 
-–ŠÈˆÕ”è
-ƒƒ‚	’èŒ^
-\![execute,http-post,iWCM_URLj,--param=message_body="i‘—MŒ³j;i‘I‘ğƒ‰ƒxƒ‹j;iƒƒ‚j",--async=webclap,--timeout=5]
+ï¼Šç°¡æ˜“æ‹æ‰‹
+ï¼„ãƒ¡ãƒ¢	å®šå‹
+\![execute,http-post,ï¼ˆWCM_URLï¼‰,--param=message_body="ï¼ˆé€ä¿¡å…ƒï¼‰;ï¼ˆé¸æŠãƒ©ãƒ™ãƒ«ï¼‰;ï¼ˆãƒ¡ãƒ¢ï¼‰",--async=webclap,--timeout=5]
 
-–”è‘—M“à—e‚ª‚©‚ç‚Á‚Û
-\0\s[3]‚È‚ñ‚É‚à‘‚¢‚Ä‚È‚¢‚æH\w5 ‚â‚ß‚Æ‚­H\e
-
-
-–OnExecuteHTTPComplete
-„i‘I‘ğƒ‰ƒxƒ‹j‚ğ‘—‚Á‚½	iReference1j==webclap
-„OnExecuteHTTPComplete_iReference1j
+ï¼Šæ‹æ‰‹é€ä¿¡å†…å®¹ãŒã‹ã‚‰ã£ã½
+\0\s[3]ãªã‚“ã«ã‚‚æ›¸ã„ã¦ãªã„ã‚ˆï¼Ÿ\w5 ã‚„ã‚ã¨ãï¼Ÿ\e
 
 
-–OnExecuteHTTPComplete_webclap
-\0\s[5]‘—‚Á‚½‚æI\w5 ‚ ‚è‚ª‚Æ‚ËI\e
-
-–D‚«‚ğ‘—‚Á‚½
-\0\s[5]‚Ú‚­‚àiƒ†[ƒU–¼j‚·‚«[I\e
-
-–‚©‚í‚¢‚¢‚ğ‘—‚Á‚½
-\0\s[5]‚¦‚Ö‚ÖB‚ ‚è‚ª‚ÆI\e
-
-–Ë¸‚µ‚Ü‚µ‚½‚ğ‘—‚Á‚½
-\0\s[1]‚¸‚é‚¢I\w3 ‚Ú‚­‚à‚·‚éI\e
+ï¼ŠOnExecuteHTTPComplete
+ï¼ï¼ˆé¸æŠãƒ©ãƒ™ãƒ«ï¼‰ã‚’é€ã£ãŸ	ï¼ˆReference1ï¼‰==webclap
+ï¼OnExecuteHTTPComplete_ï¼ˆReference1ï¼‰
 
 
-–OnExecuteHTTPFailure
-„OnExecuteHTTPFailure_iReference1j
+ï¼ŠOnExecuteHTTPComplete_webclap
+\0\s[5]é€ã£ãŸã‚ˆï¼\w5 ã‚ã‚ŠãŒã¨ã­ï¼\e
+
+ï¼Šå¥½ãã‚’é€ã£ãŸ
+\0\s[5]ã¼ãã‚‚ï¼ˆãƒ¦ãƒ¼ã‚¶åï¼‰ã™ããƒ¼ï¼\e
+
+ï¼Šã‹ã‚ã„ã„ã‚’é€ã£ãŸ
+\0\s[5]ãˆã¸ã¸ã€‚ã‚ã‚ŠãŒã¨ï¼\e
+
+ï¼Šå°„ç²¾ã—ã¾ã—ãŸã‚’é€ã£ãŸ
+\0\s[1]ãšã‚‹ã„ï¼\w3 ã¼ãã‚‚ã™ã‚‹ï¼\e
 
 
-–OnExecuteHTTPFailure_webclap
-\0\s[4]uiReference4jv‚¾‚Á‚ÄddB\e
+ï¼ŠOnExecuteHTTPFailure
+ï¼OnExecuteHTTPFailure_ï¼ˆReference1ï¼‰
+
+
+ï¼ŠOnExecuteHTTPFailure_webclap
+\0\s[4]ã€Œï¼ˆReference4ï¼‰ã€ã ã£ã¦â€¥â€¥ã€‚\e

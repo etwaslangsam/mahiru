@@ -1,288 +1,288 @@
-–OnCacheRestore
-„OnSatoriLoad
-–OnSatoriLoad
-•¶u–v‚Ìd•¡‰ñ”ð	—LŒøA‹N“®’†
-’PŒêŒQu–v‚Ìd•¡‰ñ”ð	—LŒøA‹N“®’†
-‰ï˜bŽžƒT[ƒtƒFƒX–ß‚µ	–³Œø
+ï»¿ï¼ŠOnCacheRestore
+ï¼žOnSatoriLoad
+ï¼ŠOnSatoriLoad
+ï¼„æ–‡ã€Œï¼Šã€ã®é‡è¤‡å›žé¿	æœ‰åŠ¹ã€èµ·å‹•ä¸­
+ï¼„å˜èªžç¾¤ã€Œï¼Šã€ã®é‡è¤‡å›žé¿	æœ‰åŠ¹ã€èµ·å‹•ä¸­
+ï¼„ä¼šè©±æ™‚ã‚µãƒ¼ãƒ•ã‚§ã‚¹æˆ»ã—	ç„¡åŠ¹
 
-”„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„ŸƒVƒFƒ‹•ÏX
-–OnShellChanging
-\0\s[0]iReference0j‚É’…‘Ö‚¦‚é‚ËB\w5
-\s[8]”`‚©‚È‚¢‚Å‚æ`H\e
+ï¼ƒâ”€â”€â”€â”€â”€â”€â”€â”€ã‚·ã‚§ãƒ«å¤‰æ›´
+ï¼ŠOnShellChanging
+\0\s[0]ï¼ˆReference0ï¼‰ã«ç€æ›¿ãˆã‚‹ã­ã€‚\w5
+\s[8]è¦—ã‹ãªã„ã§ã‚ˆï½žï¼Ÿ\e
 
-–OnShellChanged
-Œ»ÝƒVƒFƒ‹	iReference0j
-Œûžg	
-Žè“®ƒZ[ƒu	ŽÀs
-„iReference0j‚É•ÏX‚µ‚½
+ï¼ŠOnShellChanged
+ï¼„ç¾åœ¨ã‚·ã‚§ãƒ«	ï¼ˆReference0ï¼‰
+ï¼„å£æž·	
+ï¼„æ‰‹å‹•ã‚»ãƒ¼ãƒ–	å®Ÿè¡Œ
+ï¼žï¼ˆReference0ï¼‰ã«å¤‰æ›´ã—ãŸ
 \0\s[0]\e
 
-–’…‚¹‘Ö‚¦ƒZƒbƒg‚É•ÏX‚µ‚½
-\0\s[5]‚©‚í‚¢‚¢•ž‚¢`‚Á‚Ï‚¢I\e
+ï¼Šç€ã›æ›¿ãˆã‚»ãƒƒãƒˆã«å¤‰æ›´ã—ãŸ
+\0\s[5]ã‹ã‚ã„ã„æœã„ï½žã£ã±ã„ï¼\e
 
-–—§‚¿ŠGƒZƒbƒg‚É•ÏX‚µ‚½
-‚Ù‚ß‚Ä‚Ù‚µ‚¢	1
-\0\s[8]‚Ç‚¨H\w5 ‚Ú‚­Œ‹\ƒvƒƒ|[ƒVƒ‡ƒ“‚¢‚¢‚Å‚µ‚åB\e
+ï¼Šç«‹ã¡çµµã‚»ãƒƒãƒˆã«å¤‰æ›´ã—ãŸ
+ï¼„ã»ã‚ã¦ã»ã—ã„	1
+\0\s[8]ã©ãŠï¼Ÿ\w5 ã¼ãçµæ§‹ãƒ—ãƒ­ãƒãƒ¼ã‚·ãƒ§ãƒ³ã„ã„ã§ã—ã‚‡ã€‚\e
 
-”„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿƒoƒ‹[ƒ“•ÏX
-–OnBalloonChange
-\0\s[0]ƒoƒ‹[ƒ“‚ðiReference0j‚É‚µ‚½‚æB\e
+ï¼ƒâ”€â”€â”€â”€â”€â”€â”€â”€ãƒãƒ«ãƒ¼ãƒ³å¤‰æ›´
+ï¼ŠOnBalloonChange
+\0\s[0]ãƒãƒ«ãƒ¼ãƒ³ã‚’ï¼ˆReference0ï¼‰ã«ã—ãŸã‚ˆã€‚\e
 
-”„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„ŸÅ¬‰»
-–OnWindowStateMinimize
-Žè“®ƒZ[ƒu	ŽÀs
+ï¼ƒâ”€â”€â”€â”€â”€â”€â”€â”€æœ€å°åŒ–
+ï¼ŠOnWindowStateMinimize
+ï¼„æ‰‹å‹•ã‚»ãƒ¼ãƒ–	å®Ÿè¡Œ
 
-–OnWindowStateRestore
-Žè“®ƒZ[ƒu	ŽÀs
-„Å¬‰»‰ðœ‚R	iŒûžgj
-„Å¬‰»‰ðœ‚Q	iequalCiƒfƒtƒHƒ‹ƒgƒT[ƒtƒFƒX0jC34j
-„Å¬‰»‰ðœ
-
-
-–Å¬‰»‰ðœ‚R
-\0\s[4]‚Ó‚®‚£`ccB\e
+ï¼ŠOnWindowStateRestore
+ï¼„æ‰‹å‹•ã‚»ãƒ¼ãƒ–	å®Ÿè¡Œ
+ï¼žæœ€å°åŒ–è§£é™¤ï¼“	ï¼ˆå£æž·ï¼‰
+ï¼žæœ€å°åŒ–è§£é™¤ï¼’	ï¼ˆequalï¼Œï¼ˆãƒ‡ãƒ•ã‚©ãƒ«ãƒˆã‚µãƒ¼ãƒ•ã‚§ã‚¹0ï¼‰ï¼Œ34ï¼‰
+ï¼žæœ€å°åŒ–è§£é™¤
 
 
-–Å¬‰»‰ðœ‚Q
-\0\s[35]iƒ†[ƒU–¼jdd\w5iƒ†[ƒU–¼j‚Í‚â‚­‚£B\e
+ï¼Šæœ€å°åŒ–è§£é™¤ï¼“
+\0\s[4]ãµãã…ï½žâ€¦â€¦ã€‚\e
 
 
-–Å¬‰»‰ðœ
-\0\s[24]‚Í‚Ÿ`AƒXƒbƒLƒŠ‚µ‚½i‚Í[‚Æj\e
-
-–Å¬‰»‰ðœ
-\0\s[6]‚®‚£dd‚š‚y‚y\w9
-\s[3]‚ñ‚ H\w5 iƒ†[ƒU–¼jH\e
-
-–Å¬‰»‰ðœ
-„‰B‚êƒIƒiƒj[
+ï¼Šæœ€å°åŒ–è§£é™¤ï¼’
+\0\s[35]ï¼ˆãƒ¦ãƒ¼ã‚¶åï¼‰â€¥â€¥\w5ï¼ˆãƒ¦ãƒ¼ã‚¶åï¼‰ã¯ã‚„ãã…ã€‚\e
 
 
-–‰B‚êƒIƒiƒj[
-\0\s[23]‚ñ‚Ái‚Í[‚Æj\w5 ‚Í‚Ÿddi‚Í[‚Æj\w5
-‚ ‚ñ‚Ái‚Í[‚Æj\w5 ‚«‚à‚¿‚¢‚¢‚æ‚£ddi‚Í[‚Æj\_w[1000]\n
-\s[24]‚ Biƒ†[ƒU–¼ji‚Í[‚Æj\w9
-‚Ë‚¥AƒVƒRƒVƒR‚µ‚ÄH\e
+ï¼Šæœ€å°åŒ–è§£é™¤
+\0\s[24]ã¯ãï½žã€ã‚¹ãƒƒã‚­ãƒªã—ãŸï¼ˆã¯ãƒ¼ã¨ï¼‰\e
 
-”„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„ŸƒXƒŠ[ƒv‚©‚ç•œ‹A
-–OnSysResume
-Žè“®ƒZ[ƒu	ŽÀs
-\0\s[5]‚¨‚Í‚æ`Aiƒ†[ƒU–¼jI\e
+ï¼Šæœ€å°åŒ–è§£é™¤
+\0\s[6]ãã…â€¥â€¥ï½šï¼ºï¼º\w9
+\s[3]ã‚“ã‚ï¼Ÿ\w5 ï¼ˆãƒ¦ãƒ¼ã‚¶åï¼‰ï¼Ÿ\e
 
-”„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿƒx[ƒXƒEƒFƒA‚ÌXV
-–OnBasewareUpdating
-\0\s[0]ƒx[ƒXƒEƒFƒA‚ðXV‚·‚é‚ËB\_w[1000]
-
-–OnBasewareUpdated
-\0\s[5]‚±`‚µ‚ñ‚µ‚½‚æI\e
-
-”„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ•\î–ß‚µ
-–OnSurfaceRestore
-Scene	
-‚Ù‚ß‚Ä‚Ù‚µ‚¢	
-‚È‚®‚³‚ß‚Ä‚Ù‚µ‚¢	
-
-”„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿƒ}ƒEƒXƒCƒxƒ“ƒg
-–OnMouseClick	iis_emptyCiReference4jj&&iequalCiReference5jC0j
-„‚È‚É‚©‚Í‚È‚µ‚Ä	iClicktalkj
-
-–‚È‚É‚©‚Í‚È‚µ‚Ä
-„’‚ê‚È‚¢	iŒûžgj
-ij
-
-–OnMouseDoubleClick
-„iReference3jiReference4j‚Â‚Â‚©‚ê	iReference5j==0
+ï¼Šæœ€å°åŒ–è§£é™¤
+ï¼žéš ã‚Œã‚ªãƒŠãƒ‹ãƒ¼
 
 
-–OnMouseWheel
-„iReference3jiReference4j‚±‚ë‚±‚ëã•ûŒü	iReference2j„‚O
-„iReference3jiReference4j‚±‚ë‚±‚ë‰º•ûŒü	iReference2jƒ‚O
-„iReference3jiReference4j‚±‚ë‚±‚ë
+ï¼Šéš ã‚Œã‚ªãƒŠãƒ‹ãƒ¼
+\0\s[23]ã‚“ã£ï¼ˆã¯ãƒ¼ã¨ï¼‰\w5 ã¯ãâ€¥â€¥ï¼ˆã¯ãƒ¼ã¨ï¼‰\w5
+ã‚ã‚“ã£ï¼ˆã¯ãƒ¼ã¨ï¼‰\w5 ãã‚‚ã¡ã„ã„ã‚ˆã…â€¥â€¥ï¼ˆã¯ãƒ¼ã¨ï¼‰\_w[1000]\n
+\s[24]ã‚ã€‚ï¼ˆãƒ¦ãƒ¼ã‚¶åï¼‰ï¼ˆã¯ãƒ¼ã¨ï¼‰\w9
+ã­ã‡ã€ã‚·ã‚³ã‚·ã‚³ã—ã¦ï¼Ÿ\e
+
+ï¼ƒâ”€â”€â”€â”€â”€â”€â”€â”€ã‚¹ãƒªãƒ¼ãƒ—ã‹ã‚‰å¾©å¸°
+ï¼ŠOnSysResume
+ï¼„æ‰‹å‹•ã‚»ãƒ¼ãƒ–	å®Ÿè¡Œ
+\0\s[5]ãŠã¯ã‚ˆï½žã€ï¼ˆãƒ¦ãƒ¼ã‚¶åï¼‰ï¼\e
+
+ï¼ƒâ”€â”€â”€â”€â”€â”€â”€â”€ãƒ™ãƒ¼ã‚¹ã‚¦ã‚§ã‚¢ã®æ›´æ–°
+ï¼ŠOnBasewareUpdating
+\0\s[0]ãƒ™ãƒ¼ã‚¹ã‚¦ã‚§ã‚¢ã‚’æ›´æ–°ã™ã‚‹ã­ã€‚\_w[1000]
+
+ï¼ŠOnBasewareUpdated
+\0\s[5]ã“ï½žã—ã‚“ã—ãŸã‚ˆï¼\e
+
+ï¼ƒâ”€â”€â”€â”€â”€â”€â”€â”€è¡¨æƒ…æˆ»ã—
+ï¼ŠOnSurfaceRestore
+ï¼„Scene	
+ï¼„ã»ã‚ã¦ã»ã—ã„	
+ï¼„ãªãã•ã‚ã¦ã»ã—ã„	
+
+ï¼ƒâ”€â”€â”€â”€â”€â”€â”€â”€ãƒžã‚¦ã‚¹ã‚¤ãƒ™ãƒ³ãƒˆ
+ï¼ŠOnMouseClick	ï¼ˆis_emptyï¼Œï¼ˆReference4ï¼‰ï¼‰&&ï¼ˆequalï¼Œï¼ˆReference5ï¼‰ï¼Œ0ï¼‰
+ï¼žãªã«ã‹ã¯ãªã—ã¦	ï¼ˆClicktalkï¼‰
+
+ï¼Šãªã«ã‹ã¯ãªã—ã¦
+ï¼žå–‹ã‚Œãªã„	ï¼ˆå£æž·ï¼‰
+ï¼ˆï¼‰
+
+ï¼ŠOnMouseDoubleClick
+ï¼žï¼ˆReference3ï¼‰ï¼ˆReference4ï¼‰ã¤ã¤ã‹ã‚Œ	ï¼ˆReference5ï¼‰==0
 
 
-–OnMouseHover
-„iReference3jiReference4jŒ©‚Â‚ß	icountCiStatusjCtalkingj==0
+ï¼ŠOnMouseWheel
+ï¼žï¼ˆReference3ï¼‰ï¼ˆReference4ï¼‰ã“ã‚ã“ã‚ä¸Šæ–¹å‘	ï¼ˆReference2ï¼‰ï¼žï¼
+ï¼žï¼ˆReference3ï¼‰ï¼ˆReference4ï¼‰ã“ã‚ã“ã‚ä¸‹æ–¹å‘	ï¼ˆReference2ï¼‰ï¼œï¼
+ï¼žï¼ˆReference3ï¼‰ï¼ˆReference4ï¼‰ã“ã‚ã“ã‚
 
 
-–OnMouseEnter	i‚Š´“xj==1
-„iReference3jiReference4j‚È‚Å‚ç‚ê
+ï¼ŠOnMouseHover
+ï¼žï¼ˆReference3ï¼‰ï¼ˆReference4ï¼‰è¦‹ã¤ã‚	ï¼ˆcountï¼Œï¼ˆStatusï¼‰ï¼Œtalkingï¼‰==0
 
 
-—tooltip
-icallCiReference3jiReference4jƒc[ƒ‹ƒ`ƒbƒvj
+ï¼ŠOnMouseEnter	ï¼ˆé«˜æ„Ÿåº¦ï¼‰==1
+ï¼žï¼ˆReference3ï¼‰ï¼ˆReference4ï¼‰ãªã§ã‚‰ã‚Œ
 
 
-—0Headƒc[ƒ‹ƒ`ƒbƒv	iƒfƒtƒHƒ‹ƒgƒT[ƒtƒFƒX0j==0
-–J‚ß‚Ä–J‚ß‚Ä
-
-—0Mouthƒc[ƒ‹ƒ`ƒbƒv	iƒfƒtƒHƒ‹ƒgƒT[ƒtƒFƒX0j==0
-ƒ`ƒ…[ƒÓc‚µ‚æH
-
-—0Bustƒc[ƒ‹ƒ`ƒbƒv	iƒfƒtƒHƒ‹ƒgƒT[ƒtƒFƒX0j==0
-‚¨‚Á‚Ï‚¢ƒÓc‚È‚¢‚æH
-
-—0xxxƒc[ƒ‹ƒ`ƒbƒv	iƒfƒtƒHƒ‹ƒgƒT[ƒtƒFƒX0j==0
-iƒ†[ƒU–¼jƒÓc‚³‚í‚Á‚ÄH
+ï¼ tooltip
+ï¼ˆcallï¼Œï¼ˆReference3ï¼‰ï¼ˆReference4ï¼‰ãƒ„ãƒ¼ãƒ«ãƒãƒƒãƒ—ï¼‰
 
 
-—0Bustƒc[ƒ‹ƒ`ƒbƒv	iƒfƒtƒHƒ‹ƒgƒT[ƒtƒFƒX0j==34
-‚È‚ÅƒÓFˆ¤•
+ï¼ 0Headãƒ„ãƒ¼ãƒ«ãƒãƒƒãƒ—	ï¼ˆãƒ‡ãƒ•ã‚©ãƒ«ãƒˆã‚µãƒ¼ãƒ•ã‚§ã‚¹0ï¼‰==0
+è¤’ã‚ã¦è¤’ã‚ã¦
 
-—0Turtleheadƒc[ƒ‹ƒ`ƒbƒv
-‚È‚ÅƒÓF‹T“ªU‚ß
-‚Â‚Â‚«ƒÓFƒtƒFƒ‰ƒ`ƒI
+ï¼ 0Mouthãƒ„ãƒ¼ãƒ«ãƒãƒƒãƒ—	ï¼ˆãƒ‡ãƒ•ã‚©ãƒ«ãƒˆã‚µãƒ¼ãƒ•ã‚§ã‚¹0ï¼‰==0
+ãƒãƒ¥ãƒ¼Ï†â€¦ã—ã‚ˆï¼Ÿ
 
-—0Stickƒc[ƒ‹ƒ`ƒbƒv
-‚È‚ÅƒÓFŽèƒRƒL
+ï¼ 0Bustãƒ„ãƒ¼ãƒ«ãƒãƒƒãƒ—	ï¼ˆãƒ‡ãƒ•ã‚©ãƒ«ãƒˆã‚µãƒ¼ãƒ•ã‚§ã‚¹0ï¼‰==0
+ãŠã£ã±ã„Ï†â€¦ãªã„ã‚ˆï¼Ÿ
 
-”„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„ŸƒRƒ~ƒ…ƒjƒP[ƒg
-–OnCommunicate	iƒfƒtƒHƒ‹ƒgƒT[ƒtƒFƒX0j==0
-âu@iReference1j	iequal,iReference0j,userj
-\0\s[4]‚¤`‚ñEEE‚æ‚­•ª‚©‚ñ‚È‚¢‚âB\e
-
-”„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ•¶Žš“ü—Í
-–OnUserInput
-„iReference0j‚ð‹ó‘Å‚¿‚³‚ê‚½	iis_emptyiƒoƒCƒg’l,‚PjiReference1jj
-iReference0j	iReference1j
-„iReference0j‚ð‹³‚¦‚Ä‚à‚ç‚Á‚½
-
-–OnUserInputCancel
-„iReference0j‚ðƒ^ƒCƒ€ƒAƒEƒg	icompareCiReference1jCtimeoutj
-„OnUserInputCancel_iReference1j
-
-–OnUserInputCancel_timeout
-\0\s[8]‚ ‚ê‚ ‚ê`H\w9
-iƒ†[ƒU–¼jA‚È‚É–À‚Á‚Ä‚é‚Ì`H\e
-
-–OnUserInputCancel_close
-\0\s[3]•Â‚¶‚¿‚á‚¤‚æH\e
-
-”„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ‘I‘ðŽˆƒCƒxƒ“ƒg
-–OnAnchorSelectEx
-‘I‘ð‚h‚c	iReference1j
-‘I‘ðƒ‰ƒxƒ‹	iReference0j
-„iReference1j
-„‘I‘ðæ‚ª‚È‚¢
-
-–OnChoiceSelectEx
-‘I‘ð‚h‚c	iReference1j
-‘I‘ðƒ‰ƒxƒ‹	iReference0j
-„iReference1j
-„‘I‘ðæ‚ª‚È‚¢
-
-–‘I‘ðæ‚ª‚È‚¢
-\0\s[4]wiReference0jx‚ªŒ©‚Â‚©‚ç‚È‚¢‚Á‚ÄB\w5
-\s[3]ìŽÒ‚Ìl‚É‹³‚¦‚Ä‚ ‚°‚Ä‚ËB\e
+ï¼ 0xxxãƒ„ãƒ¼ãƒ«ãƒãƒƒãƒ—	ï¼ˆãƒ‡ãƒ•ã‚©ãƒ«ãƒˆã‚µãƒ¼ãƒ•ã‚§ã‚¹0ï¼‰==0
+ï¼ˆãƒ¦ãƒ¼ã‚¶åï¼‰Ï†â€¦ã•ã‚ã£ã¦ï¼Ÿ
 
 
-–OnChoiceTimeout
-\0\s[7]iƒ†[ƒU–¼jI\w5 –³Ž‹‚µ‚È‚¢‚Å‚æI\e
+ï¼ 0Bustãƒ„ãƒ¼ãƒ«ãƒãƒƒãƒ—	ï¼ˆãƒ‡ãƒ•ã‚©ãƒ«ãƒˆã‚µãƒ¼ãƒ•ã‚§ã‚¹0ï¼‰==34
+ãªã§Ï†ï¼šæ„›æ’«
 
-”„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„ŸƒCƒ“ƒXƒg[ƒ‹
-–OnInstallBegin
-\0\s[0]ƒCƒ“ƒXƒg[ƒ‹‚·‚é‚ËB\e
+ï¼ 0Turtleheadãƒ„ãƒ¼ãƒ«ãƒãƒƒãƒ—
+ãªã§Ï†ï¼šäº€é ­æ”»ã‚
+ã¤ã¤ãÏ†ï¼šãƒ•ã‚§ãƒ©ãƒã‚ª
 
-–OnInstallComplete
-‚Ù‚ß‚Ä‚Ù‚µ‚¢	1
-„iReference0j‚ðƒCƒ“ƒXƒg[ƒ‹
-\0\s[5]uireplaceiƒoƒCƒg’l,‚PjiReference1jiƒoƒCƒg’l,‚Pj\iƒoƒCƒg’l,‚Pj\\jv‚ðƒCƒ“ƒXƒg[ƒ‹‚µ‚½‚æB\e
+ï¼ 0Stickãƒ„ãƒ¼ãƒ«ãƒãƒƒãƒ—
+ãªã§Ï†ï¼šæ‰‹ã‚³ã‚­
 
-–ghost‚ðƒCƒ“ƒXƒg[ƒ‹
-\0\s[0]uireplaceiƒoƒCƒg’l,‚PjiReference1jiƒoƒCƒg’l,‚Pj\iƒoƒCƒg’l,‚Pj\\jv‚³‚ñ‚ðƒCƒ“ƒXƒg[ƒ‹‚µ‚½‚æB\w5
-\s[8]‚ÜA‚Ú‚­‚Ì•û‚ª‚©‚í‚¢‚¢‚ÆŽv‚¤‚¯‚Ç‚ËB\e
+ï¼ƒâ”€â”€â”€â”€â”€â”€â”€â”€ã‚³ãƒŸãƒ¥ãƒ‹ã‚±ãƒ¼ãƒˆ
+ï¼ŠOnCommunicate	ï¼ˆãƒ‡ãƒ•ã‚©ãƒ«ãƒˆã‚µãƒ¼ãƒ•ã‚§ã‚¹0ï¼‰==0
+â‰«ã€Œã€€ï¼ˆReference1ï¼‰	ï¼ˆequal,ï¼ˆReference0ï¼‰,userï¼‰
+\0\s[4]ã†ï½žã‚“ãƒ»ãƒ»ãƒ»ã‚ˆãåˆ†ã‹ã‚“ãªã„ã‚„ã€‚\e
 
-–balloon‚ðƒCƒ“ƒXƒg[ƒ‹
-\0\s[0]uireplaceiƒoƒCƒg’l,‚PjiReference1jiƒoƒCƒg’l,‚Pj\iƒoƒCƒg’l,‚Pj\\jv‚ðƒCƒ“ƒXƒg[ƒ‹‚µ‚½‚æB\w5
-\s[5]‚Ë‚¥‚Ë‚¥A‚±‚êŽg‚Á‚Ä‚¢‚¢‚ÌH\e
+ï¼ƒâ”€â”€â”€â”€â”€â”€â”€â”€æ–‡å­—å…¥åŠ›
+ï¼ŠOnUserInput
+ï¼žï¼ˆReference0ï¼‰ã‚’ç©ºæ‰“ã¡ã•ã‚ŒãŸ	ï¼ˆis_emptyï¼ˆãƒã‚¤ãƒˆå€¤,ï¼‘ï¼‰ï¼ˆReference1ï¼‰ï¼‰
+ï¼„ï¼ˆReference0ï¼‰	ï¼ˆReference1ï¼‰
+ï¼žï¼ˆReference0ï¼‰ã‚’æ•™ãˆã¦ã‚‚ã‚‰ã£ãŸ
 
-–OnInstallFailure
-‚È‚®‚³‚ß‚Ä‚Ù‚µ‚¢	1
-\0\s[4]uiReference0jv‚ÅŽ¸”s‚ÄEEEB\e
+ï¼ŠOnUserInputCancel
+ï¼žï¼ˆReference0ï¼‰ã‚’ã‚¿ã‚¤ãƒ ã‚¢ã‚¦ãƒˆ	ï¼ˆcompareï¼Œï¼ˆReference1ï¼‰ï¼Œtimeoutï¼‰
+ï¼žOnUserInputCancel_ï¼ˆReference1ï¼‰
 
-–OnInstallRefuse
-\0\s[9]iƒ†[ƒU–¼jI\w5
-‚±‚ê‚ÍuireplaceiƒoƒCƒg’l,‚PjiReference0jiƒoƒCƒg’l,‚Pj\iƒoƒCƒg’l,‚Pj\\jv‚³‚ñ‚Ì‚¾‚æB\e
+ï¼ŠOnUserInputCancel_timeout
+\0\s[8]ã‚ã‚Œã‚ã‚Œï½žï¼Ÿ\w9
+ï¼ˆãƒ¦ãƒ¼ã‚¶åï¼‰ã€ãªã«è¿·ã£ã¦ã‚‹ã®ï½žï¼Ÿ\e
 
-”„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿƒtƒ@ƒCƒ‹ì¬
-–OnUpdatedataCreating
-\0\s[0]XVƒtƒ@ƒCƒ‹‚ðì‚ê‚Î‚¢‚¢‚ÌH\e
+ï¼ŠOnUserInputCancel_close
+\0\s[3]é–‰ã˜ã¡ã‚ƒã†ã‚ˆï¼Ÿ\e
 
-–OnUpdatedataCreated
-‚Ù‚ß‚Ä‚Ù‚µ‚¢	1
-\0\s[5]o—ˆ‚½‚æI\w5
-‚Ù‚ß‚Ä‚Ù‚ß‚Ä`I\e
+ï¼ƒâ”€â”€â”€â”€â”€â”€â”€â”€é¸æŠžè‚¢ã‚¤ãƒ™ãƒ³ãƒˆ
+ï¼ŠOnAnchorSelectEx
+ï¼„é¸æŠžï¼©ï¼¤	ï¼ˆReference1ï¼‰
+ï¼„é¸æŠžãƒ©ãƒ™ãƒ«	ï¼ˆReference0ï¼‰
+ï¼žï¼ˆReference1ï¼‰
+ï¼žé¸æŠžå…ˆãŒãªã„
 
-–OnNarCreating
-\0\s[0]narƒtƒ@ƒCƒ‹‚ðì‚é‚ËB\e
+ï¼ŠOnChoiceSelectEx
+ï¼„é¸æŠžï¼©ï¼¤	ï¼ˆReference1ï¼‰
+ï¼„é¸æŠžãƒ©ãƒ™ãƒ«	ï¼ˆReference0ï¼‰
+ï¼žï¼ˆReference1ï¼‰
+ï¼žé¸æŠžå…ˆãŒãªã„
 
-–OnNarCreated
-‚Ù‚ß‚Ä‚Ù‚µ‚¢	1
-\0\s[5]‚Å‚«‚ ‚ª‚èI
+ï¼Šé¸æŠžå…ˆãŒãªã„
+\0\s[4]ã€Žï¼ˆReference0ï¼‰ã€ãŒè¦‹ã¤ã‹ã‚‰ãªã„ã£ã¦ã€‚\w5
+\s[3]ä½œè€…ã®äººã«æ•™ãˆã¦ã‚ã’ã¦ã­ã€‚\e
+
+
+ï¼ŠOnChoiceTimeout
+\0\s[7]ï¼ˆãƒ¦ãƒ¼ã‚¶åï¼‰ï¼\w5 ç„¡è¦–ã—ãªã„ã§ã‚ˆï¼\e
+
+ï¼ƒâ”€â”€â”€â”€â”€â”€â”€â”€ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«
+ï¼ŠOnInstallBegin
+\0\s[0]ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã™ã‚‹ã­ã€‚\e
+
+ï¼ŠOnInstallComplete
+ï¼„ã»ã‚ã¦ã»ã—ã„	1
+ï¼žï¼ˆReference0ï¼‰ã‚’ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«
+\0\s[5]ã€Œï¼ˆreplaceï¼ˆãƒã‚¤ãƒˆå€¤,ï¼‘ï¼‰ï¼ˆReference1ï¼‰ï¼ˆãƒã‚¤ãƒˆå€¤,ï¼‘ï¼‰\ï¼ˆãƒã‚¤ãƒˆå€¤,ï¼‘ï¼‰\\ï¼‰ã€ã‚’ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã—ãŸã‚ˆã€‚\e
+
+ï¼Šghostã‚’ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«
+\0\s[0]ã€Œï¼ˆreplaceï¼ˆãƒã‚¤ãƒˆå€¤,ï¼‘ï¼‰ï¼ˆReference1ï¼‰ï¼ˆãƒã‚¤ãƒˆå€¤,ï¼‘ï¼‰\ï¼ˆãƒã‚¤ãƒˆå€¤,ï¼‘ï¼‰\\ï¼‰ã€ã•ã‚“ã‚’ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã—ãŸã‚ˆã€‚\w5
+\s[8]ã¾ã€ã¼ãã®æ–¹ãŒã‹ã‚ã„ã„ã¨æ€ã†ã‘ã©ã­ã€‚\e
+
+ï¼Šballoonã‚’ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«
+\0\s[0]ã€Œï¼ˆreplaceï¼ˆãƒã‚¤ãƒˆå€¤,ï¼‘ï¼‰ï¼ˆReference1ï¼‰ï¼ˆãƒã‚¤ãƒˆå€¤,ï¼‘ï¼‰\ï¼ˆãƒã‚¤ãƒˆå€¤,ï¼‘ï¼‰\\ï¼‰ã€ã‚’ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã—ãŸã‚ˆã€‚\w5
+\s[5]ã­ã‡ã­ã‡ã€ã“ã‚Œä½¿ã£ã¦ã„ã„ã®ï¼Ÿ\e
+
+ï¼ŠOnInstallFailure
+ï¼„ãªãã•ã‚ã¦ã»ã—ã„	1
+\0\s[4]ã€Œï¼ˆReference0ï¼‰ã€ã§å¤±æ•—ã¦ãƒ»ãƒ»ãƒ»ã€‚\e
+
+ï¼ŠOnInstallRefuse
+\0\s[9]ï¼ˆãƒ¦ãƒ¼ã‚¶åï¼‰ï¼\w5
+ã“ã‚Œã¯ã€Œï¼ˆreplaceï¼ˆãƒã‚¤ãƒˆå€¤,ï¼‘ï¼‰ï¼ˆReference0ï¼‰ï¼ˆãƒã‚¤ãƒˆå€¤,ï¼‘ï¼‰\ï¼ˆãƒã‚¤ãƒˆå€¤,ï¼‘ï¼‰\\ï¼‰ã€ã•ã‚“ã®ã ã‚ˆã€‚\e
+
+ï¼ƒâ”€â”€â”€â”€â”€â”€â”€â”€ãƒ•ã‚¡ã‚¤ãƒ«ä½œæˆ
+ï¼ŠOnUpdatedataCreating
+\0\s[0]æ›´æ–°ãƒ•ã‚¡ã‚¤ãƒ«ã‚’ä½œã‚Œã°ã„ã„ã®ï¼Ÿ\e
+
+ï¼ŠOnUpdatedataCreated
+ï¼„ã»ã‚ã¦ã»ã—ã„	1
+\0\s[5]å‡ºæ¥ãŸã‚ˆï¼\w5
+ã»ã‚ã¦ã»ã‚ã¦ï½žï¼\e
+
+ï¼ŠOnNarCreating
+\0\s[0]narãƒ•ã‚¡ã‚¤ãƒ«ã‚’ä½œã‚‹ã­ã€‚\e
+
+ï¼ŠOnNarCreated
+ï¼„ã»ã‚ã¦ã»ã—ã„	1
+\0\s[5]ã§ãã‚ãŒã‚Šï¼
 \_q
-iReference1j
+ï¼ˆReference1ï¼‰
 \_q\e
 
-”„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿƒ_ƒEƒ“ƒ[ƒh
-–OnURLDropping
-\0\s[0]ƒ_ƒEƒ“ƒ[ƒh‚·‚é‚ËB\e
+ï¼ƒâ”€â”€â”€â”€â”€â”€â”€â”€ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰
+ï¼ŠOnURLDropping
+\0\s[0]ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ã™ã‚‹ã­ã€‚\e
 
-–OnURLDropped
-‚Ù‚ß‚Ä‚Ù‚µ‚¢	1
-\0\s[5]ƒ_ƒEƒ“ƒ[ƒhI‚í‚Á‚½‚æI\e
+ï¼ŠOnURLDropped
+ï¼„ã»ã‚ã¦ã»ã—ã„	1
+\0\s[5]ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰çµ‚ã‚ã£ãŸã‚ˆï¼\e
 
-–OnURLDropFailure
-‚È‚®‚³‚ß‚Ä‚Ù‚µ‚¢	1
-\0\s[3]ƒ_ƒEƒ“ƒ[ƒhŽ¸”s‚µ‚¿‚á‚Á‚½B\e
+ï¼ŠOnURLDropFailure
+ï¼„ãªãã•ã‚ã¦ã»ã—ã„	1
+\0\s[3]ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰å¤±æ•—ã—ã¡ã‚ƒã£ãŸã€‚\e
 
 
-”„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„ŸŽžŒv‡‚í‚¹
-–OnSNTPBegin
-\0\s[5]ŽžŒv‚ð‡‚í‚¹‚Ä‚ ‚°‚é‚ËB\e
+ï¼ƒâ”€â”€â”€â”€â”€â”€â”€â”€æ™‚è¨ˆåˆã‚ã›
+ï¼ŠOnSNTPBegin
+\0\s[5]æ™‚è¨ˆã‚’åˆã‚ã›ã¦ã‚ã’ã‚‹ã­ã€‚\e
 
-–OnSNTPCompare
+ï¼ŠOnSNTPCompare
 \6
 
-–OnSNTPCorrect
-‚Ù‚ß‚Ä‚Ù‚µ‚¢	1
-\0\s[5]‚Å‚«‚½‚æ`I\w5
-–J‚ß‚Ä‚Ù‚ß‚Ä`I\e
+ï¼ŠOnSNTPCorrect
+ï¼„ã»ã‚ã¦ã»ã—ã„	1
+\0\s[5]ã§ããŸã‚ˆï½žï¼\w5
+è¤’ã‚ã¦ã»ã‚ã¦ï½žï¼\e
 
-–OnSNTPFailure
-‚È‚®‚³‚ß‚Ä‚Ù‚µ‚¢	1
-\0\s[3]Ž¸”sEEEŒq‚ª‚ç‚È‚¢H\e
+ï¼ŠOnSNTPFailure
+ï¼„ãªãã•ã‚ã¦ã»ã—ã„	1
+\0\s[3]å¤±æ•—ãƒ»ãƒ»ãƒ»ç¹‹ãŒã‚‰ãªã„ï¼Ÿ\e
 
-”„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„ŸƒL[‰Ÿ‰º
-–OnKeyPress
-„OnKeyPress_iReference0j
+ï¼ƒâ”€â”€â”€â”€â”€â”€â”€â”€ã‚­ãƒ¼æŠ¼ä¸‹
+ï¼ŠOnKeyPress
+ï¼žOnKeyPress_ï¼ˆReference0ï¼‰
 
-–OnKeyPress_m
-„0‚Â‚Â‚©‚ê
+ï¼ŠOnKeyPress_m
+ï¼ž0ã¤ã¤ã‹ã‚Œ
 
-–OnKeyPress_t
-ij
+ï¼ŠOnKeyPress_t
+ï¼ˆï¼‰
 
-–OnKeyPress_r
-Ž«‘ƒŠƒ[ƒh	ŽÀs
-\0i¸‰t1OFFji¸‰t2OFFji¸‰t3OFFji¸‰t4OFFji¸‰t5OFFj\e
+ï¼ŠOnKeyPress_r
+ï¼„è¾žæ›¸ãƒªãƒ­ãƒ¼ãƒ‰	å®Ÿè¡Œ
+\0ï¼ˆç²¾æ¶²1OFFï¼‰ï¼ˆç²¾æ¶²2OFFï¼‰ï¼ˆç²¾æ¶²3OFFï¼‰ï¼ˆç²¾æ¶²4OFFï¼‰ï¼ˆç²¾æ¶²5OFFï¼‰\e
 
-–OnKeyPress_c
-„Communication
+ï¼ŠOnKeyPress_c
+ï¼žCommunication
 
-–OnKeyPress_h
-„‚¦‚Á‚¿‚·‚é
+ï¼ŠOnKeyPress_h
+ï¼žãˆã£ã¡ã™ã‚‹
 
-”„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ‚³‚Æ‚è‚·‚Æ
-–OnSatolistBoot	icountCiStatusjCtalkingj==0
-\0\s[5]iƒ†[ƒU–¼jA‚ª‚ñ‚Î‚Á‚Ä‚Ë`I\e
+ï¼ƒâ”€â”€â”€â”€â”€â”€â”€â”€ã•ã¨ã‚Šã™ã¨
+ï¼ŠOnSatolistBoot	ï¼ˆcountï¼Œï¼ˆStatusï¼‰ï¼Œtalkingï¼‰==0
+\0\s[5]ï¼ˆãƒ¦ãƒ¼ã‚¶åï¼‰ã€ãŒã‚“ã°ã£ã¦ã­ï½žï¼\e
 
-–OnSatolistClosed	icountCiStatusjCtalkingj==0
-\0\s[0]I‚í‚Á‚½H\w5 \s[5]‚¶‚á‚ ŽŸ‚Í‚Ú‚­‚Æ—V‚ñ‚ÅI\e
+ï¼ŠOnSatolistClosed	ï¼ˆcountï¼Œï¼ˆStatusï¼‰ï¼Œtalkingï¼‰==0
+\0\s[0]çµ‚ã‚ã£ãŸï¼Ÿ\w5 \s[5]ã˜ã‚ƒã‚æ¬¡ã¯ã¼ãã¨éŠã‚“ã§ï¼\e
 
-”„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿƒg[ƒN
-–OnTalk
-„iReference1j	iReference0j
-„’‚ê‚È‚¢		iŒûžgj==1
-„‚¨‚Ë‚¾‚è	icompare,iƒfƒtƒHƒ‹ƒgƒT[ƒtƒFƒX0j,34j
-ij
+ï¼ƒâ”€â”€â”€â”€â”€â”€â”€â”€ãƒˆãƒ¼ã‚¯
+ï¼ŠOnTalk
+ï¼žï¼ˆReference1ï¼‰	ï¼ˆReference0ï¼‰
+ï¼žå–‹ã‚Œãªã„		ï¼ˆå£æž·ï¼‰==1
+ï¼žãŠã­ã ã‚Š	ï¼ˆcompare,ï¼ˆãƒ‡ãƒ•ã‚©ãƒ«ãƒˆã‚µãƒ¼ãƒ•ã‚§ã‚¹0ï¼‰,34ï¼‰
+ï¼ˆï¼‰
 
-”„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„ŸƒVƒXƒeƒ€•”•ª‚±‚±‚Ü‚Åª
+ï¼ƒâ”€â”€â”€â”€â”€â”€â”€â”€ã‚·ã‚¹ãƒ†ãƒ éƒ¨åˆ†ã“ã“ã¾ã§â†‘
