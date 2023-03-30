@@ -1,49 +1,49 @@
-﻿＃────────着せ替え
-＊OnDressupChanged
-（when，（Reference2）==1，（set,（Reference0）（Reference1）,1），（set,（Reference0）（Reference1）,））
-＄手動セーブ	実行
-＞（Reference1）に着替えた	（Reference2）==1
-＞（Reference1）を外した	（Reference2）==0
+�����������������������ւ�
+��OnDressupChanged
+�iwhen�C�iReference2�j==1�C�iset,�iReference0�j�iReference1�j,1�j�C�iset,�iReference0�j�iReference1�j,�j�j
+���蓮�Z�[�u	���s
+���iReference1�j�ɒ��ւ���	�iReference2�j==1
+���iReference1�j���O����	�iReference2�j==0
 
 
-＊セーラー服に着替えた
-\0\s[5]えへへ～、セーラー服！\w9\nかわいいよね～！\w3 ぼくにピッタシ！\e
+���Z�[���[���ɒ��ւ���
+\0\s[5]���ւց`�A�Z�[���[���I\w9\n���킢����ˁ`�I\w3 �ڂ��Ƀs�b�^�V�I\e
 
-＊ナース服に着替えた
-\0\s[8]お注射ブスッといっとく？
+���i�[�X���ɒ��ւ���
+\0\s[8]�����˃u�X�b�Ƃ����Ƃ��H
 
-＊バニースーツに着替えた
-\0\s[5]うさぎさ～ん！\w5\n\s[8]ふふん、これだとぼくでもセクシーでしょ？\e
+���o�j�[�X�[�c�ɒ��ւ���
+\0\s[5]���������`��I\w5\n\s[8]�ӂӂ�A���ꂾ�Ƃڂ��ł��Z�N�V�[�ł���H\e
 
-＊キャミソールに着替えた
-\0\s[5]いつもの～！\e
+���L���~�\�[���ɒ��ւ���
+\0\s[5]�����́`�I\e
 
-＊全裸に着替えた
-\0\s[24]やぁ～ん（はーと）\w5 裸に剥かれちゃったぁ～（はーと）\w5\n（ユーザ名）のえっち～（times、3、（はーと））\e
+���S���ɒ��ւ���
+\0\s[24]�₟�`��i�́[�Ɓj\w5 ���ɔ����ꂿ��������`�i�́[�Ɓj\w5\n�i���[�U���j�̂������`�itimes�A3�A�i�́[�Ɓj�j\e
 
-＊首輪に着替えた
-\0\s[3]え～！\w3 なにこれぇ～！\w9\n\s[4]ぼく犬じゃないよぉ？\e
+����ւɒ��ւ���
+\0\s[3]���`�I\w3 �Ȃɂ��ꂥ�`�I\w9\n\s[4]�ڂ�������Ȃ��悧�H\e
 
-＊ローターに着替えた
-＄興奮度	１
-\0\s[25]んいっ（はーと）\w5 \s[26]お尻に入れちゃやだぁ‥‥。\e
+�����[�^�[�ɒ��ւ���
+�������x	�P
+\0\s[25]�񂢂��i�́[�Ɓj\w5 \s[26]���K�ɓ��ꂿ��₾���d�d�B\e
 
-＊ボールギャグに着替えた
-＄口枷	１
-\0\s[3]う"ぅ～！\e
+���{�[���M���O�ɒ��ւ���
+�����g	�P
+\0\s[3]��"���`�I\e
 
-＊口枷に着替えた
-\0\s[（デフォルトサーフェス0）]\e
+�����g�ɒ��ւ���
+\0\s[�i�f�t�H���g�T�[�t�F�X0�j]\e
 
-＊スク水(新)に着替えた
-\0\s[5]スクール水着～！\_w[1000]\n\s[23]‥‥おちんちんの所がキュッてする（はーと）
+���X�N��(�V)�ɒ��ւ���
+\0\s[5]�X�N�[�������`�I\_w[1000]\n\s[23]�d�d�����񂿂�̏����L���b�Ă���i�́[�Ɓj
 
-＊スク水(旧)に着替えた
-\0\s[5]スクール水着～！\w5\n\s[0]これだとおちんちん出せるからいいね。
+���X�N��(��)�ɒ��ւ���
+\0\s[5]�X�N�[�������`�I\w5\n\s[0]���ꂾ�Ƃ����񂿂�o���邩�炢���ˁB
 
 
-＊ローターを外した
-\0\s[23]はぁ‥‥（はーと）\e
-＊ボールギャグを外した
-＄口枷	
-\0\s[3]はぁ‥‥はぁ‥‥。\e
+�����[�^�[���O����
+\0\s[23]�͂��d�d�i�́[�Ɓj\e
+���{�[���M���O���O����
+�����g	
+\0\s[3]�͂��d�d�͂��d�d�B\e

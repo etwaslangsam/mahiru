@@ -1,12 +1,12 @@
-﻿charset,UTF-8
-name,まひるいぢり
+charset,Shift_JIS
+name,�܂Ђ邢����
 type,ghost
 craftman,etwaslangsam
-craftmanw,てにてに
+craftmanw,�ĂɂĂ�
 craftmanurl,https://hotpepar.blogspot.jp/
 homeurl,https://raw.githubusercontent.com/etwaslangsam/mahiru/master/
 readme,readme.txt
-sakura.name,まひる
+sakura.name,�܂Ђ�
 sakura.seriko.defaultsurface,0
 kero.seriko.defaultsurface,10
 balloon.defaultsurface,0

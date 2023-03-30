@@ -1,16 +1,16 @@
-ï»¿ï¼ƒâ”€â”€â”€â”€â”€â”€â”€â”€ãƒªã‚½ãƒ¼ã‚¹
-ï¼ sakura.portalbuttoncaption
-é…å¸ƒã‚µã‚¤ãƒˆ
+”„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„ŸƒŠƒ\[ƒX
+—sakura.portalbuttoncaption
+”z•zƒTƒCƒg
 
-ï¼ƒâ”€â”€â”€â”€â”€â”€â”€â”€ãŠã™ã™ã‚
-ï¼Šsakura.recommendsites
+”„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ‚¨‚·‚·‚ß
+–sakura.recommendsites
 
-ï¼ƒâ”€â”€â”€â”€â”€â”€â”€â”€ãƒãƒ¼ã‚¿ãƒ«
-ï¼Šsakura.portalsites
-ã»ã£ã¨ãºã£ã±ãå›£
+”„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿƒ|[ƒ^ƒ‹
+–sakura.portalsites
+‚Ù‚Á‚Æ‚Ø‚Á‚Ï‚Ÿ’c
 https://sites.google.com/view/ghost-hacking/home
 
 
-ï¼Šsakura.portalsites
-é€£çµ¡ãƒ•ã‚©ãƒ¼ãƒ 
+–sakura.portalsites
+˜A—ƒtƒH[ƒ€
 https://goo.gl/forms/qJhnaKjUfVtcOWSk1

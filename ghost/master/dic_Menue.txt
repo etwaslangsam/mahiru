@@ -1,232 +1,232 @@
-ï»¿ï¼ƒâ”€â”€â”€â”€â”€â”€â”€â”€ãƒ¡ãƒ‹ãƒ¥ãƒ¼
-ï¼Š0ãªã§ã‚‰ã‚Œ
-ï¼ž0ã¤ã¤ã‹ã‚Œ	ï¼ˆGesturemenueï¼‰
-ï¼Š0ã¤ã¤ã‹ã‚Œ
-ï¼žMenu2	ï¼ˆãƒ‡ãƒ•ã‚©ãƒ«ãƒˆã‚µãƒ¼ãƒ•ã‚§ã‚¹0ï¼‰==34
-\0ï¼ˆãƒ¡ãƒ‹ãƒ¥ãƒ¼å°è©žï¼‰\_w[1000]
-ï¼žMainMenu
+”„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿƒƒjƒ…[
+–0‚È‚Å‚ç‚ê
+„0‚Â‚Â‚©‚ê	iGesturemenuej
+–0‚Â‚Â‚©‚ê
+„Menu2	iƒfƒtƒHƒ‹ƒgƒT[ƒtƒFƒX0j==34
+\0iƒƒjƒ…[‘äŽŒj\_w[1000]
+„MainMenu
 
-ï¼ ãƒ¡ãƒ‹ãƒ¥ãƒ¼å°è©ž	ï¼ˆå£æž·ï¼‰==ï¼
-\s[5]ãªãã«ï¼Ÿ
+—ƒƒjƒ…[‘äŽŒ	iŒûžgj==‚O
+\s[5]‚È‚Ÿ‚ÉH
 
-ï¼ ãƒ¡ãƒ‹ãƒ¥ãƒ¼å°è©ž	ï¼ˆå£æž·ï¼‰==ï¼‘
-\s[2]ã‚€ã…ï½žï¼Ÿ
+—ƒƒjƒ…[‘äŽŒ	iŒûžgj==‚P
+\s[2]‚Þ‚£`H
 
-ï¼ŠMainMenu
-\0\b[2]\c\_q\_u[0x25A0]ã‚³ãƒŸãƒ¥ãƒ‹ã‚±ãƒ¼ã‚·ãƒ§ãƒ³\n[half]
- \![*]\q[t)ãªã«ã‹è©±ã—ã¦,PleaseTalk]
- \![*]\q[c)è©±ã—ã‹ã‘ã‚‹,Communication]\n[half]
- \![*]\q[h)ãˆã£ã¡ã™ã‚‹,ãˆã£ã¡ã™ã‚‹]\n
-\_u[0x25A0]è¨­å®š\n[half]
- \![*]\q[è¨­å®šã®ç¢ºèª,Information]\n[half]
- \![*]\q[ãƒˆãƒ¼ã‚¯é »åº¦,å–‹ã‚Šé »åº¦å¤‰æ›´]
- \![*]\q[å‘¼ã³æ–¹ã‚’å¤‰ãˆã¦,ãƒ¦ãƒ¼ã‚¶åå¤‰æ›´]
- \![*]\q[ãã®ä»–ã®è¨­å®š,config]\n
-\_u[0x25A0]ãƒ¡ãƒƒã‚»ãƒ¼ã‚¸é€ä¿¡\n[half]
- \![*]\q[è‡ªç”±å…¥åŠ›,OnWebClap]\n[half]
- \![*]\q[ã„ã„ã­,ç°¡æ˜“æ‹æ‰‹]ã€€ \![*]\q[å¥½ã,ç°¡æ˜“æ‹æ‰‹]
- \![*]\q[ã‹ã‚ã„ã„,ç°¡æ˜“æ‹æ‰‹] \![*]\q[å°„ç²¾ã—ã¾ã—ãŸ,ç°¡æ˜“æ‹æ‰‹]\n
- \q[ãªã‚“ã§ã‚‚ãªã„ã‚ˆ,Cancel]
+–MainMenu
+\0\b[2]\c\_q\_u[0x25A0]ƒRƒ~ƒ…ƒjƒP[ƒVƒ‡ƒ“\n[half]
+ \![*]\q[t)‚È‚É‚©˜b‚µ‚Ä,PleaseTalk]
+ \![*]\q[c)˜b‚µ‚©‚¯‚é,Communication]\n[half]
+ \![*]\q[h)‚¦‚Á‚¿‚·‚é,‚¦‚Á‚¿‚·‚é]\n
+\_u[0x25A0]Ý’è\n[half]
+ \![*]\q[Ý’è‚ÌŠm”F,Information]\n[half]
+ \![*]\q[ƒg[ƒN•p“x,’‚è•p“x•ÏX]
+ \![*]\q[ŒÄ‚Ñ•û‚ð•Ï‚¦‚Ä,ƒ†[ƒU–¼•ÏX]
+ \![*]\q[‚»‚Ì‘¼‚ÌÝ’è,config]\n
+\_u[0x25A0]ƒƒbƒZ[ƒW‘—M\n[half]
+ \![*]\q[Ž©—R“ü—Í,OnWebClap]\n[half]
+ \![*]\q[‚¢‚¢‚Ë,ŠÈˆÕ”Žè]@ \![*]\q[D‚«,ŠÈˆÕ”Žè]
+ \![*]\q[‚©‚í‚¢‚¢,ŠÈˆÕ”Žè] \![*]\q[ŽË¸‚µ‚Ü‚µ‚½,ŠÈˆÕ”Žè]\n
+ \q[‚È‚ñ‚Å‚à‚È‚¢‚æ,Cancel]
 \_q\e
 
-ï¼ŠInformation
-\0\b[2]\c\_q\q[â†,MainMenu] \q[Ã—,Cancel]\n
-èµ·å‹•å›žæ•°Ï†ï¼šï¼ˆèµ·å‹•ç·æ•°ï¼‰
-ãƒ©ãƒ³ãƒ€ãƒ ãƒˆãƒ¼ã‚¯æ•°Ï†ï¼šï¼ˆcountNoNameTalkï¼‰\n
-å–‹ã‚Šé »åº¦Ï†ï¼šï¼ˆå–‹ã‚Šé–“éš”ï¼‰\n
-åå‰Ï†ï¼šï¼ˆãƒ¦ãƒ¼ã‚¶åï¼‰
-æ€§åˆ¥Ï†ï¼šï¼ˆwhenã€ï¼ˆãƒ¦ãƒ¼ã‚¶æ€§åˆ¥ï¼‰==1ã€ç”·ã€å¥³ï¼‰
-æ™‚å ±Ï†ï¼šï¼ˆwhen,ï¼ˆæ™‚å ±è¨­å®šï¼‰==ï¼‘,ON,OFFï¼‰\n
-ã‚¯ãƒªãƒƒã‚¯ãƒˆãƒ¼ã‚¯Ï†ï¼šï¼ˆwhen,ï¼ˆClicktalkï¼‰==1,ON,OFFï¼‰
-ã‚¸ã‚§ã‚¹ãƒãƒ£ãƒ¼ãƒ¡ãƒ‹ãƒ¥ãƒ¼Ï†ï¼šï¼ˆwhen,ï¼ˆGesturemenueï¼‰==1,ON,OFFï¼‰\n
-é ­ã‚’ãªã§ãŸå›žæ•°Ï†ï¼šï¼ˆé ­ãªã§ç·æ•°ï¼‰
-ã‚»ã‚¯ãƒãƒ©ã—ãŸå›žæ•°Ï†ï¼šï¼ˆã‚»ã‚¯ãƒãƒ©ç·æ•°ï¼‰
+–Information
+\0\b[2]\c\_q\q[©,MainMenu] \q[~,Cancel]\n
+‹N“®‰ñ”ƒÓFi‹N“®‘”j
+ƒ‰ƒ“ƒ_ƒ€ƒg[ƒN”ƒÓFicountNoNameTalkj\n
+’‚è•p“xƒÓFi’‚èŠÔŠuj\n
+–¼‘OƒÓFiƒ†[ƒU–¼j
+«•ÊƒÓFiwhenAiƒ†[ƒU«•Êj==1A’jA—j
+Žž•ñƒÓFiwhen,iŽž•ñÝ’èj==‚P,ON,OFFj\n
+ƒNƒŠƒbƒNƒg[ƒNƒÓFiwhen,iClicktalkj==1,ON,OFFj
+ƒWƒFƒXƒ`ƒƒ[ƒƒjƒ…[ƒÓFiwhen,iGesturemenuej==1,ON,OFFj\n
+“ª‚ð‚È‚Å‚½‰ñ”ƒÓFi“ª‚È‚Å‘”j
+ƒZƒNƒnƒ‰‚µ‚½‰ñ”ƒÓFiƒZƒNƒnƒ‰‘”j
 \_q\e
 
-ï¼Šconfig
-\0\b[2]\_q\q[â†,MainMenu] \q[Ã—,Cancel]\n
-â–¼æ„Ÿåº¦ã‚’ä¸Šã’ã‚‹ã€€ï¼ˆ\_a[æ„Ÿåº¦ã‚’ä¸Šã’ã‚‹]ï¼Ÿ\_aï¼‰\n[half]
- \![*]\q[ä¸Šã’ã‚‹,æ„Ÿåº¦ä¸Šæ˜‡]ã€€\![*]\q[ä¸‹ã’ã‚‹,æ„Ÿåº¦ä½Žä¸‹]\n
-â–¼æ€§åˆ¥ \n[half]
- \![*]\q[ç”·,æ€§åˆ¥å¤‰æ›´_ç”·]ã€€\![*]\q[å¥³,æ€§åˆ¥å¤‰æ›´_å¥³]\n
-â–¼æ™‚å ±
- \![*]\q[ON,æ™‚å ±ã®è¨­å®š_ON]ã€€\![*]\q[OFF,æ™‚å ±ã®è¨­å®š_OFF]\n
-â–¼ã‚¯ãƒªãƒƒã‚¯ãƒˆãƒ¼ã‚¯ã€€\_a[ã‚¯ãƒªãƒƒã‚¯ãƒˆãƒ¼ã‚¯èª¬æ˜Ž]ï¼ˆï¼Ÿï¼‰\_a\n[half]
- \![*]\q[ONã«ã™ã‚‹,Clicktalk_ON] ï¼ \q[OFFã«ã™ã‚‹,Clicktalk_OFF]\n
-â–¼ã‚¸ã‚§ã‚¹ãƒãƒ£ãƒ¼ãƒ¡ãƒ‹ãƒ¥ãƒ¼ã€€\_a[ã‚¸ã‚§ã‚¹ãƒãƒ£ãƒ¼ãƒ¡ãƒ‹ãƒ¥ãƒ¼èª¬æ˜Ž]ï¼ˆï¼Ÿï¼‰\_a\n[half]
- \![*]\q[ONã«ã™ã‚‹,Gesturemenue_ON] ï¼ \q[OFFã«ã™ã‚‹,Gesturemenue_OFF]\n
+–config
+\0\b[2]\_q\q[©,MainMenu] \q[~,Cancel]\n
+¥Š´“x‚ðã‚°‚é@i\_a[Š´“x‚ðã‚°‚é]H\_aj\n[half]
+ \![*]\q[ã‚°‚é,Š´“xã¸]@\![*]\q[‰º‚°‚é,Š´“x’á‰º]\n
+¥«•Ê \n[half]
+ \![*]\q[’j,«•Ê•ÏX_’j]@\![*]\q[—,«•Ê•ÏX_—]\n
+¥Žž•ñ
+ \![*]\q[ON,Žž•ñ‚ÌÝ’è_ON]@\![*]\q[OFF,Žž•ñ‚ÌÝ’è_OFF]\n
+¥ƒNƒŠƒbƒNƒg[ƒN@\_a[ƒNƒŠƒbƒNƒg[ƒNà–¾]iHj\_a\n[half]
+ \![*]\q[ON‚É‚·‚é,Clicktalk_ON] ^ \q[OFF‚É‚·‚é,Clicktalk_OFF]\n
+¥ƒWƒFƒXƒ`ƒƒ[ƒƒjƒ…[@\_a[ƒWƒFƒXƒ`ƒƒ[ƒƒjƒ…[à–¾]iHj\_a\n[half]
+ \![*]\q[ON‚É‚·‚é,Gesturemenue_ON] ^ \q[OFF‚É‚·‚é,Gesturemenue_OFF]\n
 \_q\e
 
-ï¼ŠCancel
-ï¼žCancel_å£æž·	ï¼ˆå£æž·ï¼‰==ï¼‘
-\0ï¼ˆã‚­ãƒ£ãƒ³ã‚»ãƒ«å°è©žï¼‰\e
+–Cancel
+„Cancel_Œûžg	iŒûžgj==‚P
+\0iƒLƒƒƒ“ƒZƒ‹‘äŽŒj\e
 
-ï¼ŠCancel_å£æž·
-\0\s[4]ãµã…ï½žâ€¥â€¥ã€‚\e
+–Cancel_Œûžg
+\0\s[4]‚Ó‚£`ddB\e
 
-ï¼ ã‚­ãƒ£ãƒ³ã‚»ãƒ«å°è©ž
-\s[0]ã‚“ï¼
-\s[1]ã‚‚ã†ã„ã„ã®ï¼Ÿ
-\s[5]ã‚ã‹ã£ãŸã€‚
+—ƒLƒƒƒ“ƒZƒ‹‘äŽŒ
+\s[0]‚ñI
+\s[1]‚à‚¤‚¢‚¢‚ÌH
+\s[5]‚í‚©‚Á‚½B
 
-ï¼ŠMenu2
-\0\cï¼ˆãƒ¡ãƒ‹ãƒ¥ãƒ¼2è¡¨ç¤ºã‚»ãƒªãƒ•ï¼‰
+–Menu2
+\0\ciƒƒjƒ…[2•\Ž¦ƒZƒŠƒtj
 \_q
-\![*]\q[ãˆã£ã¡ã™ã‚‹,æŒ¿å…¥ã™ã‚‹]
-\![*]\q[ãŠã—ã¾ã„,ä¸­æ–­]
+\![*]\q[‚¦‚Á‚¿‚·‚é,‘}“ü‚·‚é]
+\![*]\q[‚¨‚µ‚Ü‚¢,’†’f]
 
-\q[ãªã‚“ã§ã‚‚ãªã„ã‚ˆ,Cancel2]
+\q[‚È‚ñ‚Å‚à‚È‚¢‚æ,Cancel2]
 \_q\e
 
-ï¼ŠCancel2
-\0\s[32]ã­ã‡ï½žæ—©ãç¶šãã—ã¦ã‡ï½žï¼Ÿ\e
+–Cancel2
+\0\s[32]‚Ë‚¥`‘‚­‘±‚«‚µ‚Ä‚¥`H\e
 
-ï¼ ãƒ¡ãƒ‹ãƒ¥ãƒ¼2è¡¨ç¤ºã‚»ãƒªãƒ•	ï¼ˆå£æž·ï¼‰==ï¼
-\s[36]ï¼ˆãƒ¦ãƒ¼ã‚¶åï¼‰â€¥â€¥ï¼Ÿ
-ï¼ ãƒ¡ãƒ‹ãƒ¥ãƒ¼2è¡¨ç¤ºã‚»ãƒªãƒ•	ï¼ˆå£æž·ï¼‰
-\s[32]ã‚€ã…ï½žï¼Ÿ
+—ƒƒjƒ…[2•\Ž¦ƒZƒŠƒt	iŒûžgj==‚O
+\s[36]iƒ†[ƒU–¼jddH
+—ƒƒjƒ…[2•\Ž¦ƒZƒŠƒt	iŒûžgj
+\s[32]‚Þ‚£`H
 
-ï¼ƒâ”€â”€â”€â”€â”€â”€â”€â”€ãƒˆãƒ¼ã‚¯
-ï¼ŠPleaseTalk
-ï¼žå–‹ã‚Œãªã„	ï¼ˆå£æž·ï¼‰
-\0\s[5]ã„ã„ã‚ˆï¼\_w[1000]
-\cï¼ˆï¼‰
+”„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿƒg[ƒN
+–PleaseTalk
+„’‚ê‚È‚¢	iŒûžgj
+\0\s[5]‚¢‚¢‚æI\_w[1000]
+\cij
 
-ï¼ƒâ”€â”€â”€â”€â”€â”€â”€â”€å–‹ã‚Šé »åº¦
-ï¼Šå–‹ã‚Šé »åº¦å¤‰æ›´
-\0\_q\q[â†,MainMenu] \q[Ã—,Cancel]\n[half]
-ã„ã¾Ï†ï¼šï¼ˆå–‹ã‚Šé–“éš”ï¼‰\n[half]
- \![*]\q[ï¼“ï¼ç§’,ï¼“ï¼ç§’ã”ã¨] ï¼ \q[ï¼–ï¼ç§’,ï¼–ï¼ç§’ã”ã¨] ï¼ \q[ï¼™ï¼ç§’,ï¼™ï¼ç§’ã”ã¨]\n[half]
- \![*]\q[ï¼‘ï¼’ï¼ç§’,ï¼‘ï¼’ï¼ç§’ã”ã¨] ï¼ \q[ï¼‘ï¼•ï¼ç§’,ï¼‘ï¼•ï¼ç§’ã”ã¨] ï¼ \q[ï¼‘ï¼˜ï¼ç§’,ï¼‘ï¼˜ï¼ç§’ã”ã¨]\n[half]
- \![*]\q[ç§’æ•°æŒ‡å®š,ç§’æ•°æŒ‡å®š] ï¼ \q[å–‹ã‚‰ãªã„,é»™ã£ã¦ã¦]\n
+”„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ’‚è•p“x
+–’‚è•p“x•ÏX
+\0\_q\q[©,MainMenu] \q[~,Cancel]\n[half]
+‚¢‚ÜƒÓFi’‚èŠÔŠuj\n[half]
+ \![*]\q[‚R‚O•b,‚R‚O•b‚²‚Æ] ^ \q[‚U‚O•b,‚U‚O•b‚²‚Æ] ^ \q[‚X‚O•b,‚X‚O•b‚²‚Æ]\n[half]
+ \![*]\q[‚P‚Q‚O•b,‚P‚Q‚O•b‚²‚Æ] ^ \q[‚P‚T‚O•b,‚P‚T‚O•b‚²‚Æ] ^ \q[‚P‚W‚O•b,‚P‚W‚O•b‚²‚Æ]\n[half]
+ \![*]\q[•b”Žw’è,•b”Žw’è] ^ \q[’‚ç‚È‚¢,–Ù‚Á‚Ä‚Ä]\n
 \_q\e
 
-ï¼Šï¼“ï¼ç§’ã”ã¨
-ï¼„å–‹ã‚Šé–“éš”	ï¼“ï¼ç§’
-ï¼žå–‹ã‚Šé »åº¦æ±ºå®š
-ï¼Šï¼–ï¼ç§’ã”ã¨
-ï¼„å–‹ã‚Šé–“éš”	ï¼–ï¼ç§’
-ï¼žå–‹ã‚Šé »åº¦æ±ºå®š
-ï¼Šï¼™ï¼ç§’ã”ã¨
-ï¼„å–‹ã‚Šé–“éš”	ï¼™ï¼ç§’
-ï¼žå–‹ã‚Šé »åº¦æ±ºå®š
-ï¼Šï¼‘ï¼’ï¼ç§’ã”ã¨
-ï¼„å–‹ã‚Šé–“éš”	ï¼‘ï¼’ï¼ç§’
-ï¼žå–‹ã‚Šé »åº¦æ±ºå®š
-ï¼Šï¼‘ï¼•ï¼ç§’ã”ã¨
-ï¼„å–‹ã‚Šé–“éš”	ï¼‘ï¼•ï¼ç§’
-ï¼žå–‹ã‚Šé »åº¦æ±ºå®š
-ï¼Šï¼‘ï¼˜ï¼ç§’ã”ã¨
-ï¼„å–‹ã‚Šé–“éš”	ï¼‘ï¼˜ï¼ç§’
-ï¼žå–‹ã‚Šé »åº¦æ±ºå®š
+–‚R‚O•b‚²‚Æ
+’‚èŠÔŠu	‚R‚O•b
+„’‚è•p“xŒˆ’è
+–‚U‚O•b‚²‚Æ
+’‚èŠÔŠu	‚U‚O•b
+„’‚è•p“xŒˆ’è
+–‚X‚O•b‚²‚Æ
+’‚èŠÔŠu	‚X‚O•b
+„’‚è•p“xŒˆ’è
+–‚P‚Q‚O•b‚²‚Æ
+’‚èŠÔŠu	‚P‚Q‚O•b
+„’‚è•p“xŒˆ’è
+–‚P‚T‚O•b‚²‚Æ
+’‚èŠÔŠu	‚P‚T‚O•b
+„’‚è•p“xŒˆ’è
+–‚P‚W‚O•b‚²‚Æ
+’‚èŠÔŠu	‚P‚W‚O•b
+„’‚è•p“xŒˆ’è
 
-ï¼Šå–‹ã‚Šé »åº¦æ±ºå®š
-ï¼„å–‹ã‚Šé–“éš”èª¤å·®	ï¼•ï¼…
-ï¼„ä¸€æ™‚ä¿å­˜	ï¼ˆå–‹ã‚Šé–“éš”ï¼‰
-ï¼„æ‰‹å‹•ã‚»ãƒ¼ãƒ–	å®Ÿè¡Œ
-\0\s[5]ï¼ˆå–‹ã‚Šé–“éš”ï¼‰ã«å¤‰æ›´ã—ãŸã‚ˆï¼\e
+–’‚è•p“xŒˆ’è
+’‚èŠÔŠuŒë·	‚T“
+ˆêŽž•Û‘¶	i’‚èŠÔŠuj
+Žè“®ƒZ[ƒu	ŽÀs
+\0\s[5]i’‚èŠÔŠuj‚É•ÏX‚µ‚½‚æI\e
 
-ï¼Šé»™ã£ã¦ã¦
-ï¼„å–‹ã‚Šé–“éš”	ï¼ç§’
-ï¼„æ‰‹å‹•ã‚»ãƒ¼ãƒ–	å®Ÿè¡Œ
-\0\s[3]ãˆï½žâ€¥â€¥ã€‚\e
+––Ù‚Á‚Ä‚Ä
+’‚èŠÔŠu	‚O•b
+Žè“®ƒZ[ƒu	ŽÀs
+\0\s[3]‚¦`ddB\e
 
-ï¼Šç§’æ•°æŒ‡å®š
-\![open,inputbox,å–‹ã‚Šé–“éš”,-1,ï¼ˆerazeï¼Œï¼ˆå–‹ã‚Šé–“éš”ï¼‰ï¼Œç§’ï¼‰]
-\0\s[0]å¥½ããªç§’æ•°ã‚’å…¥åŠ›ã—ã¦ã­ã€‚\e
+–•b”Žw’è
+\![open,inputbox,’‚èŠÔŠu,-1,ierazeCi’‚èŠÔŠujC•bj]
+\0\s[0]D‚«‚È•b”‚ð“ü—Í‚µ‚Ä‚ËB\e
 
-ï¼Šå–‹ã‚Šé–“éš”ã‚’æ•™ãˆã¦ã‚‚ã‚‰ã£ãŸ
-ï¼„å–‹ã‚Šé–“éš”	ï¼ˆhan2zen,ï¼ˆå–‹ã‚Šé–“éš”ï¼‰ï¼‰ç§’
-ï¼žå–‹ã‚Šé »åº¦æ±ºå®š
+–’‚èŠÔŠu‚ð‹³‚¦‚Ä‚à‚ç‚Á‚½
+’‚èŠÔŠu	ihan2zen,i’‚èŠÔŠujj•b
+„’‚è•p“xŒˆ’è
 
-ï¼Šå–‹ã‚Šé–“éš”ã‚’ç©ºæ‰“ã¡ã•ã‚ŒãŸ
-\0\s[0]ã˜ã‚ƒã‚å–‹ã‚‹é »åº¦ã¯ã“ã®ã¾ã¾ã ã­ã€‚\e
+–’‚èŠÔŠu‚ð‹ó‘Å‚¿‚³‚ê‚½
+\0\s[0]‚¶‚á‚ ’‚é•p“x‚Í‚±‚Ì‚Ü‚Ü‚¾‚ËB\e
 
-ï¼ƒâ”€â”€â”€â”€â”€â”€â”€â”€ãƒ¦ãƒ¼ã‚¶åå¤‰æ›´
-ï¼Šãƒ¦ãƒ¼ã‚¶åå¤‰æ›´
-\![open,inputbox,ãƒ¦ãƒ¼ã‚¶å,-1,ï¼ˆãƒ¦ãƒ¼ã‚¶åï¼‰]
-\0\s[5]ã˜ã‚ƒã‚ã€ã“ã“ã«åå‰ã‚’ã„ã‚Œã¦ã­ã€‚\e
+”„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿƒ†[ƒU–¼•ÏX
+–ƒ†[ƒU–¼•ÏX
+\![open,inputbox,ƒ†[ƒU–¼,-1,iƒ†[ƒU–¼j]
+\0\s[5]‚¶‚á‚ A‚±‚±‚É–¼‘O‚ð‚¢‚ê‚Ä‚ËB\e
 
-ï¼Šãƒ¦ãƒ¼ã‚¶åã‚’æ•™ãˆã¦ã‚‚ã‚‰ã£ãŸ
-\0\s[5]ã˜ã‚ƒã‚ã€ä»Šã‹ã‚‰ï¼ˆãƒ¦ãƒ¼ã‚¶åï¼‰ã£ã¦å‘¼ã¶ã­ã€‚
-ï¼ˆãƒ¦ãƒ¼ã‚¶åï¼‰â™ª\e
+–ƒ†[ƒU–¼‚ð‹³‚¦‚Ä‚à‚ç‚Á‚½
+\0\s[5]‚¶‚á‚ A¡‚©‚çiƒ†[ƒU–¼j‚Á‚ÄŒÄ‚Ô‚ËB
+iƒ†[ƒU–¼jô\e
 
-ï¼Šãƒ¦ãƒ¼ã‚¶åã‚’ç©ºæ‰“ã¡ã•ã‚ŒãŸ
-\0\s[0]ã˜ã‚ƒã‚ä»Šã¾ã§ã©ãŠã‚Šï¼ˆãƒ¦ãƒ¼ã‚¶åï¼‰ã£ã¦å‘¼ã¶ã­ã€‚\e
+–ƒ†[ƒU–¼‚ð‹ó‘Å‚¿‚³‚ê‚½
+\0\s[0]‚¶‚á‚ ¡‚Ü‚Å‚Ç‚¨‚èiƒ†[ƒU–¼j‚Á‚ÄŒÄ‚Ô‚ËB\e
 
-ï¼ƒâ”€â”€â”€â”€â”€â”€â”€â”€
-ï¼Šæ„Ÿåº¦ã‚’ä¸Šã’ã‚‹
-\0\_q\q[â†,config]\n
-Ï†â€»æ„Ÿåº¦ã‚’ã‚ã’ã‚‹ã“ã¨ã«ã‚ˆã‚Šã€ã•ã‚ã‚Šåå¿œãŒèµ·ãã‚„ã™ããªã‚Šã¾ã™ã€‚Ï†
-é€£ç¶šã—ã¦åå¿œã•ã›ã‚‹å ´åˆã¯ã€ã•ã‚ã‚Šåˆ¤å®šç®‡æ‰€ã‚’é€šéŽã™ã‚‹ã‚ˆã†ã«å¾€å¾©ã•ã›ã¦ãã ã•ã„ã€‚
+”„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ
+–Š´“x‚ðã‚°‚é
+\0\_q\q[©,config]\n
+ƒÓ¦Š´“x‚ð‚ ‚°‚é‚±‚Æ‚É‚æ‚èA‚³‚í‚è”½‰ž‚ª‹N‚«‚â‚·‚­‚È‚è‚Ü‚·BƒÓ
+˜A‘±‚µ‚Ä”½‰ž‚³‚¹‚éê‡‚ÍA‚³‚í‚è”»’è‰ÓŠ‚ð’Ê‰ß‚·‚é‚æ‚¤‚É‰•œ‚³‚¹‚Ä‚­‚¾‚³‚¢B
 \_q\e
 
-ï¼Šæ„Ÿåº¦ä¸Šæ˜‡
-ï¼„é«˜æ„Ÿåº¦	1
-\0\s[24]ã‚ã£â€¥â€¥ãªã‚“ã‹ã€ã™ã”ã‰ã„â€¥â€¥ï¼
+–Š´“xã¸
+‚Š´“x	1
+\0\s[24]‚ ‚Ádd‚È‚ñ‚©A‚·‚²‚§‚¢ddI
 
-ï¼Šæ„Ÿåº¦ä½Žä¸‹
-ï¼„é«˜æ„Ÿåº¦	0
-\0\s[1]ï¼Ÿ
+–Š´“x’á‰º
+‚Š´“x	0
+\0\s[1]H
 
 
-ï¼ƒâ”€â”€â”€â”€â”€â”€â”€â”€æ€§åˆ¥å¤‰æ›´
-ï¼Šæ€§åˆ¥å¤‰æ›´_ç”·
-ï¼„,ãƒ¦ãƒ¼ã‚¶æ€§åˆ¥	1
-ï¼„ãƒ¦ãƒ¼ã‚¶å	ãŠå…„ã¡ã‚ƒã‚“
-ï¼„æ‰‹å‹•ã‚»ãƒ¼ãƒ–	å®Ÿè¡Œ
-ï¼žconfig
+”„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ«•Ê•ÏX
+–«•Ê•ÏX_’j
+,ƒ†[ƒU«•Ê	1
+ƒ†[ƒU–¼	‚¨ŒZ‚¿‚á‚ñ
+Žè“®ƒZ[ƒu	ŽÀs
+„config
 
-ï¼Šæ€§åˆ¥å¤‰æ›´_å¥³
-ï¼„ãƒ¦ãƒ¼ã‚¶æ€§åˆ¥	0
-ï¼„ãƒ¦ãƒ¼ã‚¶å	ãŠå§‰ã¡ã‚ƒã‚“
-ï¼„æ‰‹å‹•ã‚»ãƒ¼ãƒ–	å®Ÿè¡Œ
-ï¼žconfig
+–«•Ê•ÏX_—
+ƒ†[ƒU«•Ê	0
+ƒ†[ƒU–¼	‚¨Žo‚¿‚á‚ñ
+Žè“®ƒZ[ƒu	ŽÀs
+„config
 
-ï¼ƒâ”€â”€â”€â”€â”€â”€â”€â”€æ™‚å ±
-ï¼ƒ1ã§ON 0ã§ã‚ªãƒ•
-ï¼Šæ™‚å ±ã®è¨­å®š_ON
-ï¼„æ™‚å ±è¨­å®š	ï¼‘
-ï¼„æ‰‹å‹•ã‚»ãƒ¼ãƒ–	å®Ÿè¡Œ
-ï¼žconfig
+”„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„ŸŽž•ñ
+”1‚ÅON 0‚ÅƒIƒt
+–Žž•ñ‚ÌÝ’è_ON
+Žž•ñÝ’è	‚P
+Žè“®ƒZ[ƒu	ŽÀs
+„config
 
-ï¼Šæ™‚å ±ã®è¨­å®š_OFF
-ï¼„æ™‚å ±è¨­å®š	ï¼
-ï¼„æ‰‹å‹•ã‚»ãƒ¼ãƒ–	å®Ÿè¡Œ
-ï¼žconfig
+–Žž•ñ‚ÌÝ’è_OFF
+Žž•ñÝ’è	‚O
+Žè“®ƒZ[ƒu	ŽÀs
+„config
 
-ï¼ƒâ”€â”€â”€â”€â”€â”€â”€â”€
-ï¼Šã‚¯ãƒªãƒƒã‚¯ãƒˆãƒ¼ã‚¯èª¬æ˜Ž
-\0\_q\q[â†,config]\n[half]
-â€»ã•ã‚ã‚Šåˆ¤å®šãŒãªã„ç®‡æ‰€ã‚’ã‚·ãƒ³ã‚°ãƒ«ã‚¯ãƒªãƒƒã‚¯ã—ãŸå ´åˆã®æŒ™å‹•ã®è¨­å®šã§ã™ã€‚\n[half]
-ONã«ã™ã‚‹ã¨ã•ã‚ã‚Šåˆ¤å®šãŒãªã„ç®‡æ‰€ã‚’ã‚¯ãƒªãƒƒã‚¯ã™ã‚‹ã¨ãƒ©ãƒ³ãƒ€ãƒ ãƒˆãƒ¼ã‚¯ã‚’ã—ã¾ã™ã€‚\n[half]
-OFFã«ã™ã‚‹ã¨ã•ã‚ã‚Šåˆ¤å®šãŒãªã„ç®‡æ‰€ã‚’ã‚¯ãƒªãƒƒã‚¯ã—ã¦ã‚‚ãªã«ã‚‚èµ·ã“ã‚Šã¾ã›ã‚“ã€‚
+”„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ
+–ƒNƒŠƒbƒNƒg[ƒNà–¾
+\0\_q\q[©,config]\n[half]
+¦‚³‚í‚è”»’è‚ª‚È‚¢‰ÓŠ‚ðƒVƒ“ƒOƒ‹ƒNƒŠƒbƒN‚µ‚½ê‡‚Ì‹““®‚ÌÝ’è‚Å‚·B\n[half]
+ON‚É‚·‚é‚Æ‚³‚í‚è”»’è‚ª‚È‚¢‰ÓŠ‚ðƒNƒŠƒbƒN‚·‚é‚Æƒ‰ƒ“ƒ_ƒ€ƒg[ƒN‚ð‚µ‚Ü‚·B\n[half]
+OFF‚É‚·‚é‚Æ‚³‚í‚è”»’è‚ª‚È‚¢‰ÓŠ‚ðƒNƒŠƒbƒN‚µ‚Ä‚à‚È‚É‚à‹N‚±‚è‚Ü‚¹‚ñB
 \_q\e
 
-ï¼ŠClicktalk_ON
-ï¼„Clicktalk	1
-\0\s[0]ã‚¯ãƒªãƒƒã‚¯ãƒˆãƒ¼ã‚¯ã‚’ONã«ã—ãŸã‚ˆã€‚\x
-ï¼žconfig
+–Clicktalk_ON
+Clicktalk	1
+\0\s[0]ƒNƒŠƒbƒNƒg[ƒN‚ðON‚É‚µ‚½‚æB\x
+„config
 
-ï¼ŠClicktalk_OFF
-ï¼„Clicktalk	0
-\0\s[0]ã‚¯ãƒªãƒƒã‚¯ãƒˆãƒ¼ã‚¯ã‚’OFFã«ã—ãŸã‚ˆã€‚\x
-ï¼žconfig
+–Clicktalk_OFF
+Clicktalk	0
+\0\s[0]ƒNƒŠƒbƒNƒg[ƒN‚ðOFF‚É‚µ‚½‚æB\x
+„config
 
-ï¼ƒâ”€â”€â”€â”€â”€â”€â”€â”€
-ï¼Šã‚¸ã‚§ã‚¹ãƒãƒ£ãƒ¼ãƒ¡ãƒ‹ãƒ¥ãƒ¼èª¬æ˜Ž
-\0\_q\q[â†,config]\n[half]
-â€»ã•ã‚ã‚Šåˆ¤å®šãŒãªã„ç®‡æ‰€ã§ã‚«ãƒ¼ã‚½ãƒ«ç§»å‹•ã—ãŸå ´åˆã®æŒ™å‹•ã®è¨­å®šã§ã™ã€‚\n[half]
-ONã«ã™ã‚‹ã¨ã•ã‚ã‚Šåˆ¤å®šãŒãªã„ç®‡æ‰€ã§ã‚«ãƒ¼ã‚½ãƒ«ç§»å‹•ã™ã‚‹ã¨ãƒ¡ãƒ‹ãƒ¥ãƒ¼ã‚’é–‹ãã¾ã™ã€‚\n[half]
-OFFã«ã™ã‚‹ã¨ã•ã‚ã‚Šåˆ¤å®šãŒãªã„ç®‡æ‰€ã§ã‚«ãƒ¼ã‚½ãƒ«ç§»å‹•ã—ã¦ã‚‚ãªã«ã‚‚èµ·ã“ã‚Šã¾ã›ã‚“ã€‚
+”„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ„Ÿ
+–ƒWƒFƒXƒ`ƒƒ[ƒƒjƒ…[à–¾
+\0\_q\q[©,config]\n[half]
+¦‚³‚í‚è”»’è‚ª‚È‚¢‰ÓŠ‚ÅƒJ[ƒ\ƒ‹ˆÚ“®‚µ‚½ê‡‚Ì‹““®‚ÌÝ’è‚Å‚·B\n[half]
+ON‚É‚·‚é‚Æ‚³‚í‚è”»’è‚ª‚È‚¢‰ÓŠ‚ÅƒJ[ƒ\ƒ‹ˆÚ“®‚·‚é‚Æƒƒjƒ…[‚ðŠJ‚«‚Ü‚·B\n[half]
+OFF‚É‚·‚é‚Æ‚³‚í‚è”»’è‚ª‚È‚¢‰ÓŠ‚ÅƒJ[ƒ\ƒ‹ˆÚ“®‚µ‚Ä‚à‚È‚É‚à‹N‚±‚è‚Ü‚¹‚ñB
 \_q\e
 
-ï¼ŠGesturemenue_ON
-ï¼„Gesturemenue	1
-\0\s[0]ã‚¸ã‚§ã‚¹ãƒãƒ£ãƒ¼ãƒ¡ãƒ‹ãƒ¥ãƒ¼ã‚’ONã«ã—ãŸã‚ˆã€‚\x
-ï¼žconfig
+–Gesturemenue_ON
+Gesturemenue	1
+\0\s[0]ƒWƒFƒXƒ`ƒƒ[ƒƒjƒ…[‚ðON‚É‚µ‚½‚æB\x
+„config
 
-ï¼ŠGesturemenue_OFF
-ï¼„Gesturemenue	0
-\0\s[0]ã‚¸ã‚§ã‚¹ãƒãƒ£ãƒ¼ãƒ¡ãƒ‹ãƒ¥ãƒ¼ã‚’OFFã«ã—ãŸã‚ˆã€‚\x
-ï¼žconfig
+–Gesturemenue_OFF
+Gesturemenue	0
+\0\s[0]ƒWƒFƒXƒ`ƒƒ[ƒƒjƒ…[‚ðOFF‚É‚µ‚½‚æB\x
+„config
