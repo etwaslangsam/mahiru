@@ -25,7 +25,7 @@ sakura.bindgroup901.name,¸‰t,‹¹,chest
 sakura.bindgroup902.name,¸‰t,Šç1,fece1
 sakura.bindgroup903.name,¸‰t,Šç2,face2
 sakura.bindgroup904.name,¸‰t,“ª,hair
-
+sakura.bindgroup905.name,¸‰t,ƒAƒiƒ‹,hair
 
 sakura.bindoption2.group,‚»‚Ì‘¼,multiple
 sakura.bindgroup0.name,‚»‚Ì‘¼,ƒ}ƒjƒLƒ…ƒA_ÔF,tintin

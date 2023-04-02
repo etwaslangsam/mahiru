@@ -6,7 +6,7 @@ descript
 	animation-sort,descend
 }
 
-surface0-9,21-29,50-53,100-112
+surface0-9,21-29,50-53,100-115
 {
 	element0,base,body\body_0.png,0,0
 }
@@ -312,6 +312,35 @@ surface112
 	element6,overlay,face\face_3.png,0,0
 }
 
+surface113
+{
+	element1,overlay,face\face_1.png,0,0
+	element2,overlay,blow\blow_2.png,0,0
+	element3,overlay,eye\eye_2.png,0,0
+	element4,overlay,mouth\mouth_5.png,0,0
+	element5,overlay,face\face_2.png,0,0
+	element6,overlay,face\face_3.png,0,0
+}
+
+surface114
+{
+	element1,overlay,face\face_1.png,0,0
+	element2,overlay,blow\blow_2.png,0,0
+	element3,overlay,eye\eye_5.png,0,0
+	element4,overlay,mouth\mouth_13.png,0,0
+	element5,overlay,face\face_2.png,0,0
+	element6,overlay,face\face_3.png,0,0
+}
+
+surface115
+{
+	element1,overlay,face\face_1.png,0,0
+	element2,overlay,blow\blow_3.png,0,0
+	element3,overlay,eye\eye_4.png,0,0
+	element4,overlay,mouth\mouth_5.png,0,0
+	element5,overlay,face\face_2.png,0,0
+}
+
 //着せ替え_ケフィア//
 surface900
 {
@@ -336,6 +365,11 @@ element0,overlay,sprm\sprm_face2.png,0,0
 surface904
 {
 element0,overlay,sprm\sprm_hair.png,0,0
+}
+
+surface905
+{
+element0,overlay,sprm\sprm_anl.png,0,0
 }
 
 //着せ替え_パンツ//
@@ -706,6 +740,9 @@ surface.append0-9,20-499
 	animation903.pattern0,bind,903,0,0,0
 	animation904.interval,bind
 	animation904.pattern0,bind,904,0,0,0
+	animation905.interval,bind
+	animation905.option,background
+	animation905.pattern0,bind,905,0,0,0
 }
 
 //さわり判定//
