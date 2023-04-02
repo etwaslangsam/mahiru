@@ -6,7 +6,7 @@ descript
 	animation-sort,descend
 }
 
-surface0-9,21-29,50-53,100-108
+surface0-9,21-29,50-53,100-112
 {
 	element0,base,body\body_0.png,0,0
 }
@@ -269,6 +269,45 @@ surface108
 	element2,overlay,blow\blow_2.png,0,0
 	element3,overlay,eye\eye_11.png,0,0
 	element4,overlay,mouth\mouth_5.png,0,0
+	element5,overlay,face\face_2.png,0,0
+	element6,overlay,face\face_3.png,0,0
+}
+
+surface109
+{
+	element1,overlay,face\face_1.png,0,0
+	element2,overlay,blow\blow_4.png,0,0
+	element3,overlay,eye\eye_2.png,0,0
+	element4,overlay,mouth\mouth_14.png,0,0
+	element5,overlay,face\face_2.png,0,0
+	element6,overlay,face\face_3.png,0,0
+}
+
+surface110
+{
+	element1,overlay,face\face_1.png,0,0
+	element2,overlay,blow\blow_3.png,0,0
+	element3,overlay,eye\eye_2.png,0,0
+	element4,overlay,mouth\mouth_9.png,0,0
+	element5,overlay,face\face_2.png,0,0
+}
+
+surface111
+{
+	element1,overlay,face\face_1.png,0,0
+	element2,overlay,blow\blow_1.png,0,0
+	element3,overlay,eye\eye_8.png,0,0
+	element4,overlay,mouth\mouth_11.png,0,0
+	element5,overlay,face\face_2.png,0,0
+	element6,overlay,face\face_3.png,0,0
+}
+
+surface112
+{
+	element1,overlay,face\face_1.png,0,0
+	element2,overlay,blow\blow_2.png,0,0
+	element3,overlay,eye\eye_8.png,0,0
+	element4,overlay,mouth\mouth_12.png,0,0
 	element5,overlay,face\face_2.png,0,0
 	element6,overlay,face\face_3.png,0,0
 }

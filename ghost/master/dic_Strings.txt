@@ -2,6 +2,15 @@
 ＠sakura.portalbuttoncaption
 配布サイト
 
+＠dressuprootbutton.visible	（デフォルトサーフェス0）==24
+0
+
+＠ghostrootbutton.visible	（デフォルトサーフェス0）==24
+0
+
+＠shellrootbutton.visible	（デフォルトサーフェス0）==24
+0
+
 ＃────────おすすめ
 ＊sakura.recommendsites
 
