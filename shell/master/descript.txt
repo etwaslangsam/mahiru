@@ -34,6 +34,7 @@ sakura.bindgroup2.name,その他,淫紋,tintin
 sakura.bindgroup3.name,その他,眼鏡_アンダー,tintin
 sakura.bindgroup4.name,その他,眼鏡_オーバー,tintin
 
+sakura.bindoption3.group,パンツ,muselect
 sakura.bindgroup10.default,1
 sakura.bindgroup6.name,パンツ,ちんちん,tintin
 sakura.bindgroup7.name,パンツ,紐_白,tintin

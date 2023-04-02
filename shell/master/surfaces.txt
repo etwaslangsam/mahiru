@@ -574,13 +574,12 @@ surface.append0-9,20-499
 	animation11.pattern0,bind,505,0,0,0
 	animation12.interval,bind
 	animation12.pattern0,bind,506,0,0,0
+	animation12.collisionex10,Turtlehead,rect,244,352,267,377
+	animation12.collisionex11,Stick,rect,228,368,261,397
 	animation13.interval,bind
 	animation13.pattern0,bind,507,0,0,0
-	
-	animation12.collisionex10,Turtlehead,polygon,257,353,250,358,245,363,247,373,255,373,262,378,262,371,265,366,265,358
-	animation12.collisionex11,Stick,polygon,245,366,228,388,242,401,255,391,262,381,258,374
-	animation13.collisionex12,Turtlehead,polygon,257,353,250,358,245,363,247,373,255,373,262,378,262,371,265,366,265,358
-	animation13.collisionex13,Stick,polygon,245,366,228,388,242,401,255,391,262,381,258,374
+	animation13.collisionex12,Turtlehead,rect,244,352,267,377
+	animation13.collisionex13,Stick,rect,228,368,261,397
 
 	animation14.interval,bind
 	animation14.pattern0,bind,515,0,0,0	
