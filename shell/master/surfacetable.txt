@@ -22,6 +22,7 @@ group,__disabled
 	514,__parts
 	515,__parts
 	516,__parts
+	517,__parts
 	600,__parts
 	601,__parts
 	602,__parts
@@ -48,14 +49,18 @@ group,__disabled
 	902,__parts
 	903,__parts
 	904,__parts
+	905,__parts
 	1000,__parts
 	1001,__parts
 	1002,__parts
 	1003,__parts
 	1004,__parts
+	1005,__parts
 	1010,__parts
 	1011,__parts
 	1012,__parts
 	1013,__parts
 	1014,__parts
+	1015,__parts
+	1016,__parts
 }

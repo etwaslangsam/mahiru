@@ -459,6 +459,11 @@ surface516
 	element0,overlay,inner\inner_8.png,0,0
 }
 
+surface517
+{
+	element0,overlay,inner\inner_9.png,0,0
+}
+
 //着せ替え_靴下//
 surface600
 {
@@ -593,6 +598,11 @@ surface1004
 	element0,overlay,necklace\necklace_4.png,0,0
 }
 
+surface1005
+{
+	element0,overlay,necklace\necklace_5.png,0,0
+}
+
 //着せ替え_その他//
 surface1010
 {
@@ -619,6 +629,16 @@ surface1014
 	element0,overlay,etc\etc_4.png,0,0
 }
 
+surface1015
+{
+	element0,overlay,etc\etc_5.png,0,0
+}
+
+surface1016
+{
+	element0,overlay,etc\etc_6.png,0,0
+}
+
 //着せ替え//
 surface.append0-9,20-499
 {
@@ -632,7 +652,11 @@ surface.append0-9,20-499
 	animation3.pattern0,bind,1013,0,0,0
 	animation4.interval,bind
 	animation4.pattern0,bind,1014,0,0,0
-	
+	animation5.interval,bind
+	animation5.pattern0,bind,1015,0,0,0
+	animation105.interval,bind
+	animation105.pattern0,bind,1016,0,0,0
+		
 	animation6.interval,bind
 	animation6.pattern0,bind,500,0,0,0
 	animation7.interval,bind
@@ -692,6 +716,8 @@ surface.append0-9,20-499
 	animation30.pattern0,bind,508,0,0,0
 	animation31.interval,bind
 	animation31.pattern0,bind,509,0,0,0
+	animation32.interval,bind
+	animation32.pattern0,bind,517,0,0,0
 
 	animation41.interval,bind
 	animation41.pattern0,bind,700,0,0,0
@@ -729,6 +755,8 @@ surface.append0-9,20-499
 	animation63.pattern0,bind,1003,0,0,0
 	animation64.interval,bind
 	animation64.pattern0,bind,1004,0,0,0
+	animation65.interval,bind
+	animation65.pattern0,bind,1005,0,0,0
 
 	animation900.interval,bind
 	animation900.pattern0,bind,900,0,0,0
