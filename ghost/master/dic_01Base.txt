@@ -99,11 +99,6 @@
 ＞（Reference3）（Reference4）ころころ下方向	（Reference2）＜０
 ＞（Reference3）（Reference4）ころころ
 
-
-＊OnMouseHover
-＞（Reference3）（Reference4）見つめ	（count，（Status），talking）==0
-
-
 ＊OnMouseEnter	（高感度）==1
 ＞（Reference3）（Reference4）なでられ
 
