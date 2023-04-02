@@ -1,6 +1,6 @@
 ＃────────着せ替え
 ＊OnDressupChanged
-（when，（Reference2）==1，（set,（Reference3）,（Reference1）））（when，（Reference2）==0，（set,（Reference3）,））
+（when，（Reference2）==1，（set,（Reference0）（Reference3）,（Reference1）））（when，（Reference2）==0，（set,（Reference0）（Reference3）,））
 （set,手動セーブ,実行）
 ＞（Reference1）に着替えた	（Reference2）==1
 ＞（Reference1）を外した	（Reference2）==0

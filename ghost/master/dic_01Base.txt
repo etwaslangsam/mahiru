@@ -84,7 +84,7 @@
 
 ＃────────マウスイベント
 ＊OnMouseClick	（is_empty，（Reference4））&&（equal，（Reference5），0）
-＞なにかはなして	（Clicktalk）
+＞なにかはなして	（Clicktalk）&&（デフォルトサーフェス0）==0
 
 ＊なにかはなして
 ＞喋れない	（口枷）
