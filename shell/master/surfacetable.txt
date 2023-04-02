@@ -1,0 +1,61 @@
+charset,Shift_JIS
+version,1
+option,DisableNoDefineSurfaces
+
+//==========ƒp[ƒc==========
+group,__disabled
+{
+	500,__parts
+	501,__parts
+	502,__parts
+	503,__parts
+	504,__parts
+	505,__parts
+	506,__parts
+	507,__parts
+	508,__parts
+	509,__parts
+	510,__parts
+	511,__parts
+	512,__parts
+	513,__parts
+	514,__parts
+	515,__parts
+	516,__parts
+	600,__parts
+	601,__parts
+	602,__parts
+	603,__parts
+	604,__parts
+	605,__parts
+	606,__parts
+	607,__parts
+	608,__parts
+	700,__parts
+	701,__parts
+	702,__parts
+	703,__parts
+	704,__parts
+	705,__parts
+	706,__parts
+	707,__parts
+	708,__parts
+	800,__parts
+	801,__parts
+	802,__parts
+	900,__parts
+	901,__parts
+	902,__parts
+	903,__parts
+	904,__parts
+	1000,__parts
+	1001,__parts
+	1002,__parts
+	1003,__parts
+	1004,__parts
+	1010,__parts
+	1011,__parts
+	1012,__parts
+	1013,__parts
+	1014,__parts
+}
