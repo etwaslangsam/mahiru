@@ -572,6 +572,21 @@ surface802
 	element0,overlay,tops\tops_2.png,0,0
 }
 
+surface803
+{
+	element0,overlay,tops\tops_3.png,0,0
+}
+
+surface804
+{
+	element0,overlay,tops\tops_4.png,0,0
+}
+
+surface805
+{
+	element0,overlay,tops\tops_5.png,0,0
+}
+
 //着せ替え_首//
 surface1000
 {
@@ -719,6 +734,9 @@ surface.append0-9,20-499
 	animation32.interval,bind
 	animation32.pattern0,bind,517,0,0,0
 
+	animation33.interval,bind
+	animation33.pattern0,bind,803,0,0,0
+
 	animation41.interval,bind
 	animation41.pattern0,bind,700,0,0,0
 	animation42.interval,bind
@@ -744,6 +762,10 @@ surface.append0-9,20-499
 	animation51.pattern0,bind,801,0,0,0
 	animation52.interval,bind
 	animation52.pattern0,bind,802,0,0,0
+	animation53.interval,bind
+	animation53.pattern0,bind,804,0,0,0
+	animation54.interval,bind
+	animation54.pattern0,bind,805,0,0,0
 
 	animation60.interval,bind
 	animation60.pattern0,bind,1000,0,0,0
