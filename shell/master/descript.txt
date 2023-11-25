@@ -31,8 +31,8 @@ sakura.bindoption2.group,その他,multiple
 sakura.bindgroup0.name,その他,マニキュア_赤色,tintin
 sakura.bindgroup1.name,その他,マニキュア_水色,tintin
 sakura.bindgroup2.name,その他,淫紋,tintin
-sakura.bindgroup3.name,その他,眼鏡_アンダー,tintin
-sakura.bindgroup4.name,その他,眼鏡_オーバー,tintin
+sakura.bindgroup200.name,その他,眼鏡_アンダー,tintin
+sakura.bindgroup201.name,その他,眼鏡_オーバー,tintin
 sakura.bindgroup5.name,その他,ヘッドホン,tintin
 sakura.bindgroup105.name,その他,バニーカチュ,tintin
 
@@ -143,7 +143,7 @@ sakura.menuitemex44,首,65
 sakura.menuitemex45,その他,0
 sakura.menuitemex46,その他,1
 sakura.menuitemex47,その他,2
-sakura.menuitemex48,その他,3
-sakura.menuitemex49,その他,4
+sakura.menuitemex48,その他,200
+sakura.menuitemex49,その他,201
 sakura.menuitemex50,その他,5
 sakura.menuitemex51,その他,105

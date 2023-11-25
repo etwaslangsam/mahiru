@@ -11,14 +11,14 @@ surface0-9,21-29,50-53,100-115
 	element0,base,body\body_0.png,0,0
 }
 
-//Ë°®ÊÉÖ//
+//ï\èÓ//
 surface0
 {
-
 	element1,overlay,blow\blow_0.png,0,0
-	element2,overlay,eye\eye_0.png,0,0
-	element3,overlay,mouth\mouth_0.png,0,0
+	element2,overlay,surface62.png,0,0
+	element3,overlay,surface71.png,0,0
 }
+
 
 surface1
 {
@@ -30,38 +30,40 @@ surface1
 
 surface2
 {
-	element1,overlay,face\face_0.png,0,0
 	element2,overlay,blow\blow_2.png,0,0
-	element3,overlay,eye\eye_2.png,0,0
+	element3,overlay,surface60.png,0,0
 	element4,overlay,mouth\mouth_2.png,0,0
 }
+
+
 
 surface3
 {
 	element1,overlay,blow\blow_2.png,0,0
-	element2,overlay,eye\eye_6.png,0,0
-	element3,overlay,mouth\mouth_3.png,0,0
+	element2,overlay,surface66.png,0,0
+	element3,overlay,surface73.png,0,0
 }
+
 
 surface4
 {
 	element1,overlay,blow\blow_3.png,0,0
 	element2,overlay,eye\eye_3.png,0,0
-	element3,overlay,mouth\mouth_4.png,0,0
+	element3,overlay,surface72.png,0,0
 }
 
 surface5
 {
 	element1,overlay,blow\blow_4.png,0,0
 	element2,overlay,eye\eye_4.png,0,0
-	element3,overlay,mouth\mouth_5.png,0,0
+	element3,overlay,surface70.png,0,0
 }
 
 surface6
 {
 	element1,overlay,blow\blow_5.png,0,0
 	element2,overlay,eye\eye_5.png,0,0
-	element3,overlay,mouth\mouth_0.png,0,0
+	element3,overlay,surface71.png,0,0
 }
 
 surface7
@@ -75,12 +77,11 @@ surface8
 {
 	element1,overlay,blow\blow_5.png,0,0
 	element2,overlay,eye\eye_2.png,0,0
-	element3,overlay,mouth\mouth_0.png,0,0
+	element3,overlay,surface71.png,0,0
 }
 
 surface9
 {
-	element1,overlay,face\face_0.png,0,0
 	element2,overlay,blow\blow_1.png,0,0
 	element3,overlay,eye\eye_3.png,0,0
 	element4,overlay,mouth\mouth_8.png,0,0
@@ -88,23 +89,24 @@ surface9
 
 surface21
 {
-	element1,overlay,face\face_1.png,0,0
+
 	element2,overlay,blow\blow_0.png,0,0
 	element3,overlay,eye\eye_5.png,0,0
-	element4,overlay,mouth\mouth_9.png,0,0
+	element4,overlay,surface74.png,0,0
 }
 
 surface22
 {
-	element1,overlay,face\face_1.png,0,0
 	element2,overlay,blow\blow_2.png,0,0
-	element3,overlay,eye\eye_2.png,0,0
+	element3,overlay,surface60.png,0,0
 	element4,overlay,mouth\mouth_10.png,0,0
 }
 
+
+
 surface23
 {
-	element1,overlay,face\face_1.png,0,0
+
 	element2,overlay,blow\blow_2.png,0,0
 	element3,overlay,eye\eye_5.png,0,0
 	element4,overlay,mouth\mouth_14.png,0,0
@@ -112,15 +114,14 @@ surface23
 
 surface24
 {
-	element1,overlay,face\face_1.png,0,0
 	element2,overlay,blow\blow_2.png,0,0
-	element3,overlay,eye\eye_0.png,0,0
-	element4,overlay,mouth\mouth_5.png,0,0
+	element3,overlay,surface62.png,0,0
+	element4,overlay,surface70.png,0,0
 }
 
 surface25
 {
-	element1,overlay,face\face_1.png,0,0
+
 	element2,overlay,blow\blow_1.png,0,0
 	element3,overlay,eye\eye_5.png,0,0
 	element4,overlay,mouth\mouth_11.png,0,0
@@ -128,9 +129,9 @@ surface25
 
 surface26
 {
-	element1,overlay,face\face_1.png,0,0
+
 	element2,overlay,blow\blow_2.png,0,0
-	element3,overlay,eye\eye_2.png,0,0
+	element3,overlay,surface60.png,0,0
 	element4,overlay,mouth\mouth_12.png,0,0
 }
 
@@ -146,25 +147,29 @@ surface28
 	element2,overlay,blow\blow_0.png,0,0
 	element3,overlay,eye\eye_8.png,0,0
 	element4,overlay,mouth\mouth_8.png,0,0
+
+	animation100.interval,rarely
+	animation100.pattern0,overlay,61,50,0,0
+	animation100.pattern1,overlay,-1,50,0,0
 }
 
 surface29
 {
 	element2,overlay,blow\blow_1.png,0,0
 	element3,overlay,eye\eye_10.png,0,0
-	element4,overlay,mouth\mouth_3.png,0,0
+	element4,overlay,surface73.png,0,0
 }
 
 surface50
 {
 	element2,overlay,blow\blow_2.png,0,0
 	element3,overlay,eye\eye_4.png,0,0
-	element4,overlay,mouth\mouth_0.png,0,0
+	element4,overlay,surface71.png,0,0
 }
 
 surface51
 {
-	element1,overlay,face\face_1.png,0,0
+
 	element2,overlay,blow\blow_4.png,0,0
 	element3,overlay,eye\eye_5.png,0,0
 	element4,overlay,mouth\mouth_12.png,0,0
@@ -174,488 +179,257 @@ surface52
 {
 	element2,overlay,blow\blow_5.png,0,0
 	element3,overlay,eye\eye_2.png,0,0
-	element4,overlay,mouth\mouth_3.png,0,0
+	element4,overlay,surface73.png,0,0
+	
+	animation100.interval,rarely
+	animation100.pattern0,overlay,61,50,0,0
+	animation100.pattern1,overlay,-1,50,0,0
 }
 
 surface53
 {
 	element2,overlay,blow\blow_6.png,0,0
-	element3,overlay,eye\eye_0.png,0,0
-	element4,overlay,mouth\mouth_9.png,0,0
+	element3,overlay,surface62.png,0,0
+	element4,overlay,surface74.png,0,0
 }
 
-//„Ç®„É≠Ë°®ÊÉÖ//
+//ÉGÉçï\èÓ//
 surface100
 {
-	element1,overlay,face\face_1.png,0,0
+
 	element2,overlay,blow\blow_1.png,0,0
 	element3,overlay,eye\eye_4.png,0,0
 	element4,overlay,mouth\mouth_11.png,0,0
-	element5,overlay,face\face_2.png,0,0
 }
 
 surface101
 {
-	element1,overlay,face\face_1.png,0,0
+
 	element2,overlay,blow\blow_1.png,0,0
-	element3,overlay,eye\eye_8.png,0,0
+	element3,overlay,surface64.png,0,0
 	element4,overlay,mouth\mouth_10.png,0,0
-	element5,overlay,face\face_2.png,0,0
-	element6,overlay,face\face_3.png,0,0
 }
 
 surface102
 {
-	element1,overlay,face\face_1.png,0,0
 	element2,overlay,blow\blow_2.png,0,0
-	element3,overlay,eye\eye_11.png,0,0
+	element3,overlay,surface67.png,0,0
 	element4,overlay,mouth\mouth_12.png,0,0
-	element5,overlay,face\face_2.png,0,0
-	element6,overlay,face\face_3.png,0,0
 }
 
 surface103
 {
-	element1,overlay,face\face_1.png,0,0
 	element2,overlay,blow\blow_2.png,0,0
 	element3,overlay,eye\eye_4.png,0,0
 	element4,overlay,mouth\mouth_10.png,0,0
-	element5,overlay,face\face_2.png,0,0
 }
 
 surface104
 {
-	element1,overlay,face\face_1.png,0,0
 	element2,overlay,blow\blow_2.png,0,0
 	element3,overlay,eye\eye_5.png,0,0
 	element4,overlay,mouth\mouth_10.png,0,0
-	element5,overlay,face\face_2.png,0,0
-	element6,overlay,face\face_3.png,0,0
 }
 
 surface105
 {
-	element1,overlay,face\face_1.png,0,0
 	element2,overlay,blow\blow_4.png,0,0
-	element3,overlay,eye\eye_11.png,0,0
+	element3,overlay,surface67.png,0,0
 	element4,overlay,mouth\mouth_11.png,0,0
-	element5,overlay,face\face_2.png,0,0
-	element6,overlay,face\face_3.png,0,0
 }
 
 surface106
 {
-	element1,overlay,face\face_1.png,0,0
 	element2,overlay,blow\blow_3.png,0,0
 	element3,overlay,eye\eye_5.png,0,0
-	element4,overlay,mouth\mouth_5.png,0,0
-	element5,overlay,face\face_2.png,0,0
-	element6,overlay,face\face_3.png,0,0
+	element4,overlay,surface70.png,0,0
 }
 
 surface107
 {
-	element1,overlay,face\face_1.png,0,0
 	element2,overlay,blow\blow_0.png,0,0
-	element3,overlay,eye\eye_8.png,0,0
-	element4,overlay,mouth\mouth_9.png,0,0
-	element5,overlay,face\face_2.png,0,0
-	element6,overlay,face\face_3.png,0,0
+	element3,overlay,surface64.png,0,0
+	element4,overlay,surface74.png,0,0
 }
 
 surface108
 {
-	element1,overlay,face\face_1.png,0,0
 	element2,overlay,blow\blow_2.png,0,0
-	element3,overlay,eye\eye_11.png,0,0
-	element4,overlay,mouth\mouth_5.png,0,0
-	element5,overlay,face\face_2.png,0,0
-	element6,overlay,face\face_3.png,0,0
+	element3,overlay,surface67.png,0,0
+	element4,overlay,surface70.png,0,0
 }
 
 surface109
 {
-	element1,overlay,face\face_1.png,0,0
 	element2,overlay,blow\blow_4.png,0,0
-	element3,overlay,eye\eye_2.png,0,0
+	element3,overlay,surface60.png,0,0
 	element4,overlay,mouth\mouth_14.png,0,0
-	element5,overlay,face\face_2.png,0,0
-	element6,overlay,face\face_3.png,0,0
 }
 
 surface110
 {
-	element1,overlay,face\face_1.png,0,0
 	element2,overlay,blow\blow_3.png,0,0
-	element3,overlay,eye\eye_2.png,0,0
-	element4,overlay,mouth\mouth_9.png,0,0
-	element5,overlay,face\face_2.png,0,0
+	element3,overlay,surface60.png,0,0
+	element4,overlay,surface74.png,0,0
 }
 
 surface111
 {
-	element1,overlay,face\face_1.png,0,0
 	element2,overlay,blow\blow_1.png,0,0
-	element3,overlay,eye\eye_8.png,0,0
+	element3,overlay,surface64.png,0,0
 	element4,overlay,mouth\mouth_11.png,0,0
-	element5,overlay,face\face_2.png,0,0
-	element6,overlay,face\face_3.png,0,0
 }
 
 surface112
 {
-	element1,overlay,face\face_1.png,0,0
 	element2,overlay,blow\blow_2.png,0,0
-	element3,overlay,eye\eye_8.png,0,0
+	element3,overlay,surface64.png,0,0
 	element4,overlay,mouth\mouth_12.png,0,0
-	element5,overlay,face\face_2.png,0,0
-	element6,overlay,face\face_3.png,0,0
 }
 
 surface113
 {
-	element1,overlay,face\face_1.png,0,0
 	element2,overlay,blow\blow_2.png,0,0
-	element3,overlay,eye\eye_2.png,0,0
-	element4,overlay,mouth\mouth_5.png,0,0
-	element5,overlay,face\face_2.png,0,0
-	element6,overlay,face\face_3.png,0,0
+	element3,overlay,surface60.png,0,0
+	element4,overlay,surface70.png,0,0
 }
 
 surface114
 {
-	element1,overlay,face\face_1.png,0,0
 	element2,overlay,blow\blow_2.png,0,0
 	element3,overlay,eye\eye_5.png,0,0
 	element4,overlay,mouth\mouth_13.png,0,0
-	element5,overlay,face\face_2.png,0,0
-	element6,overlay,face\face_3.png,0,0
 }
 
 surface115
 {
-	element1,overlay,face\face_1.png,0,0
+
 	element2,overlay,blow\blow_3.png,0,0
 	element3,overlay,eye\eye_4.png,0,0
-	element4,overlay,mouth\mouth_5.png,0,0
-	element5,overlay,face\face_2.png,0,0
+	element4,overlay,surface70.png,0,0
 }
 
-//ÁùÄ„ÅõÊõø„Åà_„Ç±„Éï„Ç£„Ç¢//
-surface900
+
+è∆ÇÍ
+surface.append2,9
 {
-element0,overlay,sprm\sprm_body.png,0,0
+	animation101.interval,runonce
+	animation101.pattern0,overlay,300,0,0,0
 }
 
-surface901
+ê‘ñ 
+surface.append21-26,51,101-102,104-114
 {
-element0,overlay,sprm\sprm_chest.png,0,0
+	animation101.interval,runonce
+	animation101.pattern0,overlay,301,0,0,0
 }
 
-surface902
+surface.append100,103,115
 {
-element0,overlay,sprm\sprm_face1.png,0,0
+	animation101.interval,runonce
+	animation101.pattern0,overlay,302,0,0,0
 }
 
-surface903
+äÁäæ
+surface.append100-115
 {
-element0,overlay,sprm\sprm_face2.png,0,0
+	animation102.interval,runonce
+	animation102.pattern0,overlay,303,0,0,0
 }
 
-surface904
+ó‹
+surface.append101-102,104-109,111-114
 {
-element0,overlay,sprm\sprm_hair.png,0,0
+	animation103.interval,runonce
+	animation103.pattern0,overlay,304,0,0,0
 }
 
-surface905
+//ÉAÉjÉÅÅ[ÉVÉáÉì//
+å˚ÉpÉN
+surface.append0,6,8,50
 {
-element0,overlay,sprm\sprm_anl.png,0,0
+	animation99.interval,talk,1
+	animation99.pattern0,overlay,70,100,0,0
+	animation99.pattern1,overlay,-1,100,0,0
 }
 
-//ÁùÄ„ÅõÊõø„Åà_„Éë„É≥„ÉÑ//
-surface500
+å˚ÉpÉN2
+surface.append5,24,106,108,113,115
 {
-	element0,overlay,pantsu\pantsu_0.png,0,0
+	animation99.interval,talk,1
+	animation99.pattern0,overlay,71,100,0,0
+	animation99.pattern1,overlay,-1,100,0,0
 }
 
-surface501
+å˚ÉpÉN3
+surface.append3,9,29,52
 {
-	element0,overlay,pantsu\pantsu_1.png,0,0
+	animation99.interval,talk,1
+	animation99.pattern0,overlay,72,100,0,0
+	animation99.pattern1,overlay,-1,100,0,0
 }
 
-surface502
+å˚ÉpÉN4
+surface.append2,4,7
 {
-	element0,overlay,pantsu\pantsu_2.png,0,0
+	animation99.interval,talk,1
+	animation99.pattern0,overlay,73,100,0,0
+	animation99.pattern1,overlay,-1,100,0,0
 }
 
-surface503
+å˚ÉpÉN5
+surface.append1,23,109
 {
-	element0,overlay,pantsu\pantsu_3.png,0,0
+	animation99.interval,talk,1
+	animation99.pattern0,overlay,74,100,0,0
+	animation99.pattern1,overlay,-1,100,0,0
 }
 
-surface504
+èuÇ´
+surface.append0,24,53
 {
-	element0,overlay,pantsu\pantsu_4.png,0,0
+	animation100.interval,rarely
+	animation100.pattern0,overlay,60,50,0,0
+	animation100.pattern1,overlay,61,50,0,0
+	animation100.pattern2,overlay,-1,50,0,0
 }
 
-surface505
+èÅÇ‹Çπ
+surface.append2,22,26,109,110,113
 {
-	element0,overlay,pantsu\pantsu_5.png,0,0
+	animation100.interval,always
+	animation100.pattern0,overlay,63,80,0,0
+	animation100.pattern1,overlay,-1,80,0,0
 }
 
-surface506
+èÅÇ‹Çπ2
+surface.append101,107,111-112
 {
-	element0,overlay,pantsu\pantsu_6.png,0,0
+	animation100.interval,always
+	animation100.pattern0,overlay,65,80,0,0
+	animation100.pattern1,overlay,-1,80,0,0
 }
 
-surface507
+èÅÇ‹Çπ3
+surface.append102,105,108
 {
-	element0,overlay,pantsu\pantsu_7.png,0,0
+	animation100.interval,always
+	animation100.pattern0,overlay,68,100,0,0
+	animation100.pattern1,overlay,-1,100,0,0
 }
 
-//ÁùÄ„ÅõÊõø„Åà_„Ç§„É≥„Éä„Éº//
-surface508
+ÉLÉáÉhÉLÉáÉh
+surface.append3
 {
-	element0,overlay,inner\inner_0.png,0,0
+	animation100.interval,rarely
+	animation100.pattern1,overlay,61,1000,0,0
+	animation100.pattern2,overlay,62,50,0,0
+	animation100.pattern3,overlay,61,1000,0,0
+	animation100.pattern4,overlay,-1,50,0,0
 }
 
-surface509
-{
-	element0,overlay,inner\inner_1.png,0,0
-}
-
-surface510
-{
-	element0,overlay,inner\inner_2.png,0,0
-}
-
-surface511
-{
-	element0,overlay,inner\inner_3.png,0,0
-}
-
-surface512
-{
-	element0,overlay,inner\inner_4.png,0,0
-}
-
-surface513
-{
-	element0,overlay,inner\inner_5.png,0,0
-}
-
-surface514
-{
-	element0,overlay,inner\inner_6.png,0,0
-}
-
-surface515
-{
-	element0,overlay,inner\inner_7.png,0,0
-}
-
-surface516
-{
-	element0,overlay,inner\inner_8.png,0,0
-}
-
-surface517
-{
-	element0,overlay,inner\inner_9.png,0,0
-}
-
-//ÁùÄ„ÅõÊõø„Åà_Èù¥‰∏ã//
-surface600
-{
-	element0,overlay,socks\socks_0.png,0,0
-}
-
-surface601
-{
-	element0,overlay,socks\socks_1.png,0,0
-}
-
-surface602
-{
-	element0,overlay,socks\socks_2.png,0,0
-}
-
-surface603
-{
-	element0,overlay,socks\socks_3.png,0,0
-}
-
-surface604
-{
-	element0,overlay,socks\socks_4.png,0,0
-}
-
-surface605
-{
-	element0,overlay,socks\socks_5.png,0,0
-}
-
-surface606
-{
-	element0,overlay,socks\socks_6.png,0,0
-}
-
-surface607
-{
-	element0,overlay,socks\socks_7.png,0,0
-}
-
-surface608
-{
-	element0,overlay,socks\socks_8.png,0,0
-}
-
-//ÁùÄ„ÅõÊõø„Åà_„Éú„Éà„É†„Çπ//
-surface700
-{
-	element0,overlay,bottoms\bottoms_0.png,0,0
-}
-
-surface701
-{
-	element0,overlay,bottoms\bottoms_1.png,0,0
-}
-
-surface702
-{
-	element0,overlay,bottoms\bottoms_2.png,0,0
-}
-
-surface703
-{
-	element0,overlay,bottoms\bottoms_3.png,0,0
-}
-
-surface704
-{
-	element0,overlay,bottoms\bottoms_4.png,0,0
-}
-
-surface705
-{
-	element0,overlay,bottoms\bottoms_5.png,0,0
-}
-
-surface706
-{
-	element0,overlay,bottoms\bottoms_6.png,0,0
-}
-
-surface707
-{
-	element0,overlay,bottoms\bottoms_7.png,0,0
-}
-
-surface708
-{
-	element0,overlay,bottoms\bottoms_8.png,0,0
-}
-
-//ÁùÄ„ÅõÊõø„Åà_„Éà„ÉÉ„Éó„Çπ//
-surface800
-{
-	element0,overlay,tops\tops_0.png,0,0
-}
-
-surface801
-{
-	element0,overlay,tops\tops_1.png,0,0
-}
-
-surface802
-{
-	element0,overlay,tops\tops_2.png,0,0
-}
-
-surface803
-{
-	element0,overlay,tops\tops_3.png,0,0
-}
-
-surface804
-{
-	element0,overlay,tops\tops_4.png,0,0
-}
-
-surface805
-{
-	element0,overlay,tops\tops_5.png,0,0
-}
-
-//ÁùÄ„ÅõÊõø„Åà_È¶ñ//
-surface1000
-{
-	element0,overlay,necklace\necklace_0.png,0,0
-}
-
-surface1001
-{
-	element0,overlay,necklace\necklace_1.png,0,0
-}
-
-surface1002
-{
-	element0,overlay,necklace\necklace_2.png,0,0
-}
-
-surface1003
-{
-	element0,overlay,necklace\necklace_3.png,0,0
-}
-
-surface1004
-{
-	element0,overlay,necklace\necklace_4.png,0,0
-}
-
-surface1005
-{
-	element0,overlay,necklace\necklace_5.png,0,0
-}
-
-//ÁùÄ„ÅõÊõø„Åà_„Åù„ÅÆ‰ªñ//
-surface1010
-{
-	element0,overlay,etc\etc_0.png,0,0
-}
-
-surface1011
-{
-	element0,overlay,etc\etc_1.png,0,0
-}
-
-surface1012
-{
-	element0,overlay,etc\etc_2.png,0,0
-}
-
-surface1013
-{
-	element0,overlay,etc\etc_3.png,0,0
-}
-
-surface1014
-{
-	element0,overlay,etc\etc_4.png,0,0
-}
-
-surface1015
-{
-	element0,overlay,etc\etc_5.png,0,0
-}
-
-surface1016
-{
-	element0,overlay,etc\etc_6.png,0,0
-}
-
-//ÁùÄ„ÅõÊõø„Åà//
-surface.append0-9,20-499
+//íÖÇπë÷Ç¶//
+surface.append0-9,20-59,100-115
 {
 	animation0.interval,bind
 	animation0.pattern0,bind,1010,0,0,0
@@ -663,10 +437,10 @@ surface.append0-9,20-499
 	animation1.pattern0,bind,1011,0,0,0
 	animation2.interval,bind
 	animation2.pattern0,bind,1012,0,0,0
-	animation3.interval,bind
-	animation3.pattern0,bind,1013,0,0,0
-	animation4.interval,bind
-	animation4.pattern0,bind,1014,0,0,0
+	animation200.interval,bind
+	animation200.pattern0,bind,1013,0,0,0
+	animation201.interval,bind
+	animation201.pattern0,bind,1014,0,0,0
 	animation5.interval,bind
 	animation5.pattern0,bind,1015,0,0,0
 	animation105.interval,bind
@@ -795,8 +569,19 @@ surface.append0-9,20-499
 	animation905.pattern0,bind,905,0,0,0
 }
 
-//„Åï„Çè„ÇäÂà§ÂÆö//
-surface.append0-9,21-499
+ÉAÉzñ—
+surface.append0,2-4,6,8,21-24,26-27,50-53,109-110,113-115
+{
+	element10,overlay,surface3000.png,0,0	
+}
+ÉAÉzñ—2
+surface.append1,5,7,9,25,28-29,100-108,111-112
+{
+	element10,overlay,surface3001.png,0,0	
+}
+
+//Ç≥ÇÌÇËîªíË//
+surface.append0-9,20-59,100-115
 {
 	collisionex0,Head,rect,133,77,276,142
 	collisionex1,Bust,polygon,216,271,171,276,185,311,193,326,218,329,238,321,255,319,263,311,270,296,268,283,268,259
