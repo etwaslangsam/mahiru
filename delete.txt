@@ -4,7 +4,6 @@ ghost\master\コミュワード一覧.txt
 shell\着せ替え\
 ghost\master\WordList.txt
 ghost\master\dic_Event.txt
-ghost\master\dic_Talk2.txt
 shell\master\sprm_body.png
 shell\master\sprm_chest.png
 shell\master\sprm_face1.png
@@ -19,4 +18,4 @@ shell\master\necklace\
 shell\master\etc\
 shell\master\sprm\
 shell\master\face\
-
+ghost\master\dic_Time.txt
