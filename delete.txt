@@ -1,6 +1,7 @@
 .git\
 ghost\master\コミュワード一覧.txt
 .gitignore
+ghost\master\dic_Time.txt
 shell\着せ替え\
 ghost\master\WordList.txt
 ghost\master\dic_Event.txt
@@ -18,4 +19,3 @@ shell\master\necklace\
 shell\master\etc\
 shell\master\sprm\
 shell\master\face\
-ghost\master\dic_Time.txt

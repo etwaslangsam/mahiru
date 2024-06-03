@@ -30,6 +30,7 @@
 
 ＃────────最小化
 ＊OnWindowStateMinimize
+＄回数_最小化=（回数_最小化）＋1
 ＄手動セーブ	実行
 
 ＊OnWindowStateRestore
@@ -305,17 +306,12 @@
 ＞えっちする
 
 ＃────────さとりすと
-＊OnSatolistBoot	（count，（Status），talking）==0
-\0\s[5]（ユーザ名）、がんばってね～！\e
+＃＊OnSatolistBoot	（count，（Status），talking）==0
+＃\0\s[5]（ユーザ名）、がんばってね～！\e
+＃
+＃＊OnSatolistClosed	（count，（Status），talking）==0
+＃\0\s[0]終わった？\w5 \s[5]じゃあ次はぼくと遊んで！\e
 
-＊OnSatolistClosed	（count，（Status），talking）==0
-\0\s[0]終わった？\w5 \s[5]じゃあ次はぼくと遊んで！\e
 
-＃────────トーク
-＊OnTalk
-＞（Reference1）	（Reference0）
-＞喋れない		（口枷）==1
-＞おねだり	（compare,（デフォルトサーフェス0）,34）
-（）
 
 ＃────────システム部分ここまで↑
